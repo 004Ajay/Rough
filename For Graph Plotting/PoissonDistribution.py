@@ -1,3 +1,5 @@
+# Question: Write a program to calculate and plot graph for the formula {(λ^k)*(e^-λ)} ÷ k!
+
 def checkFactorial(num):
     fact = 1
     for i in range(1, num+1):
