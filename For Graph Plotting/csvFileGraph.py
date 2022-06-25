@@ -1,3 +1,7 @@
+#---------------------
+#incomplete
+#---------------------
+
 import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -12,3 +16,7 @@ plt.scatter(col1, col2)
 plt.xlabel('Mark')
 plt.ylabel('Gender')
 plt.show()
+
+#---------------------
+#incomplete
+#---------------------
