@@ -1,4 +1,4 @@
-# Question: Write a program to calculate for the formula {(λ^k)*(e^-λ)} ÷ k!
+# Question: Write a program to calculate the formula f(x) = {(λ^k)*(e^-λ)} ÷ k!
 
 def checkFactorial(num):
     fact = 1
