@@ -8,8 +8,7 @@ for i in x:
     y = (i**4)+5 # y=(x^4)+5
     ans.append(y)
     
-print("Input values: ", x)  
-print("Calculated values:", ans)
+print("Input values: ", x, "\nCalculated values:", ans)
 plt.plot(ans)
 plt.title("Normal Graph")
 plt.xlabel('X : axis')
