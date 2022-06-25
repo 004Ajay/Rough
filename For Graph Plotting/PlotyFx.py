@@ -1,3 +1,5 @@
+# Question: Write a program to calculate and plot graph for the equation y=(x^4)+5 for 0<x<7
+
 import  matplotlib.pyplot as plt
 
 x = [1,2,3,4,5,6]
