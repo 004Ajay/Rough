@@ -1,18 +1,9 @@
-#code to find chi square:
-x = [50,60,47,48,70]
-exp = 50
-y = 0
-for i in x:
-    y = y+(((i-exp) * (i-exp))/exp)
-print("Value: ", y)
-
-#-------------------------------------------------------------------------------------------------------------------#
-
 female = [60, 54, 46, 41]
 male = [40, 44, 53, 57]
+totals = [201, 194]
+grand_total = 395
 fem_total = 201
 male_total = 194
-grand_total = 395
 row_total = [100, 98, 99, 98]
 
 fem_mul = (201/395)
