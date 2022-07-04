@@ -9,6 +9,7 @@ def guess(limit, SecretNum):
         steps += 1 # incrementing step count
         guess = random.randint(1, limit)
         if guess < SecretNum:
+            
             print(f"{guess} is too low")
         elif guess > SecretNum:
             print(f"{guess} is too high")
