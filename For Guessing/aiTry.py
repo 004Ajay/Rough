@@ -9,10 +9,7 @@ def guess(limit):
     steps = 0
     while reply != 'c':
         steps += 1 # incrementing step count
-        if start != stop:
-            guess = random.randint(start, stop) # computer guessing a random num
-        else:
-            guess = start
+        guess = random.randint(start, stop) # computer guessing a random num
         reply = input(f'{guess}, low, high or correct (L, H, C)? : ')
         if reply == 'h':
             stop = guess - 1
@@ -25,7 +22,4 @@ while True:
     guess(LimitNum)
     if input("Again? y/n: ") != 'y': # For breaking while loop
         print('See you again, exited.')
-        break        
-
-
-
+        break
