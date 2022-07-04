@@ -8,6 +8,10 @@ def guess(limit, SecretNum):
     while guess != SecretNum:
         steps += 1 # incrementing step count
         guess = random.randint(1, limit)
+        if guess < SecretNum:
+            print(f"{guess} is too low")
+        elif guess > SecretNum:
+            print(f"{guess} is too high")
     print(f'Computer correctly guessed, {SecretNum}\nNumber of steps: {steps}') # steps - 1 for omitting the false run of loop
 
 
