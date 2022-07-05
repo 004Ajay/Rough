@@ -15,3 +15,5 @@ lst = list(val)
 print("Pearsonr value: ", lst)
 if lst[1] > 0.05:
     print("We reject Null Hypothesis, since", round(lst[1], 5), "is greater than 0.05")
+else:
+    print("We accept Null Hypothesis")
