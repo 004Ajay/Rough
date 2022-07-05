@@ -1,4 +1,3 @@
-#code to find chi square:
 x = [50,60,47,48,70]
 exp = 50
 y = 0
@@ -53,4 +52,8 @@ print("Chi Sq Value: ", res)
 #To find probability:
 
 import scipy.stats as stats
-print("Verification: ", stats.chisquare(O, E))
+res = stats.chisquare(O, E)
+lst = list(res)
+print(res)
+if lst[1] > 0.05:
+    print("We accept Null Hypothesis, since", round(lst[1], 5), "is greater than 0.05")
