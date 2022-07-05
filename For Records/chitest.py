@@ -1,12 +1,10 @@
 female = [60, 54, 46, 41]
 male = [40, 44, 53, 57]
-fem_total = 201
-male_total = 194
-grand_total = 395
 row_total = [100, 98, 99, 98]
+col_total = [201, 194]
 
-fem_mul = (201/395)
-male_mul = (194/395)
+fem_mul = (col_total[0]/395) # 395 = grand_total
+male_mul = (col_total[1]/395)
 
 female_col_mul = []
 male_col_mul = []
@@ -31,9 +29,7 @@ print("All Expectations:", E)
 res = 0
 for i in range(len(O)):
     res = res + (((O[i] - E[i]) * (O[i] - E[i]))/E[i])
-print("Chi Square value: ", res)
-
-#-------------------------------------------------------------------------------------------------------------------#
+print("Chi Square value: ", round(res, 4))
 
 # To check the result & find probability:
 import scipy.stats as stats
