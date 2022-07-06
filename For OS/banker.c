@@ -2,7 +2,8 @@
 #define true 1
 #define false 0
 
-int available[10], allocation[10][10], max[10][10], need[10][10], work[10], finish[10], maxres[10], safe[10], req[10], m, n;
+int available[10], allocation[10][10], max[10][10], need[10][10], work[10], finish[10], max_res[10], safe[10], req[10], m, n;
+
 int find(){
 	int i, j;
 	for (i = 0; i < n; i++){
@@ -48,11 +49,11 @@ int main(){
 	int i, j, sum;
 	char ch;
 	printf("\nEnter the number of processes and the number of resources:\n");
-	scanf("%d%d", &n, &m);
+	scanf("%d %d", &n, &m);
 	printf("\nEnter maximum instances of resources\n");
 	for (j = 0; j < m; j++){
-		scanf("%d", &maxres[j]);
-		available[j] = maxres[j];
+		scanf("%d", &max_res[j]);
+		available[j] = max_res[j];
 	}
 	printf("\nEnter the Allocated Matrix:\n");
 	for (i = 0; i < n; i++){
