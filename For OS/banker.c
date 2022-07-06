@@ -5,7 +5,7 @@
 int available[10], allocation[10][10], max[10][10], need[10][10], work[10], finish[10], max_res[10], safe[10], req[10], m, n;
 
 int find(){
-	int i, j;
+    int i, j;
 	for (i = 0; i < n; i++){
 		if (finish[i] == false){
 			for (j = 0; j < m; j++)
