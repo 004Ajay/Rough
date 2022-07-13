@@ -6,7 +6,7 @@ Y_cap, Y_sq, Y_mean_sq = [], [], [] # Declaring multiple lists
 
 # For ŷ
 for i in X:
-    each_y_cap = -24.704 + (0.9674 * i) # Custom value for claculation
+    each_y_cap = -24.704 + (0.9674 * i) # Custom value for calculation
     Y_cap.append(round(each_y_cap, 4))
 
 # For (Y - Y_cap)^2 & (Y - Y_mean)^2
