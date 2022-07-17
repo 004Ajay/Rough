@@ -11,7 +11,7 @@ printf("\nEnter Ref String: ");
 for(i = 1; i <= pg_no; i++)
     scanf("%d", &ref_str[i]);
 j = 0;
-printf("Ref string\tpage frames\n");
+printf("Ref string\tFrames\n");
 for(i = 1; i <= pg_no; i++){
     printf("%d\t\t", ref_str[i]);
     avail = 0;
