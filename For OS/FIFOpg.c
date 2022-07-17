@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-int i, j, pg_no, ref_str[50], frame[10], fr_no, k, avail, count=0;
+int ref_str[50], frame[10], pg_no, fr_no, avail, i, j, k, count=0;
 printf("\nEnter number of Pages: ");
 scanf("%d", &pg_no);
 printf("\nEnter number of Frames: ");
@@ -24,7 +24,7 @@ for(i = 1; i <= pg_no; i++){
             count++;
 for(k = 0; k < fr_no; k++)
     printf("%d\t", frame[k]);
-}
+        }
 printf("\n");
 }
 printf("Total Page Faults: %d", count);
