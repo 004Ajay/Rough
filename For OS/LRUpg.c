@@ -1,70 +1,61 @@
 #include<stdio.h>
 int main(){
-int i, m, n, position, k, l, frames[10], total_frames, pages[50], total_pages, a = 0, b = 0, page_fault = 0;
+int i, m, n, pos, k, l, frms[10], tot_frms, pgs[50], tot_pgs, a = 0, b = 0, count = 0;
 printf("\nEnter number of Pages: ");
-scanf("%d", &total_pages);
+scanf("%d", &tot_pgs);
 printf("\nEnter number of Frames: ");
-scanf("%d", &total_frames);
-int temp[total_frames];
-for(i = 0; i < total_frames; i++)
-    frames[i] = -1;
+scanf("%d", &tot_frms);
+int temp[tot_frms];
+for(i = 0; i < tot_frms; i++)
+    frms[i] = -1;
 printf("\nEnter Ref String: ");
-for(n = 1; n <= total_pages; n++){
-    scanf("%d", &pages[n]);
-            a = 0, b = 0;
-            for(m = 0; m < total_frames; m++)
-            {
-                if(frames[m] == pages[n])
-                {
-                        a = 1;
-                        b = 1;
-                        break;
-                }
-            }
-            if(a == 0)
-            {
-                for(m = 0; m < total_frames; m++)
-                {
-                    if(frames[m] == -1)
-                    {
-                        frames[m] = pages[n];
-                        b = 1;
-                        page_fault++;
-                        break;
-                    }
-                }
-            }
-            if(b == 0)
-            {
-                for(m = 0; m < total_frames; m++)
-                {
-                    temp[m] = 0;
-                }
-                for(k = n - 1, l = 1; l <= total_frames - 1; l++, k--)
-                {
-                    for(m = 0; m < total_frames; m++)
-                    {
-                        if(frames[m] == pages[k])
-                        {
-                            temp[m] = 1;
-                        }
-                    }
-                }
-                for(m = 0; m < total_frames; m++)
-                {
-                    if(temp[m] == 0)
-                        position = m;
-                }
-                frames[position] = pages[n];
-                page_fault++;
-            }
-            
-            for(m = 0; m < total_frames; m++)
-            {
-                printf("%d\t", frames[m]);
-            }
-            printf("\n");
+for(n = 1; n <= tot_pgs; n++)
+    scanf("%d", &pgs[n]);
+printf("Ref string\tframes\n");
+for(n = 1; n <= tot_pgs; n++){
+printf("%d\t\t", pgs[n]);
+//a = 0, b = 0;
+for(m = 0; m < tot_frms; m++){
+    if(frms[m] == pgs[n]){
+            a = 1;
+            b = 1;
+            break;
     }
-    printf("\nTotal Page Faults: %d", page_fault);
-    return 0;
+}
+if(a == 0){
+    for(m = 0; m < tot_frms; m++){
+        if(frms[m] == -1){
+            frms[m] = pgs[n];
+            b = 1;
+            count++;
+            break;
+        }
+    }
+}
+if(b == 0){
+    for(m = 0; m < tot_frms; m++){
+        temp[m] = 0;
+    }
+    for(k = n - 1, l = 1; l <= tot_frms - 1; l++, k--){
+        for(m = 0; m < tot_frms; m++){
+            if(frms[m] == pgs[k]){
+                temp[m] = 1;
+            }
+        }
+    }
+    for(m = 0; m < tot_frms; m++){
+        if(temp[m] == 0)
+            pos = m;
+    }
+    frms[pos] = pgs[n];
+    count++;
+}
+
+for(m = 0; m < tot_frms; m++){
+    printf("%d\t", frms[m]);
+}
+printf("\n");
+}
+printf("Total Page Faults: %d", count);
+return 0;
 }
