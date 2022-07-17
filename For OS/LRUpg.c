@@ -50,7 +50,6 @@ if(b == 0){
     frms[pos] = pgs[n];
     count++;
 }
-
 for(m = 0; m < tot_frms; m++){
     printf("%d\t", frms[m]);
 }
