@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
 int i, m, n, position, k, l, frames[10], total_frames, pages[50], total_pages, a = 0, b = 0, page_fault = 0;
-
 printf("\nEnter number of Pages: ");
 scanf("%d", &total_pages);
 printf("\nEnter number of Frames: ");
