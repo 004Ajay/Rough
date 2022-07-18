@@ -1,6 +1,6 @@
 import random
 i = 10
-print(f"{random.randint(1, i)} + {random.randint(1, i)} = ")
+print(f"What is {random.randint(1, i)} + {random.randint(1, i)} = ")
 
 ans = int(input("Your opinion: "))
 
