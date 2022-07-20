@@ -1,32 +1,30 @@
 #include<stdio.h>
 
 int main(){
-    int RQ[100],i,j,n,dist=0,initial,size,move;
-    printf("Enter number of Requests\n");
+    int req[30], i, j, n, dist=0, head, size, move;
+    printf("Enter number of requests: ");
     scanf("%d",&n);
-    printf("Enter Requests sequence\n");
-    for(i=0;i<n;i++)
-     scanf("%d",&RQ[i]);
-    printf("Enter initial head position\n");
-    scanf("%d",&initial);
-    printf("Enter total disk size\n");
+    printf("Enter request order: ");
+    for(i = 0; i < n; i++)
+     scanf("%d",&req[i]);
+    printf("Enter head head position: ");
+    scanf("%d",&head);
+    printf("Enter total disk size: ");
     scanf("%d",&size);
-    printf("Enter the head movement direction for high 1 and for low 0\n");
+    printf("Enter the head movement direction, high 1 and low 0: ");
     scanf("%d",&move);
     
-    // logic for Scan disk scheduling
-    
-        /*logic for sort the request array */
+    // Sorting using bubble sort (short job first)
     for(i=0;i<n;i++)
     {
         for(j=0;j<n-i-1;j++)
         {
-            if(RQ[j]>RQ[j+1])
+            if(req[j]>req[j+1])
             {
                 int temp;
-                temp=RQ[j];
-                RQ[j]=RQ[j+1];
-                RQ[j+1]=temp;
+                temp=req[j];
+                req[j]=req[j+1];
+                req[j+1]=temp;
             }
 
         }
@@ -35,7 +33,7 @@ int main(){
     int index;
     for(i=0;i<n;i++)
     {
-        if(initial<RQ[i])
+        if(head<req[i])
         {
             index=i;
             break;
@@ -47,16 +45,16 @@ int main(){
     {
         for(i=index;i<n;i++)
         {
-            dist=dist+abs(RQ[i]-initial);
-            initial=RQ[i];
+            dist=dist+abs(req[i]-head);
+            head=req[i];
         }
         //  last movement for max size 
-        dist=dist+abs(size-RQ[i-1]-1);
-        initial = size-1;
+        dist=dist+abs(size-req[i-1]-1);
+        head = size-1;
         for(i=index-1;i>=0;i--)
         {
-             dist=dist+abs(RQ[i]-initial);
-             initial=RQ[i];
+             dist=dist+abs(req[i]-head);
+             head=req[i];
             
         }
     }
@@ -65,16 +63,16 @@ int main(){
     {
         for(i=index-1;i>=0;i--)
         {
-            dist=dist+abs(RQ[i]-initial);
-            initial=RQ[i];
+            dist=dist+abs(req[i]-head);
+            head=req[i];
         }
         //  last movement for min size 
-        dist=dist+abs(RQ[i+1]-0);
-        initial =0;
+        dist=dist+abs(req[i+1]-0);
+        head =0;
         for(i=index;i<n;i++)
         {
-             dist=dist+abs(RQ[i]-initial);
-             initial=RQ[i];
+             dist=dist+abs(req[i]-head);
+             head=req[i];
             
         }
     }
