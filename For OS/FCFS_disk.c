@@ -4,7 +4,7 @@ int main(){
     int i, req_num, req[50], mov=0, head;
     printf("Enter number of requests: ");
     scanf("%d", &req_num);
-    printf("Enter request order: ");
+    printf("Enter request: ");
     for(i = 0; i < req_num; i++)
         scanf("%d", &req[i]);
     printf("Enter head position: ");
