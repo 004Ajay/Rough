@@ -1,17 +1,21 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main() {
-    int i=0, diff = 0;
-    int arr[9] = {86, 130, 913, 948, 1022, 1470, 1509, 1750, 1774};
-    while(i < 8){
-        diff += (arr[i+1] - arr[i]);
-        printf("%d - %d = %d\n", arr[i+1], arr[i], arr[i+1] - arr[i]);
-        //printf("%d\t", diff);
-        i++;
+int main(){
+    int i, req_num, req[50], mov=0, head;
+    printf("Enter number of requests: ");
+    scanf("%d", &req_num);
+    printf("Enter request order: ");
+    for(i = 0; i < req_num; i++)
+        scanf("%d", &req[i]);
+    printf("Enter head position: ");
+    scanf("%d", &head);
+    mov = mov + abs(head - req[0]); // abs() - to calculate absolute value
+    printf("%d -> %d", head, req[0]);
+    for(i = 1; i < req_num; i++){
+        mov = mov + abs(req[i]-req[i-1]);
+        printf(" -> %d", req[i]);
     }
-    
-    
-    printf("\nsum: %d", diff+128);    
-    
+    printf("\n");
+    printf("Total Distance: %d\n",mov);
     return 0;
-}
+} 
