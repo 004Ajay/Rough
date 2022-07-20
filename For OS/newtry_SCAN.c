@@ -19,6 +19,8 @@ int main(){
             }
         }
     }
+    for(i=0; i<n;i++)
+        printf("%d\t", diskQueue[i]);
     // position of the disk to start seeking 
     for(i=0;i<n;i++) {                                      
         if(diskQueue[i] == start) {
@@ -27,14 +29,21 @@ int main(){
         }
     }
     diff = abs(start - diskQueue[1]);
+    printf("\n");
     printf("%d -> %d", start, diskQueue[1]);
-    for(i = pos; i < n-1; i++){
-        if(i == 1)
-           continue;
-        else{
+    for(i = 0; i < n; i++){
+        
+        if(i == 1) {
             diff += abs(diskQueue[i+1] - diskQueue[i]);
-            printf(" -> %d", diskQueue[i]);
+            continue;
         }
+        else{
+            printf(" -> %d", diskQueue[i]);
+
+        }
+        
+
+    
     }
     printf("\nTotal Distance: %d\n", diff);
     return 0;
