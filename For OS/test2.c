@@ -1,80 +1,87 @@
-#include<stdio.h>
-int n,m,i,j,h,p,temp,k,total=0;
-int t[100],a[100],diff;
-void main()
-{
-  printf("ENTER THE NUMBER OF TRACKS : ");
-  scanf("%d",&n);
-  printf("ENTER THE HEAD POINTER POSITION : ");
-  scanf("%d",&h);
-  printf("ENTER THE TRACKS TO BE TRAVERSED : ");
-  for(i=0;i<n;i++)
-  {
-    scanf("%d",&t[i]);
+
+/*
+SCAN - Disk Scheduling Algorithm (Elevator)
+
+scans down towards the nearest end and then when it hits the bottom,
+it scans up servicing the requests that it didn't get going down.
+If a request comes in after it has been scanned it will not be serviced
+until the process comes back down or moves back up.
+
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#define LOW 0
+#define HIGH 4999
+
+
+int main(){
+  int queue[20];
+  int head, max, q_size, temp, sum;
+  int dloc; //location of disk (head) arr
+
+
+  printf("%s\t", "Input no of disk locations");
+  scanf("%d", &q_size);
+
+  printf("%s\t", "Enter head position");
+  scanf("%d", &head);
+
+  printf("%s\n", "Input elements into disk queue");
+  for(int i=0; i<q_size; i++){
+    scanf("%d", &queue[i]);
   }
-  t[n+2] = 199;
-  t[n+1] = 0;
-  t[n] = h;
-  n=n+3;
-  for(i=0;i<n;i++)
-  {
-    for(j=0;j<n-i-1;j++)
-    {
-      if(t[j]>t[j+1])
-      {
-        temp=t[j];
-        t[j]=t[j+1];
-        t[j+1]=temp;
+
+  queue[q_size] = head; //add RW head into queue
+  q_size++;
+
+  //sort the array
+  for(int i=0; i<q_size;i++){
+    for(int j=i; j<q_size; j++){
+      if(queue[i]>queue[j]){
+        temp = queue[i];
+        queue[i] = queue[j];
+        queue[j] = temp;
       }
     }
   }
-  for(i=0;i<n;i++)
-  {
-    if(t[i]==h)
-    {
-      k=i;
+
+  max = queue[q_size-1];
+
+  //locate head in the queue
+  for(int i=0; i<q_size; i++){
+    if(head == queue[i]){
+      dloc = i;
       break;
     }
   }
-  if(h<(199-h))
-  {
-    for(i=k;i>=0;i--,p++)
-    {
-      a[p]=t[i];
-    }
-    for(i=k+1;i<n-1;i++,p++)
-    {
-      a[p]=t[i];
-    }
+
+  if(abs(head-LOW) <= abs(head-HIGH)){
+
+      for(int j=dloc; j>=0; j--){
+        printf("%d --> ",queue[j]);
+      }
+      for(int j=dloc+1; j<q_size; j++){
+        printf("%d --> ",queue[j]);
+      }
+
+      } else {
+
+      for(int j=dloc+1; j<q_size; j++){
+          printf("%d --> ",queue[j]);
+      }
+      for(int j=dloc; j>=0; j--){
+          printf("%d --> ",queue[j]);
+      }
+
   }
-  else
-  {
-    for(i=k;i<n;i++,p++)
-    {
-      a[p]=t[i];
-    }
-    for(i=k-1;i>=0;i--,p++)
-    {
-      a[p]=t[i];
-    }
-  }
-  printf("TRAVERSED ORDER : ");
-  for(i=0;i<p;i++)
-  {
-    printf("%d => ",a[i]);
-  }
-  for(total=0,j=0;j<p-1;j++)
-  {
-    diff=0;
-    if(a[j]>a[j+1])
-    {
-      diff=a[j]-a[j+1];
-    }
-    else
-    {
-      diff=a[j+1]-a[j];
-    }
-    total=total+diff;
-  }
-  printf("\b\b\b.  \nTOTAL HEAD MOVEMENTS : %d\n",total);
+
+
+
+
+  sum  = head + max;
+  printf("\nmovement of total cylinders %d", sum);
+
+  return 0;
 }
