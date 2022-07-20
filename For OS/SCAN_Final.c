@@ -1,3 +1,13 @@
+/*
+For SCAN (example)
+Number of request: 9
+Request Order: 86 1470 913 1774 948 1509 1022 1750 130
+Head Position: 143
+Required Disance: 1745 (as per classwork)
+
+Total disk size: 4999 (if)
+*/
+
 #include<stdio.h>
 
 int main(){
