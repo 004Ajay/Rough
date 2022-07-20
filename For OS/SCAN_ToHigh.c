@@ -1,18 +1,16 @@
 #include<stdio.h>
 
 int main(){
-    int req[30], i, j, n, dist=0, head, size, move;
+    int req[30], i, j, n, dist=0, head, size, move=1; //moves to high values
     printf("Enter number of requests: ");
-    scanf("%d",&n);
+    scanf("%d", &n);
     printf("Enter request order: ");
     for(i = 0; i < n; i++)
-     scanf("%d",&req[i]);
+     scanf("%d", &req[i]);
     printf("Enter head head position: ");
-    scanf("%d",&head);
+    scanf("%d", &head);
     printf("Enter total disk size: ");
-    scanf("%d",&size);
-    printf("Enter the head movement direction, high 1 and low 0: ");
-    scanf("%d",&move);
+    scanf("%d", &size);
     
     // Sorting using bubble sort (short job first)
     for(i=0;i<n;i++)
