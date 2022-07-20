@@ -19,15 +19,6 @@ int main(){
             }
         }
     }
-    /*
-    // position of the disk to start seeking 
-    for(i=0;i<n;i++) {                                      
-        if(reqArr[i] == start) {
-            pos = i;
-            break;
-        }
-    }
-    */
     res = abs(start - reqArr[0]);
     printf("%d -> %d", start, reqArr[1]);
     for(i = 0; i < n-1; i++){
