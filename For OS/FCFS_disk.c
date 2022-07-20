@@ -2,12 +2,12 @@
 
 int main(){
     int i, req_num, req[50], mov=0, head;
-    printf("Enter number of requests\n");
+    printf("Enter number of requests: ");
     scanf("%d", &req_num);
-    printf("Enter request order\n");
+    printf("Enter request order: ");
     for(i = 0; i < req_num; i++)
         scanf("%d", &req[i]);
-    printf("Enter head position\n");
+    printf("Enter head position: ");
     scanf("%d", &head);    
     mov = mov + abs(head - req[0]); // abs() - to calculate absolute value
     printf("%d -> %d", head, req[0]);

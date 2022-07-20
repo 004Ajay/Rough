@@ -4,7 +4,7 @@ int main(){
     int RQ[100],i,j,n,dist=0,initial,size,move;
     printf("Enter number of Requests\n");
     scanf("%d",&n);
-    printf("Enter the Requests sequence\n");
+    printf("Enter Requests sequence\n");
     for(i=0;i<n;i++)
      scanf("%d",&RQ[i]);
     printf("Enter initial head position\n");
