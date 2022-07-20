@@ -33,16 +33,16 @@ int main(){
     printf("%d -> %d", start, diskQueue[1]);
     for(i = 0; i < n; i++){
         
-        if(i == 1) {
-            diff += abs(diskQueue[i+1] - diskQueue[i]);
+        if(i+1 > n) break;
+        else if(i == 1) {
             continue;
         }
         else{
             printf(" -> %d", diskQueue[i]);
-
+            if()
+            diff += abs(diskQueue[i+1] - diskQueue[i]);
+            
         }
-        
-
     
     }
     printf("\nTotal Distance: %d\n", diff);
