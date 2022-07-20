@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main() {
+int main(){
     int diskQueue[20], n, start, i, pos, diff, seekTime=0, current, j, tmp;
     printf("Enter size of Queue: ");
     scanf("%d", &n);
@@ -11,7 +11,7 @@ int main() {
     scanf("%d", &start);
     diskQueue[0] = start; // injecting to the first position
     ++n;
-    // total of n+1 elements
+    // sorting
     for(i=0;i<n-1;i++) {
         for(j=0;j<n-1-i;j++) {
             if(diskQueue[j]>diskQueue[j+1]) {
@@ -29,7 +29,6 @@ int main() {
         }
     }
     // start seeking to the right
-    printf("\nMovement of Cylinders\n");
     for(i=pos;i<n-1;i++) {
         diff = abs(diskQueue[i+1] - diskQueue[i]);
         seekTime += diff;
