@@ -1,3 +1,11 @@
+/*
+For FCFS (example)
+Number of request: 8
+Request Order: 98 183 37 122 14 124 65 67
+Head Position: 53
+Required Disance: 640 (as per classwork
+*/
+
 #include<stdio.h>
 
 int main(){
