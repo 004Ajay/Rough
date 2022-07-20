@@ -11,19 +11,21 @@ Total disk size: 4999 (if)
 #include<stdio.h>
 
 int main(){
-    int reqArr[20], n, head, i, pos, dsk_sz, res=0, j, temp;
+    int reqArr[50], n, head, i, pos, dsk_sz, res=0, j, len, temp;
     printf("Enter number of requests: ");
     scanf("%d", &n);
     printf("Enter requests: ");
-    for(i=0;i<n;i++)
+    for(i = 1; i <= n; i++)
         scanf("%d", &reqArr[i]);
     printf("Enter head position: ");
     scanf("%d", &head);
     printf("Enter total disk size: ");
     scanf("%d", &dsk_sz);
+    reqArr[0] = head; // injecting head to first position of array
+    reqArr[n+1] = dsk_sz; // injecting total disk size to array end
     //sorting
-    for(i=0;i<n-1;i++) {
-        for(j=0;j<n-1-i;j++) {
+    for(i=0;i<n+1;i++) {
+        for(j=0;j<n+1;j++) {
             if(reqArr[j]>reqArr[j+1]) {
                 temp = reqArr[j];
                 reqArr[j] = reqArr[j+1];
@@ -31,7 +33,6 @@ int main(){
             }
         }
     }
-    /*
     // position of the disk to head seeking 
     for(i=0;i<n;i++) {                                      
         if(reqArr[i] == head) {
@@ -39,7 +40,28 @@ int main(){
             break;
         }
     }
-    */
+
+    res = reqArr[n+1] - reqArr[pos]; // first line difference  
+    printf("\nres1: %d\n", res);
+    printf("Access path:\n %d", reqArr[pos]); //starting with head position (printing)
+
+    for(i = pos+1; i <= n+1; i++){
+        //res += abs(reqArr[i+1] - reqArr[i]);
+        printf(" -> %d", reqArr[i]); //printing remaining nos in first line
+    }
+    printf("\nres2: %d\n", res);
+    for(i = pos-1; i >= 0; i--){
+        res += abs(reqArr[i] - dsk_sz);
+        printf(" -> %d", reqArr[i]); //printing remaining nos in second line
+
+    }
+        
+    printf("\nTotal Distance: %d\n", res);    
+
+
+
+
+/*
     res = abs(head - reqArr[0]);
     printf("%d -> %d", head, reqArr[1]);
     for(i = 0; i < n-1; i++){
@@ -50,5 +72,7 @@ int main(){
             printf(" -> %d", reqArr[i]);
     }
     printf("\nTotal Distance: %d\n", res);
+
+*/
     return 0;
 }
