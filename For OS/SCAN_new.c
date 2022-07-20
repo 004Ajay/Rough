@@ -3,9 +3,8 @@ For SCAN (example)
 Number of request: 9
 Request Order: 86 1470 913 1774 948 1509 1022 1750 130
 Head Position: 143
-Required Disance: 1745 (as per classwork)
-
-Total disk size: 4999 (if)
+Total disk size: 4999
+Required Disance: 9769 (as per classwork)
 */
 
 #include<stdio.h>
@@ -40,39 +39,16 @@ int main(){
             break;
         }
     }
-
     res = reqArr[n+1] - reqArr[pos]; // first line difference  
-    printf("\nres1: %d\n", res);
-    printf("Access path:\n %d", reqArr[pos]); //starting with head position (printing)
+    printf("Access path: %d", reqArr[pos]); //starting with head position (printing)
 
     for(i = pos+1; i <= n+1; i++){
         //res += abs(reqArr[i+1] - reqArr[i]);
         printf(" -> %d", reqArr[i]); //printing remaining nos in first line
     }
-    printf("\nres2: %d\n", res);
-    for(i = pos-1; i >= 0; i--){
-        res += abs(reqArr[i] - dsk_sz);
+    for(i = pos-1; i >= 0; i--)
         printf(" -> %d", reqArr[i]); //printing remaining nos in second line
-
-    }
-        
-    printf("\nTotal Distance: %d\n", res);    
-
-
-
-
-/*
-    res = abs(head - reqArr[0]);
-    printf("%d -> %d", head, reqArr[1]);
-    for(i = 0; i < n-1; i++){
-        res += abs(reqArr[i+1] - reqArr[i]); 
-        if(i == 1)
-           continue;
-        else
-            printf(" -> %d", reqArr[i]);
-    }
+    res += abs(dsk_sz - reqArr[pos-2]);
     printf("\nTotal Distance: %d\n", res);
-
-*/
     return 0;
 }
