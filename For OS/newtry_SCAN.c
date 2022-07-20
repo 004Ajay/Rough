@@ -1,50 +1,40 @@
 #include<stdio.h>
 
 int main(){
-    int diskQueue[20], n, start, i, pos, diff=0, j, temp;
-    printf("Enter size of Queue: ");
+    int reqArr[20], n, start, i, pos, res=0, j, temp;
+    printf("Enter number of requests: ");
     scanf("%d", &n);
-    printf("Enter Queue: ");
+    printf("Enter requests: ");
     for(i=0;i<n;i++)
-        scanf("%d", &diskQueue[i]);
+        scanf("%d", &reqArr[i]);
     printf("Enter head position: ");
     scanf("%d", &start);
     //sorting
     for(i=0;i<n-1;i++) {
         for(j=0;j<n-1-i;j++) {
-            if(diskQueue[j]>diskQueue[j+1]) {
-                temp = diskQueue[j];
-                diskQueue[j] = diskQueue[j+1];
-                diskQueue[j+1] = temp;
+            if(reqArr[j]>reqArr[j+1]) {
+                temp = reqArr[j];
+                reqArr[j] = reqArr[j+1];
+                reqArr[j+1] = temp;
             }
         }
     }
-    for(i=0; i<n;i++)
-        printf("%d\t", diskQueue[i]);
     // position of the disk to start seeking 
     for(i=0;i<n;i++) {                                      
-        if(diskQueue[i] == start) {
+        if(reqArr[i] == start) {
             pos = i;
             break;
         }
     }
-    diff = abs(start - diskQueue[1]);
-    printf("\n");
-    printf("%d -> %d", start, diskQueue[1]);
-    for(i = 0; i < n; i++){
-        
-        if(i+1 > n) break;
-        else if(i == 1) {
-            continue;
-        }
-        else{
-            printf(" -> %d", diskQueue[i]);
-            if()
-            diff += abs(diskQueue[i+1] - diskQueue[i]);
-            
-        }
-    
+    res = abs(start - reqArr[1]);
+    printf("%d -> %d", start, reqArr[1]);
+    for(i = 0; i < n-1; i++){
+        res += abs(reqArr[i+1] - reqArr[i]); 
+        if(i == 1)
+           continue;
+        else
+            printf(" -> %d", reqArr[i]);
     }
-    printf("\nTotal Distance: %d\n", diff);
+    printf("\nTotal Distance: %d\n", res);
     return 0;
 }
