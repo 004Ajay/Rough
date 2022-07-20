@@ -14,7 +14,7 @@ for(n = 1; n <= tot_pgs; n++)
 printf("Ref string\tframes\n");
 for(n = 1; n <= tot_pgs; n++){
 printf("%d\t\t", pgs[n]);
-//a = 0, b = 0;
+a = 0, b = 0;
 for(m = 0; m < tot_frms; m++){
     if(frms[m] == pgs[n]){
             a = 1;
