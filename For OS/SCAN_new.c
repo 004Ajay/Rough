@@ -11,14 +11,16 @@ Total disk size: 4999 (if)
 #include<stdio.h>
 
 int main(){
-    int reqArr[20], n, start, i, pos, res=0, j, temp;
+    int reqArr[20], n, head, i, pos, dsk_sz, res=0, j, temp;
     printf("Enter number of requests: ");
     scanf("%d", &n);
     printf("Enter requests: ");
     for(i=0;i<n;i++)
         scanf("%d", &reqArr[i]);
     printf("Enter head position: ");
-    scanf("%d", &start);
+    scanf("%d", &head);
+    printf("Enter total disk size: ");
+    scanf("%d", &dsk_sz);
     //sorting
     for(i=0;i<n-1;i++) {
         for(j=0;j<n-1-i;j++) {
@@ -30,16 +32,16 @@ int main(){
         }
     }
     /*
-    // position of the disk to start seeking 
+    // position of the disk to head seeking 
     for(i=0;i<n;i++) {                                      
-        if(reqArr[i] == start) {
+        if(reqArr[i] == head) {
             pos = i;
             break;
         }
     }
     */
-    res = abs(start - reqArr[0]);
-    printf("%d -> %d", start, reqArr[1]);
+    res = abs(head - reqArr[0]);
+    printf("%d -> %d", head, reqArr[1]);
     for(i = 0; i < n-1; i++){
         res += abs(reqArr[i+1] - reqArr[i]); 
         if(i == 1)
