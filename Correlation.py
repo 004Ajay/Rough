@@ -30,12 +30,12 @@ Yi_sq_sum = sum(Yi_sq)
 XiYi_sum = sum(XiYi)
 
 Pxy = ((n_div)*XiYi_sum) - xy_bar
-sig_x = math.sqrt(((n_div)*Xi_sq_sum) - x_mean)
-sig_y = math.sqrt(((n_div)*Yi_sq_sum) - y_mean)
-r = round(Pxy / (sig_x * sig_y), 4)
+sig_x = math.sqrt(((n_div)*Xi_sq_sum) - x_mean_sq)
+sig_y = math.sqrt(((n_div)*Yi_sq_sum) - y_mean_sq)
+r = Pxy / (sig_x * sig_y)
 
 print(f"\n{'-'*73}\n| x\t|\ty\t|\tXiYi\t|\tXi_sq\t|\tYi_sq\t|\n{'-'*73}")
 for i in range(len(x)):
     print(f"| {x[i]}\t|\t{y[i]}\t|\t{XiYi[i]}\t|\t{Xi_sq[i]}\t|\t{Yi_sq[i]}\t|\n{'-'*73}")   
 print(f"\nx̄: {x_mean}\t|\tȳ: {y_mean}\t|\tx̄ȳ: {xy_bar}\t|\tΣXiYi: {XiYi_sum}\n\nΣXi^2: {Xi_sq_sum}\t|\tΣYi^2: {Yi_sq_sum}\t|\n\n{'-'*83}")     
-print(f"\nPxy: {round(Pxy, 4)}\t|\tσx: {round(sig_x, 4)}\t|\tσy: {round (sig_y, 4)}\t|\tr: {r}\n\n{'-'*83}")
+print(f"\nPxy: {round(Pxy, 4)}\t|\tσx: {round(sig_x, 4)}\t|\tσy: {round (sig_y, 4)}\t|\tr: {round(r, 4)}\n\n{'-'*83}")
