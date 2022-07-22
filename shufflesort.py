@@ -11,8 +11,8 @@ while new_lst != sorted(lst):
     if steps >= 100 and new_lst != sorted(lst):
         new_lst.append("NULL")
         break
-    else:
+    elif new_lst != sorted(lst):
         new_lst.append(srt_lst)
         break
     
-print(f"Original list: {lst}\nSorted list: {new_lst}\nNumber of steps: {steps}")
+print(f"\nOriginal list: {lst}\nSorted list: {new_lst}\nNumber of steps: {steps}")
