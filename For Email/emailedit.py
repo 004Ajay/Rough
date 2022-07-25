@@ -24,6 +24,7 @@ def checkMail():
             return 0
     return 1 # no errors found in the input email                  
 
+# __Driver Code__
 while True: # for recurrent inputting
     email = input("Enter an Email: ") # getting email, eg - ajaytshaju@gmail.com
     
