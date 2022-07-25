@@ -30,7 +30,7 @@ while True: # for recurrent inputting
     if "@" in email: # checking for '@'
         if "." in email: # checking for '.'
             print("Valid Email") if checkMail() else print("So, Invalid Email")  # passes every checking, if-else shorthand used
-        else: print("No '.' between vendor name & domain")
-    else: print("No '@' after first part")        
+        else: print("No '.' between vendor name & domain") # if no '.' found
+    else: print("No '@' after first part") # if no '@' found
     if input("Again? y/n: ") == 'n':
         break
