@@ -1,5 +1,5 @@
-# This program convert your word to number which belogs to alphabets
-
+# This program convert input word to English alphabet number
+# eg: a = 1, b = 2 then,  ab = 1 2
 from traceback import print_tb
 
 
