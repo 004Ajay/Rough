@@ -1,26 +1,35 @@
-# Import the required module for text
-# to speech conversion
-from gtts import gTTS as gt
+# Make a Text to Speech Software in python with 
+# Output Audio Speed Control & Voice Recognition from user 
+# V_Recog -> like Mm.. Yes..
 
-# This module is imported so that we can
-# play the converted audio
+from gtts import gTTS as gt
 import os
 
-# The text that you want to convert to audio
+def saveAudio(Audio):
+    save_path = "D:\Temp" # 'C:\Users\ASUS\Desktop'
+    name = "new.mp3"
+    completeName = os.path(save_path, name)         
+
+    with open(completeName, "w") as file1:
+        file1.write(Audio)
+    print("File saved to Temp")
+
+sen = input("Enter the sentence:\n") # getting text from user for conversion to audio
+
+# text -> pass your sentence
+# lang -> your preferred language
+# slow -> speed of output audio, pass as true or false
+toAudio = gt(text = sen, lang = 'en', slow = True)
+
+try:
+    # Saving the converted audio in a mp3 file
+    #toAudio.save("new.mp3")
+    saveAudio(toAudio)
 
 
-# Language in which you want to convert
-language = 'en'
+    # Playing the converted file
+    #os.system("new.mp3")
+except:
+    print("Unable to process")
 
-# Passing the text and language to the engine,
-# here we have marked slow=False. Which tells
-# the module that the converted audio should
-# have a high speed
-myobj = gt(text=mytext, lang=language, slow=False)
 
-# Saving the converted audio in a mp3 file named
-# welcome
-myobj.save("welcome.mp3")
-
-# Playing the converted file
-os.system("mpg321 welcome.mp3")
