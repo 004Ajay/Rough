@@ -1,0 +1,1 @@
+# This program convert your word to number which belogs to alphabets
