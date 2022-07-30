@@ -2,7 +2,7 @@
 # Output Audio Speed Control & Voice Recognition from user 
 # V_Recog -> like Mm.. Yes..
 
-from gtts import gTTS as gt
+from gtts import gTTS # Google Text-to-Speech Library
 import os
 
 sen = input("Enter the sentence:\n") # getting text from user for conversion to audio
@@ -10,7 +10,7 @@ sen = input("Enter the sentence:\n") # getting text from user for conversion to 
 # text -> pass your sentence
 # lang -> your preferred language
 # slow -> speed of output audio, pass as true or false
-toAudio = gt(text = sen, lang = 'en', slow = True)
+toAudio = gTTS(text = sen, lang = 'en', slow = True) # converting text to audio
 
 try:
     toAudio.save("new.mp3")  # Saving the converted audio in a mp3 file
@@ -21,5 +21,3 @@ try:
     os.system("new.mp3") # playing the text inside program
 except:
     print("Unable to process")
-
-
