@@ -14,9 +14,9 @@ myobj = gt(text = sen, lang = 'en', slow = True)
 
 try:
     # Saving the converted audio in a mp3 file
-    myobj.save("welcome.mp3")
+    myobj.save("new.mp3")
     print("File saved to Desktop")
     # Playing the converted file
-    os.system("welcome.mp3")
+    os.system("new.mp3")
 except:
     print("Unable to process")
