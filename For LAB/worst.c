@@ -13,16 +13,16 @@ for(i = 1; i <= num_of_blocks; i++){
 }
 
 printf("Enter number of Processes: ");
-scanf("%d",&num_of_prcs);
+scanf("%d", &num_of_prcs);
 printf("Enter size of Processes:\n");
-for(i=1;i<=num_of_prcs;i++){
+for(i = 1; i <= num_of_prcs; i++){
  printf("Process %d: ", i);
  scanf("%d", &prcs_sz[i]);
 }
 
-for(i=1;i<=num_of_prcs;i++){
-	for(j=1;j<=num_of_blocks;j++){
-		if(bf[j]!=1){
+for(i = 1; i <= num_of_prcs; i++){
+	for(j = 1; j <= num_of_blocks; j++){
+		if(bf[j] != 1){
 			temp = block_sz[j] - prcs_sz[i];
 			if(highest < temp){
 				ff[i] = j;
