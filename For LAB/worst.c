@@ -2,28 +2,28 @@
 #define max 25
 
 void main(){
-int b[max], f[max], bf[max],ff[max], i, j, nb, nf, temp, highest=0;
+int block_sz[max], prcs_sz[max], bf[max],ff[max], i, j, num_of_blocks, num_of_prcs, temp, highest=0;
 printf("\nMemory Management Scheme - Worst Fit\n");
 printf("\nEnter number of blocks: ");
-scanf("%d",&nb);
+scanf("%d",&num_of_blocks);
 printf("Enter size of blocks:\n");
-for(i = 1; i <= nb; i++){
+for(i = 1; i <= num_of_blocks; i++){
  printf("Block %d: ", i);
- scanf("%d",&b[i]);
+ scanf("%d",&block_sz[i]);
 }
 
 printf("Enter number of Processes: ");
-scanf("%d",&nf);
+scanf("%d",&num_of_prcs);
 printf("Enter size of Processes:\n");
-for(i=1;i<=nf;i++){
+for(i=1;i<=num_of_prcs;i++){
  printf("Process %d: ", i);
- scanf("%d", &f[i]);
+ scanf("%d", &prcs_sz[i]);
 }
 
-for(i=1;i<=nf;i++){
-	for(j=1;j<=nb;j++){
+for(i=1;i<=num_of_prcs;i++){
+	for(j=1;j<=num_of_blocks;j++){
 		if(bf[j]!=1){
-			temp = b[j] - f[i];
+			temp = block_sz[j] - prcs_sz[i];
 			if(highest < temp){
 				ff[i] = j;
 				highest = temp;
@@ -35,7 +35,7 @@ for(i=1;i<=nf;i++){
 }
 
 printf("\nProcess No  \tProcess Size  \tBlocks");
-for(i = 1; i <= nf; i++)
-    printf("\n%d\t\t%d\t\t%d", i-1, f[i], b[ff[i]]);
+for(i = 1; i <= num_of_prcs; i++)
+    printf("\n%d\t\t%d\t\t%d", i-1, prcs_sz[i], block_sz[ff[i]]);
 printf("\n");
 }
