@@ -15,11 +15,7 @@ int main() {
                 blocks[j+1] = temp;
             }
         }
-    }
-    
-    // for(i=0; i<blk_n; i++)
-        
-    
+    }    
     for(i=0; i<blk_n; i++){
         alloc[i] = blocks[i];
         if(prcs[i] > blocks[i])
