@@ -28,6 +28,11 @@
  | <div class="stats" align="left"> [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=004Ajay&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats) </div> | [![AJAY's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=004Ajay&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats) |
  |------------ | ------------|
 
+<!-- Miscellaneous -->
+
+![Lines of Codes](https://img.shields.io/badge/Lines%20of%20code%20written-35,348-green)
+
+
 ![Profile views](https://gpvc.arturio.dev/004Ajay)  
 
 <!--
@@ -36,8 +41,9 @@ Comments
 
 -->
 
-<div align="right"> 
 
-[![Ajay T Shaju's GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=004Ajay&theme=react-dark)](https://github.com/004Ajay/github-readme-activity-graph) 
 
- </div> 
+ ![Code Time](http://img.shields.io/badge/Code%20Time-1%2C774%20hrs%2055%20mins-blue)
+
+
+ 15624 hours ~ 651 days
