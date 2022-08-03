@@ -30,22 +30,11 @@
 
 <!-- Miscellaneous -->
 
-![Lines of Codes](https://img.shields.io/badge/Lines%20of%20code%20written-35,348-green)
+![Total Coding Time](http://img.shields.io/badge/Total%20Coding%20Time-1,562%20hours%20~%2065%20days-blue)
+
+![Lines of Codes](https://img.shields.io/badge/Lines%20of%20code%20written-35,348-blue)
 
 
 ![Profile views](https://gpvc.arturio.dev/004Ajay)  
 
-<!--
-
-Comments
-
--->
-
-
-
- ![Code Time](http://img.shields.io/badge/Code%20Time-1%2774%20hrs%2055%20mins-blue)
-
-
- ![Code Time](http://img.shields.io/badge/Total%20Coding%20Time-1%2774%20hrs%2055%20mins-blue)
-
-![Total Coding Time](http://img.shields.io/badge/Total%20Coding%20Time-1,562%20hours%20~%2065%20days-blue)
+<!-- Comments -->
