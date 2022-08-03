@@ -43,7 +43,9 @@ Comments
 
 
 
- ![Code Time](http://img.shields.io/badge/Code%20Time-1%2C774%20hrs%2055%20mins-blue)
+ ![Code Time](http://img.shields.io/badge/Code%20Time-1%2774%20hrs%2055%20mins-blue)
 
 
- 15624 hours ~ 651 days
+ ![Code Time](http://img.shields.io/badge/Total%20Coding%20Time-1%2774%20hrs%2055%20mins-blue)
+
+![Total Coding Time](http://img.shields.io/badge/Total%20Coding%20Time-1,562%20hours%20~%2065%20days-blue)
