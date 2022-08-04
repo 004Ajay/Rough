@@ -27,9 +27,17 @@
 
 <!-- Miscellaneous -->
 
+<b><u> Profile Status </u></b>
+
 ![Total Coding Time](http://img.shields.io/badge/Total%20Coding%20Time-1,562%20hours%20~%2065%20days-blue)
 
 ![Lines of Codes](https://img.shields.io/badge/Lines%20of%20code%20written-35,348-blue)
 
 
 ![Profile views](https://gpvc.arturio.dev/004Ajay)
+
+GitHub Contribution Graphs
+<details> 
+  <summary> GitHub Contribution Graphs </summary>
+   <img src="https://activity-graph.herokuapp.com/graph?username=004Ajay&custom_title=Ajay's%20Contribution%20Graph&theme=react-dark" title = "Ajay's Contribution Graph" /></a>
+</details>
