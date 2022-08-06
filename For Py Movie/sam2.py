@@ -10,96 +10,70 @@ movies = [
 
 
 
-def create_question(movie):
-    n = len(movie)
-    letters = list(movie)
+def create_question(movie): # for making packed form of taken movie, eg: for cbi -> *** (packing as stars)
     temp = []
-    for i in range(n):
-        if letters[i] == ' ':
-            temp.append(' ')
+    for i in list(movie):
+        if i == ' ':
+            temp.append(' ') # for space b\w words of taken movie name
         else:
-            temp.append('*')
+            temp.append('*') # for letters in movie name
     qn = ''.join(str(x) for x in temp)
+    print(qn)
     return qn
-    
-def is_present(letter, movie):
-    c=movie.count(letter)
-    if c == 0:
-        return False
-    else:
-        return True
-        
+            
 def unlock(qn, movie, letter):
     ref = list(movie)
     qn_list = list(qn)
     temp = []
     n = len(movie)
     for i in range(n):
-        if ref[i]=='' or ref[i]==letter:
-             temp.append(ref[i])
+        if ref[i] == '' or ref[i] == letter:
+            temp.append(ref[i])
         else:
-            if qn_list[i]=='*':
+            if qn_list[i] == '*':
                 temp.append(' _ ')
             else:
                 temp.append(ref[i])
     qn_new=''.join(str(x) for x in temp)
     return qn_new
-    
+
+def movie_guess(picked_movie):
+    if input("Your answer: ") == picked_movie:
+        print("Correct...")
+        again()
+    else:
+        print("Wrong Answer, but go on...")
+
+
+
+def letter_guess(picked_movie):
+    letter = input("Your letter guess: ")
+    if letter in picked_movie:
+        modified_qn = unlock(modified_qn, picked_movie, letter)
+        print(modified_qn)
+
+
+def again():
+    play() if input("Do you want to play again? y/n: ") == 'y' else exit()
+
 def play():
-    print("Malayalam Movie Guessing Game\nOnly Malayalam movies with English title are included")
-    turn=0
-    willing=True
-    while willing:
-        if turn%2==0:
-            picked_movie=random.choice(movies)
-            qn=create_question(picked_movie)
-            print (qn)
-            modified_qn=qn
-            not_said=True
-            while not_said:
-                letter=input("Your letter: ")
-                if(is_present(letter, picked_movie)):
-                    modified_qn=unlock(modified_qn, picked_movie, letter)
-                    print(modified_qn)
-                    d=input("Press 1 to guess the movie or 2 to unlock another letter: ")
-                    if d==1:
-                        ans=input("Your answer: ")
-                        if ans==picked_movie:
-                            print("Correct Letter")
-                            not_said=False
-                        else:
-                            print("Wrong Answer, Try again.")
+    print("\nMalayalam Movie Guessing Game\n\nOnly Malayalam movies with English title are included\n")
+    while True:
+        picked_movie = random.choice(movies)
+        qn = create_question(picked_movie)
+        modified_qn = qn
+        willing = True
+        while willing:
+            letter_guess(picked_movie)
+                d = int(input("Press 1) guess movie's full name or 2) guess another letter: "))
+                if d == 1:
+                    movie_guess(picked_movie)
+                elif d == 2:
+                    letter_guess(picked_movie)
                 else:
-                    print(letter, " not found")
-            c=int(input("press 1 to Continue or 0 to Quit: "))
-            if c==0:
-                print("Thanks for playing.")
-                willing=False
+                    print(d, "is out of range")
+                    letter_guess(picked_movie)
             else:
-                picked_movie=random.choice(movies)
-                qn=create_question(picked_movie)
-                print (qn)
-            
-            not_said=True
-            while not_said:
-                letter=input("Your letter: ")
-                if(is_present(letter, picked_movie)):
-                    modified_qn=unlock(modified_qn, picked_movie, letter)
-                    print(modified_qn)
-                    d=input("Press 1 to guess the movie or 2 to unlock another letter: ")
-                    if d==1:
-                        ans=input("Your answer: ")
-                        if ans==picked_movie:
-                            print("Correct Letter")
-                            not_said=False
-                        else:
-                            print("Wrong Answer, Try again.")
-                else:
-                    print(letter, " not found")
-            c=int(input("press 1 to Continue or 0 to Quit: "))
-            if c==0:
-                print("Thanks for playing.")
-                willing=False
-        turn=turn+1
-        
+                print(letter, " not found")            
+                
 play()
