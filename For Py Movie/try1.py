@@ -7,9 +7,13 @@ movies = [
           'godfather', 'ramji rao speaking', 'his highness abdullah', 'uncle bun', 'johny walker', 'hitler',
           'superman', 'the car', 'summer in bethlehem', 'punjabi house', 'crime file', 'friends'
          ]
+# --------------------------------------------------------------------------
 
+def pick_movie():
+    ans = random.choice(movies)
+    
 
-
+# --------------------------------------------------------------------------
 def create_question(movie):
     n = len(movie)
     letters = list(movie)
@@ -46,7 +50,7 @@ def unlock(qn, movie, letter):
     return qn_new
     
 def play():
-    print("Malayalam Movie Guessing Game\nOnly Malayalam movies with English title are included")
+    print("\nMalayalam Movie Guessing Game\n\nOnly Malayalam movies with English title are included\n")
     p1name=input("Player1, Enter your Name: ")
     p2name=input("Player2, Enter your Name: ")
     pp1=0
