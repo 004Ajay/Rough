@@ -30,27 +30,31 @@ def unlock(qn, movie, letter):
         if ref[i] == '' or ref[i] == letter:
             temp.append(ref[i])
         else:
-            if qn_list[i] == '*':
+            if qn_list[i] == '*' or qn_list[i] == '_':
                 temp.append(' _ ')
             else:
                 temp.append(ref[i])
     qn_new=''.join(str(x) for x in temp)
     return qn_new
 
-def movie_guess(picked_movie):
+def movie_guess(picked_movie, modi_qn):
     if input("Your answer: ") == picked_movie:
         print("Correct...")
         again()
     else:
         print("Wrong Answer, but go on...")
+        letter_guess(picked_movie, modi_qn)
 
 
 
-def letter_guess(picked_movie):
+def letter_guess(picked_movie, mod_qn):
     letter = input("Your letter guess: ")
     if letter in picked_movie:
-        modified_qn = unlock(modified_qn, picked_movie, letter)
-        print(modified_qn)
+        print(f"Yes, {letter} is found")
+        mod_qn = unlock(mod_qn, picked_movie, letter)
+        print(mod_qn)
+    else:
+        print(f"No, {letter} not found")    
 
 
 def again():
@@ -62,18 +66,17 @@ def play():
         picked_movie = random.choice(movies)
         qn = create_question(picked_movie)
         modified_qn = qn
-        willing = True
-        while willing:
-            letter_guess(picked_movie)
-                d = int(input("Press 1) guess movie's full name or 2) guess another letter: "))
-                if d == 1:
-                    movie_guess(picked_movie)
-                elif d == 2:
-                    letter_guess(picked_movie)
-                else:
-                    print(d, "is out of range")
-                    letter_guess(picked_movie)
+        while True:
+            letter_guess(picked_movie, modified_qn)
+            d = int(input("Press 1) guess movie's full name or 2) guess another letter or 3) Exit : "))
+            if d == 1:
+                movie_guess(picked_movie, modified_qn)
+            elif d == 2:
+                letter_guess(picked_movie, modified_qn)
+            elif d == 3:
+                exit()    
             else:
-                print(letter, " not found")            
-                
+                print(d, "is out of range")
+                letter_guess(picked_movie, modified_qn)
+            
 play()
