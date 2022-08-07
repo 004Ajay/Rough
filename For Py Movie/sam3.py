@@ -51,8 +51,6 @@ def main():
                     letter_guess(picked_movie)
                 else:
                     print(ch, "is out of range")
-                    letter_guess(picked_movie)
+                    letter_guess(picked_movie, modified_qn)
 
-
-if __name__ == "__main__":
-    main()
+if __name__ # define main function call                    
