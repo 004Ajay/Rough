@@ -32,8 +32,7 @@ def unlock(qn, movie, letter):
         else:
             if qn_list[i] == '*' or qn_list[i] == '_':
                 temp.append(' _ ')
-            else:
-                temp.append(ref[i])
+            
     qn_new=''.join(str(x) for x in temp)
     return qn_new
 
@@ -80,3 +79,6 @@ def play():
                 letter_guess(picked_movie, modified_qn)
             
 play()
+
+# use try catch for entering alphabets when int input is required.
+# show previous correctly guessed letter
