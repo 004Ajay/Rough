@@ -1,16 +1,13 @@
 #include<stdio.h>
 
-
-
-int main(){
-    int prcs, burstTime, i,  prcs_no = 3;
-    int burst_time[] = {5, 8, 12};
-    int wt_time[10], tat[10];
-
     // wt_time[0] = 0;
     // wt time = burst time[i-1] + wt time[i-1]
     // tat = burst time[i] + wait time[i]
 
+int main(){
+    int prcs[] = {1, 2, 3}, burstTime, i,  prcs_no = 3;
+    int burst_time[] = {5, 8, 12};
+    int wt_time[10], tat[10];
     wt_time[0] = 0;
 
     for (i = 1; i < prcs_no; i++)
@@ -21,10 +18,9 @@ int main(){
         printf("%d\n", tat[i]);
     }
     
-
-    printf("Turn Around times\tWaiting times\n");
-    //for (int i = 0; i < prcs_no; i++)
-     //   printf("%d\n", wt_time[i]);
+    printf("Processes\tBurst Time\tWaiting time\tTurn Around time\n");
+    for (int i = 0; i < prcs_no; i++)
+        printf("%d\t\t%d\t\t%d\t\t%d\n", prcs[i], burst_time[i], wt_time[i], tat[i]);
 
     return 0;
 }
