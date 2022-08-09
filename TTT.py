@@ -20,7 +20,7 @@ DEFAULT_PLAYERS = (
     Player(label="O", color="green"),
 )
 
-class TicTacToeGame:
+class TicTacToe_Game:
     def __init__(self, players=DEFAULT_PLAYERS, board_size=BOARD_SIZE):
         self._players = cycle(players)
         self.board_size = board_size
@@ -91,7 +91,7 @@ class TicTacToeGame:
         self._has_winner = False
         self.winner_combo = []
 
-class TicTacToeBoard(tk.Tk):
+class TicTacToe_Board(tk.Tk):
     def __init__(self, game):
         super().__init__()
         self.title("Tic-Tac-Toe Game")
@@ -184,8 +184,8 @@ class TicTacToeBoard(tk.Tk):
 
 def main():
     """Create the game's board and run its main loop."""
-    game = TicTacToeGame()
-    board = TicTacToeBoard(game)
+    game = TicTacToe_Game()
+    board = TicTacToe_Board(game)
     board.mainloop()
 
 if __name__ == "__main__":
