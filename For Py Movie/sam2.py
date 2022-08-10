@@ -21,7 +21,7 @@ def create_question(movie): # for making packed form of taken movie, eg: for cbi
     print(qn)
     return qn
             
-def unlock(qn, movie, letter):
+def unlock(qn, movie, letter): # qn = mod_qn, movie = picked_movie, letter = user input letter
     ref = list(movie)
     qn_list = list(qn)
     temp = []
@@ -31,7 +31,7 @@ def unlock(qn, movie, letter):
             temp.append(ref[i])
         else:
             if qn_list[i] == '*' or qn_list[i] == '_':
-                temp.append(' _ ')
+                temp.append(ref[i])
             
     qn_new=''.join(str(x) for x in temp)
     return qn_new
