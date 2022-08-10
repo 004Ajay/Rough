@@ -13,17 +13,17 @@ movies = [
 def create_question(movie): # for making packed form of taken movie, eg: for cbi -> *** (packing as stars)
     temp = []
     for i in list(movie):
+        # temp.append(' ') if i == ' ' else temp.append('*') -> shorthand
         if i == ' ':
             temp.append(' ') # for space b\w words of taken movie name
         else:
             temp.append('*') # for letters in movie name
     qn = ''.join(str(x) for x in temp)
-    print(qn)
     return qn
             
 def unlock(qn, movie, letter): # qn = mod_qn, movie = picked_movie, letter = user input letter
-    ref = list(movie)
-    qn_list = list(qn)
+    ref = list(movie) # picked movie as list
+    qn_list = list(qn) # previously modified qn as list
     temp = []
     n = len(movie)
     for i in range(n):
@@ -31,7 +31,7 @@ def unlock(qn, movie, letter): # qn = mod_qn, movie = picked_movie, letter = use
             temp.append(ref[i])
         else:
             if qn_list[i] == '*' or qn_list[i] == '_':
-                temp.append(ref[i])
+                temp.append(' _ ')
             
     qn_new=''.join(str(x) for x in temp)
     return qn_new
@@ -64,6 +64,7 @@ def play():
     while True:
         picked_movie = random.choice(movies)
         qn = create_question(picked_movie)
+        print(qn)
         modified_qn = qn
         while True:
             letter_guess(picked_movie, modified_qn)
