@@ -44,8 +44,8 @@ def movie_guess(picked_movie, modi_qn):
         again()
     else:
         print("Wrong Answer, but go on...")
-        letter_guess(picked_movie, modi_qn)
-
+        res = letter_guess(picked_movie, modi_qn)
+    return res    
 
 
 def letter_guess(picked_movie, mod_qn):
@@ -55,7 +55,8 @@ def letter_guess(picked_movie, mod_qn):
         mod_qn = unlock(mod_qn, picked_movie, letter)
         print(mod_qn)
     else:
-        print(f"No, {letter} not found")    
+        print(f"No, {letter} not found")
+    return mod_qn      
 
 
 def again():
@@ -65,21 +66,26 @@ def play():
     print("\nMalayalam Movie Guessing Game\n\nOnly Malayalam movies with English title are included\n")
     while True:
         picked_movie = random.choice(movies)
+        print(picked_movie) # remove finally -------------- /////////  ---------------  ///////////   ---------------
         qn = create_question(picked_movie)
         print(qn)
         modified_qn = qn
         while True:
-            letter_guess(picked_movie, modified_qn)
+            res = letter_guess(picked_movie, modified_qn)
+            modified_qn = res
             d = int(input("Press 1) guess movie's full name or 2) guess another letter or 3) Exit : "))
             if d == 1:
-                movie_guess(picked_movie, modified_qn)
+                gus = movie_guess(picked_movie, modified_qn)
+                modified_qn = gus
             elif d == 2:
-                letter_guess(picked_movie, modified_qn)
+                res = letter_guess(picked_movie, modified_qn)
+                modified_qn = res
             elif d == 3:
                 exit()    
             else:
                 print(d, "is out of range")
-                letter_guess(picked_movie, modified_qn)
+                res = letter_guess(picked_movie, modified_qn)
+                modified_qn = res
             
 play()
 
