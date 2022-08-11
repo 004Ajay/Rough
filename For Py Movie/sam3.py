@@ -27,7 +27,9 @@ def unlock(qn, movie, letter): # qn = mod_qn, movie = picked_movie, letter = use
     temp = []
     n = len(movie)
     for i in range(n):
-        if ref[i] == '' or ref[i] == letter:
+        if ref[i] == ' ':
+            temp.append(" ")
+        elif ref[i] == letter:
             temp.append(ref[i])
         else:
             if qn_list[i] == '*' or qn_list[i] == '_':
