@@ -8,7 +8,7 @@ movies = [
           'superman', 'the car', 'summer in bethlehem', 'punjabi house', 'crime file', 'friends'
          ]
 
-
+# unlocked = []
 
 def create_question(movie): # for making packed form of taken movie, eg: for cbi -> *** (packing as stars)
     temp = []
@@ -31,6 +31,11 @@ def unlock(qn, movie, letter): # qn = mod_qn, movie = picked_movie, letter = use
             temp.append(" ")
         elif ref[i] == letter:
             temp.append(ref[i])
+        elif ref[i] == [j for j in ref]:
+            if ref[i] == letter:
+                continue
+            else:
+                temp.append(ref[i])
         else:
             if qn_list[i] == '*' or qn_list[i] == '_':
                 temp.append(' _ ')
@@ -78,14 +83,14 @@ def play():
                 gus = movie_guess(picked_movie, modified_qn)
                 modified_qn = gus
             elif d == 2:
-                res = letter_guess(picked_movie, modified_qn)
-                modified_qn = res
+                rest = letter_guess(picked_movie, modified_qn)
+                modified_qn = rest
             elif d == 3:
                 exit()    
             else:
                 print(d, "is out of range")
-                res = letter_guess(picked_movie, modified_qn)
-                modified_qn = res
+                resl = letter_guess(picked_movie, modified_qn)
+                modified_qn = resl
             
 play()
 
