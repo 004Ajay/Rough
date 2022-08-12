@@ -44,13 +44,13 @@ def letter_guess(movie, mod_qn):
                 temp.append(' ')
             elif ref[i] == letter:
                 temp.append(ref[i])
-            elif qn_list[i] == '*' or qn_list[i] == '_' or qn_list[i] == ' _ ':
+            elif qn_list[i] == '*' or qn_list == ' ' or qn_list[i] == '_': # or qn_list[i] == '_' or qn_list[i] == ' _ ' 
                 temp.append(' _ ')
         mod_qn = ''.join(str(x) for x in temp)
         print(mod_qn)    
         return mod_qn
     else:
-        print(f"No, {letter} not found")    
+        print(f"No, {letter} not found")
 
 
 def play():
