@@ -12,6 +12,15 @@ movies = [
 def again():
     main() if input("Do you want to play again? y/n: ") == 'y' else exit()
 
+"""
+# unpack at final stage
+
+def inst():
+    print("\nMalayalam Movie Guessing Game.\n\nOnly Malayalam movies with English title are included.\n")
+    if input("Let's start? (y/n): ") != 'y':
+        print("Exited!\n") 
+        exit()
+"""        
     
 def create_qn(movie): # for making packed form of picked movie, eg: cbi -> *** (packing as stars)
     temp = []
@@ -59,7 +68,7 @@ def getNum():
 
 
 def main():
-    print("\nMalayalam Movie Guessing Game.\n\nOnly Malayalam movies with English title are included.\n")
+    # inst() un-comment in final stage
     while True:
         picked_movie = random.choice(movies)
         movies.remove(picked_movie) # removing currently selected movie to avoid repetition
