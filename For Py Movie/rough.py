@@ -9,9 +9,6 @@ movies = [
          ]
 
 
-unlocked = []
-
-
 def again():
     play() if input("Do you want to play again? y/n: ") == 'y' else exit()
 
@@ -44,7 +41,7 @@ def letter_guess(movie, mod_qn):
                 temp.append(' ')
             elif ref[i] == letter:
                 temp.append(ref[i])
-            elif qn_list[i] == '*' or qn_list == ' ' or qn_list[i] == '_': # or qn_list[i] == '_' or qn_list[i] == ' _ ' 
+            elif qn_list[i] in [' ', '*', '_', ' _ ']:
                 temp.append(' _ ')
         mod_qn = ''.join(str(x) for x in temp)
         print(mod_qn)    
