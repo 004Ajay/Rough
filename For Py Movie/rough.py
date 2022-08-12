@@ -29,17 +29,17 @@ def create_qn(movie): # for making packed form of picked movie, eg: cbi -> *** (
     return ''.join(str(x) for x in temp) # returing string after joining contents of list temp
 
 
-def movie_guess(picked_movie, modi_qn):
-    if input("Your answer: ") == picked_movie:
+def movie_guess(movie, modi_qn):
+    if input("Your answer: ").lower() == movie:
         print("Correct...")
         again()
     else:
         print("Wrong Answer, but go on...")
-        letter_guess(picked_movie, modi_qn)
+        letter_guess(movie, modi_qn)
 
 
 def letter_guess(movie, mod_qn):
-    letter = input("Your letter guess: ") # getting letter
+    letter = input("Your letter guess: ").lower() # getting letter
     if letter in movie:
         print(f"Yes, {letter} found")
         ref = list(movie) # picked movie as list
@@ -60,11 +60,11 @@ def letter_guess(movie, mod_qn):
 
 def getNum():
     try:
-        num = int(input("Press 1) guess movie's full name or 2) guess another letter or 3) Exit : "))
+        numb = int(input("Press 1) Guess movie's full name or 2) Guess another letter or 3) Exit : "))
     except:
         print("Wrong Input. Try Again")
-        num = getNum()
-    return num
+        numb = getNum()
+    return numb
 
 
 def main():
