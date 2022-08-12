@@ -57,7 +57,7 @@ def play():
     print("\nMalayalam Movie Guessing Game.\n\nOnly Malayalam movies with English title are included.\n")
     while True:
         picked_movie = random.choice(movies)
-        print(picked_movie)
+        print(picked_movie) # remove at final change ------ //////// --------- /////// ----
         qn = create_qn(picked_movie)
         print(qn)
         modified_qn = qn
