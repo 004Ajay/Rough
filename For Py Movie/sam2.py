@@ -10,12 +10,11 @@ movies = [
 
 
 
-def create_question(movie): # for making packed form of taken movie, eg: for cbi -> *** (packing as stars)
+def create_qn(movie): # for making packed form of picked movie, eg: cbi -> *** (packing as stars)
     temp = []
     for i in list(movie):
         temp.append(' ') if i == ' ' else temp.append('*') # if else shorthand
-    qn = ''.join(str(x) for x in temp)
-    return qn
+    return ''.join(str(x) for x in temp) # returing string after joining all letters in temp
             
 def unlock(qn, movie, letter): # qn = mod_qn, movie = picked_movie, letter = user input letter
     ref = list(movie) # picked movie as list
@@ -62,7 +61,7 @@ def play():
     while True:
         picked_movie = random.choice(movies)
         print(picked_movie)
-        qn = create_question(picked_movie)
+        qn = create_qn(picked_movie)
         print(qn)
         modified_qn = qn
         while True:
