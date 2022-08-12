@@ -9,6 +9,10 @@ movies = [
          ]
 
 
+def again():
+    play() if input("Do you want to play again? y/n: ") == 'y' else exit()
+
+    
 def create_qn(movie): # for making packed form of picked movie, eg: cbi -> *** (packing as stars)
     temp = []
     for i in list(movie):
@@ -46,12 +50,8 @@ def letter_guess(movie, mod_qn):
         print(f"No, {letter} not found")    
 
 
-def again():
-    play() if input("Do you want to play again? y/n: ") == 'y' else exit()
-
-
 def play():
-    print("\nMalayalam Movie Guessing Game\n\nOnly Malayalam movies with English title are included\n")
+    print("\nMalayalam Movie Guessing Game.\n\nOnly Malayalam movies with English title are included.\n")
     while True:
         picked_movie = random.choice(movies)
         print(picked_movie)
