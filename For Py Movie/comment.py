@@ -1,15 +1,18 @@
 import random
 
-def create_question(movie): # for making packed form of taken movie, eg: for cbi -> *** (packing as stars)
+movies = [
+          'trance', 'forensic', 'shylock', 'the kung fu master', 'big brother', 'lucifer', 'brothers day',
+          'cold case', 'cbi', 'one', 'home', 'the priest', 'malik', 'the great indian kitchen', 'salute',
+          'joseph', 'night drive', 'traffic', 'classmates', 'bangalore days', 'sunny', 'joji', 'take off',
+          'godfather', 'ramji rao speaking', 'his highness abdullah', 'uncle bun', 'johny walker', 'hitler',
+          'superman', 'the car', 'summer in bethlehem', 'punjabi house', 'crime file', 'friends'
+         ]
+
+def create_qn(movie): # for making packed form of picked movie, eg: cbi -> *** (packing as stars)
     temp = []
     for i in list(movie):
-        # temp.append(' ') if i == ' ' else temp.append('*') -> shorthand
-        if i == ' ':
-            temp.append(' ') # for space b\w words of taken movie name
-        else:
-            temp.append('*') # for letters in movie name
-    qn = ''.join(str(x) for x in temp)
-    return qn
+        temp.append(' ') if i == ' ' else temp.append('*') # if else shorthand
+    return ''.join(str(x) for x in temp) # returing string after joining contents of list temp
             
 def unlock(qn, movie, letter): # qn = mod_qn, movie = picked_movie, letter = user input letter
     ref = list(movie) # picked movie as list
@@ -55,7 +58,8 @@ def play():
     print("\nMalayalam Movie Guessing Game\n\nOnly Malayalam movies with English title are included\n")
     while True:
         picked_movie = random.choice(movies)
-        qn = create_question(picked_movie)
+        print(picked_movie)
+        qn = create_qn(picked_movie)
         print(qn)
         modified_qn = qn
         while True:
@@ -75,3 +79,4 @@ play()
 
 # use try catch for entering alphabets when int input is required.
 # show previous correctly guessed letter
+# add comment - chnage unlock func with other elifs
