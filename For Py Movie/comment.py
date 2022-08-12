@@ -1,3 +1,5 @@
+import random
+
 def create_question(movie): # for making packed form of taken movie, eg: for cbi -> *** (packing as stars)
     temp = []
     for i in list(movie):
