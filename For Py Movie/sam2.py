@@ -10,8 +10,17 @@ movies = [
 
 
 def again():
-    play() if input("Do you want to play again? y/n: ") == 'y' else exit()
+    main() if input("Do you want to play again? y/n: ") == 'y' else exit()
 
+"""
+# unpack at final stage
+
+def inst():
+    print("\nMalayalam Movie Guessing Game.\n\nOnly Malayalam movies with English title are included.\n")
+    if input("Let's start? (y/n): ") != 'y':
+        print("Exited!\n") 
+        exit()
+"""        
     
 def create_qn(movie): # for making packed form of picked movie, eg: cbi -> *** (packing as stars)
     temp = []
@@ -32,7 +41,7 @@ def movie_guess(picked_movie, modi_qn):
 def letter_guess(movie, mod_qn):
     letter = input("Your letter guess: ") # getting letter
     if letter in movie:
-        print(f"Yes, {letter} is found")
+        print(f"Yes, {letter} found")
         ref = list(movie) # picked movie as list
         qn_list = list(mod_qn) # previously modified qn as list
         temp = []
@@ -41,26 +50,35 @@ def letter_guess(movie, mod_qn):
                 temp.append(' ')
             elif ref[i] == letter:
                 temp.append(ref[i])
-            elif qn_list[i] == '*' or qn_list[i] == '_' or qn_list[i] == ' _ ':
+            elif qn_list[i] in [' ', '*', '_', ' _ ']:
                 temp.append(' _ ')
-            mod_qn = ''.join(str(x) for x in temp)
+        mod_qn = ''.join(str(x) for x in temp)
         print(mod_qn)    
         return mod_qn
     else:
-        print(f"No, {letter} not found")    
+        print(f"No, {letter} not found")
+
+def getNum():
+    try:
+        num = int(input("Press 1) guess movie's full name or 2) guess another letter or 3) Exit : "))
+    except:
+        print("Wrong Input. Try Again")
+        num = getNum()
+    return num
 
 
-def play():
-    print("\nMalayalam Movie Guessing Game.\n\nOnly Malayalam movies with English title are included.\n")
+def main():
+    # inst() un-comment in final stage
     while True:
         picked_movie = random.choice(movies)
-        print(picked_movie)
+        movies.remove(picked_movie) # removing currently selected movie to avoid repetition
+        print(picked_movie) # remove at final change ------ //////// --------- /////// ----
         qn = create_qn(picked_movie)
         print(qn)
         modified_qn = qn
         while True:
             letter_guess(picked_movie, modified_qn)
-            num = int(input("Press 1) guess movie's full name or 2) guess another letter or 3) Exit : "))
+            num = getNum()
             if num == 1:
                 movie_guess(picked_movie, modified_qn)
             elif num == 2:
@@ -68,11 +86,13 @@ def play():
             elif num == 3:
                 exit()    
             else:
-                print(num, "is out of range")
+                print(num, "is out of range. Please guess another letter.")
                 letter_guess(picked_movie, modified_qn)
 
 
-play() # initiator
+if __name__ == "__main__": # initiator
+    main()
+
 
 # use try catch for entering alphabets when int input is required.
 # show previous correctly guessed letter
