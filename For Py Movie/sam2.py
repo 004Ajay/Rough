@@ -16,20 +16,6 @@ def create_qn(movie): # for making packed form of picked movie, eg: cbi -> *** (
     return ''.join(str(x) for x in temp) # returing string after joining contents of list temp
 
 
-def unlock(qn, movie, letter): # qn = mod_qn, movie = picked_movie, letter = user input letter
-    ref = list(movie) # picked movie as list
-    qn_list = list(qn) # previously modified qn as list
-    temp = []
-    for i in range(len(movie)):
-        if ref[i] == ' ':
-            temp.append(' ')
-        elif ref[i] == letter:
-            temp.append(ref[i])
-        elif qn_list[i] == '*' or qn_list[i] == '_' or qn_list[i] == ' _ ':
-            temp.append(' _ ')
-    return ''.join(str(x) for x in temp)
-
-
 def movie_guess(picked_movie, modi_qn):
     if input("Your answer: ") == picked_movie:
         print("Correct...")
@@ -39,12 +25,23 @@ def movie_guess(picked_movie, modi_qn):
         letter_guess(picked_movie, modi_qn)
 
 
-def letter_guess(picked_movie, mod_qn):
-    letter = input("Your letter guess: ")
-    if letter in picked_movie:
+def letter_guess(movie, mod_qn):
+    letter = input("Your letter guess: ") # getting letter
+    if letter in movie:
         print(f"Yes, {letter} is found")
-        mod_qn = unlock(mod_qn, picked_movie, letter)
-        print(mod_qn)
+        ref = list(movie) # picked movie as list
+        qn_list = list(mod_qn) # previously modified qn as list
+        temp = []
+        for i in range(len(movie)):
+            if ref[i] == ' ':
+                temp.append(' ')
+            elif ref[i] == letter:
+                temp.append(ref[i])
+            elif qn_list[i] == '*' or qn_list[i] == '_' or qn_list[i] == ' _ ':
+                temp.append(' _ ')
+            mod_qn = ''.join(str(x) for x in temp)
+        print(mod_qn)    
+        return mod_qn
     else:
         print(f"No, {letter} not found")    
 
@@ -63,15 +60,15 @@ def play():
         modified_qn = qn
         while True:
             letter_guess(picked_movie, modified_qn)
-            d = int(input("Press 1) guess movie's full name or 2) guess another letter or 3) Exit : "))
-            if d == 1:
+            num = int(input("Press 1) guess movie's full name or 2) guess another letter or 3) Exit : "))
+            if num == 1:
                 movie_guess(picked_movie, modified_qn)
-            elif d == 2:
+            elif num == 2:
                 letter_guess(picked_movie, modified_qn)
-            elif d == 3:
+            elif num == 3:
                 exit()    
             else:
-                print(d, "is out of range")
+                print(num, "is out of range")
                 letter_guess(picked_movie, modified_qn)
 
 
