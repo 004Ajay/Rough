@@ -1,3 +1,4 @@
+from operator import mod
 import random
 
 movies = [
@@ -77,7 +78,8 @@ def main():
         print(qn)
         modified_qn = qn
         while True:
-            letter_guess(picked_movie, modified_qn)
+            gus = letter_guess(picked_movie, modified_qn)
+            modified_qn = gus
             num = getNum()
             if num == 1:
                 movie_guess(picked_movie, modified_qn)

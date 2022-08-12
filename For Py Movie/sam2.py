@@ -43,7 +43,10 @@ def letter_guess(movie, mod_qn):
     if letter in movie:
         print(f"Yes, {letter} found")
         ref = list(movie) # picked movie as list
-        qn_list = list(mod_qn) # previously modified qn as list
+        lst = list(mod_qn) # previously modified qn as list
+        if ' ' in lst:
+            nw_mod_qn = mod_qn.strip()
+        qn_list = list(nw_mod_qn)    
         temp = []
         for i in range(len(movie)):
             if ref[i] == ' ':
