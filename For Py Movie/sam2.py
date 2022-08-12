@@ -8,28 +8,27 @@ movies = [
           'superman', 'the car', 'summer in bethlehem', 'punjabi house', 'crime file', 'friends'
          ]
 
+
 def create_qn(movie): # for making packed form of picked movie, eg: cbi -> *** (packing as stars)
     temp = []
     for i in list(movie):
         temp.append(' ') if i == ' ' else temp.append('*') # if else shorthand
     return ''.join(str(x) for x in temp) # returing string after joining contents of list temp
-            
+
+
 def unlock(qn, movie, letter): # qn = mod_qn, movie = picked_movie, letter = user input letter
     ref = list(movie) # picked movie as list
     qn_list = list(qn) # previously modified qn as list
     temp = []
-    n = len(movie)
-    for i in range(n):
+    for i in range(len(movie)):
         if ref[i] == ' ':
-            temp.append(" ")
+            temp.append(' ')
         elif ref[i] == letter:
             temp.append(ref[i])
-        else:
-            if qn_list[i] == '*' or qn_list[i] == '_':
-                temp.append(' _ ')
-            
-    qn_new=''.join(str(x) for x in temp)
-    return qn_new
+        elif qn_list[i] == '*' or qn_list[i] == '_' or qn_list[i] == ' _ ':
+            temp.append(' _ ')
+    return ''.join(str(x) for x in temp)
+
 
 def movie_guess(picked_movie, modi_qn):
     if input("Your answer: ") == picked_movie:
@@ -38,7 +37,6 @@ def movie_guess(picked_movie, modi_qn):
     else:
         print("Wrong Answer, but go on...")
         letter_guess(picked_movie, modi_qn)
-
 
 
 def letter_guess(picked_movie, mod_qn):
@@ -53,6 +51,7 @@ def letter_guess(picked_movie, mod_qn):
 
 def again():
     play() if input("Do you want to play again? y/n: ") == 'y' else exit()
+
 
 def play():
     print("\nMalayalam Movie Guessing Game\n\nOnly Malayalam movies with English title are included\n")
@@ -74,8 +73,9 @@ def play():
             else:
                 print(d, "is out of range")
                 letter_guess(picked_movie, modified_qn)
-            
-play()
+
+
+play() # initiator
 
 # use try catch for entering alphabets when int input is required.
 # show previous correctly guessed letter
