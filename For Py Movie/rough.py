@@ -13,7 +13,7 @@ def again():
     main() if input("Do you want to play again? y/n: ") == 'y' else exit()
 
 """
-# unpack at final stage
+# unpack at final stage ------ //////// --------- /////// ----
 
 def inst():
     print("\nMalayalam Movie Guessing Game.\n\nOnly Malayalam movies with English title are included.\n")
@@ -68,7 +68,7 @@ def getNum():
 
 
 def main():
-    # inst() un-comment in final stage
+    # inst() un-comment in final stage ------ //////// --------- /////// ----
     while True:
         picked_movie = random.choice(movies)
         movies.remove(picked_movie) # removing currently selected movie to avoid repetition
