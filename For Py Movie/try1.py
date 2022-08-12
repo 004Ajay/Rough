@@ -36,7 +36,7 @@ def unlock(qn, movie, letter):
         if ref[i]=='' or ref[i]==letter:
              temp.append(ref[i])
         else:
-            if qn_list[i]=='*':
+            if qn_list[i]=='*' or qn_list[i] == " ":
                 temp.append(' _ ')
             else:
                 temp.append(ref[i])
@@ -56,6 +56,7 @@ def play():
             #Turn of player1
             print(p1name,",it's your turn.")
             picked_movie=random.choice(movies)
+            print(picked_movie)
             qn=create_question(picked_movie)
             print (qn)
             modified_qn=qn
