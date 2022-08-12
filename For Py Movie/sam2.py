@@ -8,13 +8,11 @@ movies = [
           'superman', 'the car', 'summer in bethlehem', 'punjabi house', 'crime file', 'friends'
          ]
 
-
-
 def create_qn(movie): # for making packed form of picked movie, eg: cbi -> *** (packing as stars)
     temp = []
     for i in list(movie):
         temp.append(' ') if i == ' ' else temp.append('*') # if else shorthand
-    return ''.join(str(x) for x in temp) # returing string after joining all letters in temp
+    return ''.join(str(x) for x in temp) # returing string after joining contents of list temp
             
 def unlock(qn, movie, letter): # qn = mod_qn, movie = picked_movie, letter = user input letter
     ref = list(movie) # picked movie as list
