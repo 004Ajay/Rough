@@ -13,11 +13,7 @@ movies = [
 def create_question(movie): # for making packed form of taken movie, eg: for cbi -> *** (packing as stars)
     temp = []
     for i in list(movie):
-        # temp.append(' ') if i == ' ' else temp.append('*') -> shorthand
-        if i == ' ':
-            temp.append(' ') # for space b\w words of taken movie name
-        else:
-            temp.append('*') # for letters in movie name
+        temp.append(' ') if i == ' ' else temp.append('*') # if else shorthand
     qn = ''.join(str(x) for x in temp)
     return qn
             
@@ -65,6 +61,7 @@ def play():
     print("\nMalayalam Movie Guessing Game\n\nOnly Malayalam movies with English title are included\n")
     while True:
         picked_movie = random.choice(movies)
+        print(picked_movie)
         qn = create_question(picked_movie)
         print(qn)
         modified_qn = qn
