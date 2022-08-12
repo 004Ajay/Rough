@@ -1,5 +1,5 @@
 import random
-Films=["Deadpool","Avengers Endgame","Drishyam","Hera Pheri","Munna Bhai MBBS","Justice League","The Dark Knight","Cars","Titanic","Haseena Man Jayegi","Uri Surgical Strike","Guardians of the Galaxy","Interstellar","Inception","The Great Gatsby","John Wick","Spiderman Homecoming","Bajirao Mastani","Nobody","Life of Pi","Krish","Golmaal","Housefull","Zindagi Na Milegi Dobara","3 idiots","Dangal","Badshah","The Shawshank Redemption","Frozen","Soul","Despicable Me","Minions","Crossroads"]
+Films=["Deadpool","Avengers Endgame","Drishyam","Justice League","Cars","Inception","Soul","Despicable Me"]
 
 def create_question(Movie):    
     n=len(Movie)
@@ -29,12 +29,12 @@ def unlock(Q,picked_Movie,letter):
         if ref[i]==" " or ref[i]==letter:
            temp.append(ref[i])
         else:
-          if Q_list[i]=="*":
-            temp.append("*")
+          if Q_list[i]=="*" or Q_list[i]==" ":
+            temp.append(" _ ")
           else:
               temp.append(ref[i])
     
-    Q_new =" ".join(str(x) for x in temp)
+    Q_new ="".join(str(x) for x in temp)
     return Q_new         
             
             
@@ -87,6 +87,7 @@ def game():
         else: 
             print(pB,",your turn")
             picked_Movie=random.choice(Films)
+            print(picked_Movie)
             Q=create_question(picked_Movie)
             print(Q)
             modified_Q=Q
