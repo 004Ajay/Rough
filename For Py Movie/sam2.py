@@ -37,9 +37,6 @@ def letter_guess(movie, mod_qn):
     if letter in movie:
         print(f"Yes, {letter} found")
         ref = list(movie) # picked movie as list
-        #lst = list(mod_qn) # previously modified qn as list
-        #if ' ' in lst:
-        #   nw_mod_qn = mod_qn.strip()
         qn_list = list(mod_qn)    
         temp = []
         for i in range(len(movie)):
@@ -72,8 +69,9 @@ def main():
         print(picked_movie) # remove at final change ------ //////// --------- /////// ----
         qn = create_qn(picked_movie)
         print(qn)
-        modified_qn = qn
+        
         while True:
+            modified_qn = qn
             gus = letter_guess(picked_movie, modified_qn)
             modified_qn = gus
             num = getNum()
@@ -86,7 +84,8 @@ def main():
                 exit()    
             else:
                 print(num, "is out of range. Please guess another letter.")
-                letter_guess(picked_movie, modified_qn)
+                resl = letter_guess(picked_movie, modified_qn)
+                modified_qn = resl
 
 
 if __name__ == "__main__": # initiator
