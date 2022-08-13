@@ -1,6 +1,6 @@
 import random
 
-movies = ['abc', 'def gh',  'i j', 'kl mn']
+movies = ['def gh', 'kl mn']
 
 
 def again():
@@ -45,10 +45,10 @@ def letter_guess(movie, mod_qn):
         for i in range(len(movie)):
             #if ref[i] == ' ':
             #    temp.append(' ')
-            if ref[i] == letter:
+            if ref[i] == letter or ref[i] in mod_qn:
                 temp.append(ref[i])
-            elif qn_list[i] in [' ', '*', '_', ' _ ']:
-                temp.append(' _ ')
+            elif qn_list[i] in ['*', '_']:
+                temp.append('_')
         mod_qn = ''.join(str(x) for x in temp)
         print(mod_qn)    
         return mod_qn
@@ -74,12 +74,14 @@ def main():
         print(qn)
         modified_qn = qn
         while True:
-            letter_guess(picked_movie, modified_qn)
+            gus = letter_guess(picked_movie, modified_qn)
+            modified_qn = gus
             num = getNum()
             if num == 1:
                 movie_guess(picked_movie, modified_qn)
             elif num == 2:
-                letter_guess(picked_movie, modified_qn)
+                res = letter_guess(picked_movie, modified_qn)
+                modified_qn = res
             elif num == 3:
                 exit()    
             else:

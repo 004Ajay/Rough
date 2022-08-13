@@ -1,7 +1,6 @@
-from operator import mod
 import random
 
-movies = ['abc', 'def gh',  'i j', 'kl mn']
+movies = ['def gh', 'kl mn']
 
 
 def again():
@@ -38,15 +37,18 @@ def letter_guess(movie, mod_qn):
     if letter in movie:
         print(f"Yes, {letter} found")
         ref = list(movie) # picked movie as list
-        qn_list = list(mod_qn) # previously modified qn as list
+        #lst = list(mod_qn) # previously modified qn as list
+        #if ' ' in lst:
+        #   nw_mod_qn = mod_qn.strip()
+        qn_list = list(mod_qn)    
         temp = []
         for i in range(len(movie)):
-            if ref[i] == ' ':
-                temp.append(' ')
-            elif ref[i] == letter:
+            #if ref[i] == ' ':
+            #    temp.append(' ')
+            if ref[i] == letter or ref[i] in mod_qn:
                 temp.append(ref[i])
-            elif qn_list[i] in [' ', '*', '_', ' _ ']:
-                temp.append(' _ ')
+            elif qn_list[i] in ['*', '_']:
+                temp.append('_')
         mod_qn = ''.join(str(x) for x in temp)
         print(mod_qn)    
         return mod_qn
@@ -78,7 +80,8 @@ def main():
             if num == 1:
                 movie_guess(picked_movie, modified_qn)
             elif num == 2:
-                letter_guess(picked_movie, modified_qn)
+                res = letter_guess(picked_movie, modified_qn)
+                modified_qn = res
             elif num == 3:
                 exit()    
             else:
