@@ -1,6 +1,7 @@
 import random
 
-movies = ['def gh', 'kl mn']
+
+movies = ['def gh']#, 'kl mn']
 
 
 def again():
@@ -64,31 +65,27 @@ def getNum():
 def main():
     # inst() un-comment in final stage ------ //////// --------- /////// ----
     while True:
-        try:
-            picked_movie = random.choice(movies)
-            movies.remove(picked_movie) # removing currently selected movie to avoid repetition
-            print(picked_movie) # remove at final change ------ //////// --------- /////// ----
-            qn = create_qn(picked_movie)
-            print(qn)
-            modified_qn = qn
-            while True:
-                gus = letter_guess(picked_movie, modified_qn)
-                modified_qn = gus
-                num = getNum()
-                if num == 1:
-                    movie_guess(picked_movie, modified_qn)
-                elif num == 2:
-                    res = letter_guess(picked_movie, modified_qn)
-                    modified_qn = res
-                elif num == 3:
-                    exit()    
-                else:
-                    print(num, "is out of range. Please guess another letter.")
-                    resl = letter_guess(picked_movie, modified_qn)
-                    modified_qn = resl            
-        except:
-            print("Sorry, List is empty.\nThank you for playing.\n")
-            exit() if input("Can we exit? (y/n): ") == 'y' else print("\nNo steps ahead\n")
+        picked_movie = random.choice(movies)
+        movies.remove(picked_movie) # removing currently selected movie to avoid repetition
+        print(picked_movie) # remove at final change ------ //////// --------- /////// ----
+        qn = create_qn(picked_movie)
+        print(qn)
+        modified_qn = qn
+        while True:
+            gus = letter_guess(picked_movie, modified_qn)
+            modified_qn = gus
+            num = getNum()
+            if num == 1:
+                movie_guess(picked_movie, modified_qn)
+            elif num == 2:
+                res = letter_guess(picked_movie, modified_qn)
+                modified_qn = res
+            elif num == 3:
+                exit()    
+            else:
+                print(num, "is out of range. Please guess another letter.")
+                resl = letter_guess(picked_movie, modified_qn)
+                modified_qn = resl            
 
 if __name__ == "__main__": # initiator
     main()
