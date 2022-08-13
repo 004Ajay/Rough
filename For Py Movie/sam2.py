@@ -57,7 +57,8 @@ def movie_guess(movie, modi_qn):
         again()
     else:
         print("Wrong Answer, but go on...")
-        letter_guess(movie, modi_qn)
+        gus = letter_guess(movie, modi_qn)
+        return gus
 
 
 def again():
@@ -68,7 +69,7 @@ def main():
     # inst() un-comment in final stage ------ //////// --------- /////// ----
     while True:
         picked_movie = random.choice(movies)
-        movies.remove(picked_movie) # removing currently selected movie to avoid repetition
+        movies.remove(picked_movie) # removing currently selected movie to avoid repetition, works in multiple plays at one go
         print(picked_movie) # remove at final change ------ //////// --------- /////// ----
         qn = create_qn(picked_movie)
         print(qn)
@@ -78,7 +79,8 @@ def main():
             modified_qn = gus
             num = getNum()
             if num == 1:
-                movie_guess(picked_movie, modified_qn)
+                guss = movie_guess(picked_movie, modified_qn)
+                modified_qn = guss
             elif num == 2:
                 res = letter_guess(picked_movie, modified_qn)
                 modified_qn = res

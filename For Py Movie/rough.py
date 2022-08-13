@@ -4,9 +4,6 @@ import random
 movies = ['def gh']#, 'kl mn']
 
 
-def again():
-    main() if input("Do you want to play again? y/n: ") == 'y' else exit()
-
 """
 # unpack at final stage ------ //////// --------- /////// ----
 
@@ -22,15 +19,6 @@ def create_qn(movie): # for making packed form of picked movie, eg: cbi -> *** (
     for i in list(movie):
         temp.append(' ') if i == ' ' else temp.append('*') # if else shorthand
     return ''.join(str(x) for x in temp) # returing string after joining contents of list temp
-
-
-def movie_guess(movie, modi_qn):
-    if input("Your answer: ").lower() == movie:
-        print("Correct...")
-        again()
-    else:
-        print("Wrong Answer, but go on...")
-        letter_guess(movie, modi_qn)
 
 
 def letter_guess(movie, mod_qn):
@@ -53,6 +41,7 @@ def letter_guess(movie, mod_qn):
     else:
         print(f"No, {letter} not found")
 
+
 def getNum():
     try:
         numb = int(input("Press 1) Guess movie's full name or 2) Guess another letter or 3) Exit : "))
@@ -62,11 +51,25 @@ def getNum():
     return numb
 
 
+def movie_guess(movie, modi_qn):
+    if input("Your answer: ").lower() == movie:
+        print("Correct...")
+        again()
+    else:
+        print("Wrong Answer, but go on...")
+        gus = letter_guess(movie, modi_qn)
+        return gus
+
+
+def again():
+    main() if input("Do you want to play again? y/n: ") == 'y' else exit()
+
+
 def main():
     # inst() un-comment in final stage ------ //////// --------- /////// ----
     while True:
         picked_movie = random.choice(movies)
-        movies.remove(picked_movie) # removing currently selected movie to avoid repetition
+        movies.remove(picked_movie) # removing currently selected movie to avoid repetition, works in multiple plays at one go
         print(picked_movie) # remove at final change ------ //////// --------- /////// ----
         qn = create_qn(picked_movie)
         print(qn)
@@ -76,7 +79,8 @@ def main():
             modified_qn = gus
             num = getNum()
             if num == 1:
-                movie_guess(picked_movie, modified_qn)
+                guss = movie_guess(picked_movie, modified_qn)
+                modified_qn = guss
             elif num == 2:
                 res = letter_guess(picked_movie, modified_qn)
                 modified_qn = res
@@ -87,5 +91,5 @@ def main():
                 resl = letter_guess(picked_movie, modified_qn)
                 modified_qn = resl            
 
-if __name__ == "__main__": # initiator
+if __name__ == "__main__": # main function call
     main()
