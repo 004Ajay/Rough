@@ -91,7 +91,4 @@ def main():
 if __name__ == "__main__": # initiator
     main()
 
-
-# use try catch for entering alphabets when int input is required.
 # show previous correctly guessed letter
-# add comment - chnage unlock func with other elifs
