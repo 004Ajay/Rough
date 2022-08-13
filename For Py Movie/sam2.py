@@ -1,6 +1,7 @@
 import random
 
-movies = ['def gh', 'kl mn']
+
+movies = ['def gh']#, 'kl mn']
 
 
 def again():
@@ -69,9 +70,8 @@ def main():
         print(picked_movie) # remove at final change ------ //////// --------- /////// ----
         qn = create_qn(picked_movie)
         print(qn)
-        
+        modified_qn = qn
         while True:
-            modified_qn = qn
             gus = letter_guess(picked_movie, modified_qn)
             modified_qn = gus
             num = getNum()
@@ -85,13 +85,7 @@ def main():
             else:
                 print(num, "is out of range. Please guess another letter.")
                 resl = letter_guess(picked_movie, modified_qn)
-                modified_qn = resl
-
+                modified_qn = resl            
 
 if __name__ == "__main__": # initiator
     main()
-
-
-# use try catch for entering alphabets when int input is required.
-# show previous correctly guessed letter
-# add comment - chnage unlock func with other elifs
