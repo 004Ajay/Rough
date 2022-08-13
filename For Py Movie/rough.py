@@ -87,7 +87,7 @@ def main():
                     resl = letter_guess(picked_movie, modified_qn)
                     modified_qn = resl            
         except:
-            print("Sorry, List is empty\nThank you for playing\n")
+            print("Sorry, List is empty.\nThank you for playing.\n")
             exit() if input("Can we exit? (y/n): ") == 'y' else print("\nNo steps ahead\n")
 
 if __name__ == "__main__": # initiator
