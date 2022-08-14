@@ -13,4 +13,4 @@ for i in range(25): # running 25 times means increasing volume by 50 points, i.e
     # APPCOMMAND_VOLUME_UP (10) (0xFFFF + 1) * 10 = 0xA0000
     
 # playing sound    
-playsound("D:\AJAYMON\AJAY\Programming\Rough\For startup dialogue/audio.mp3")
+playsound("C:/Users/ASUS/Documents/Python Notebook/audio.mp3")
