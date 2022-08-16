@@ -93,3 +93,7 @@ def main():
 
 if __name__ == "__main__": # main function call
     main()
+
+
+# check for num == 2 step error
+# modify the code better     
