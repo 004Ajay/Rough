@@ -1,12 +1,14 @@
-from tkinter import *
-import vlc
-
-
-window = Tk()
-
-# window title
-window.title("Test")
-
-window.configure(width=800, height=500)
-window.configure(bg='#430752')
-window.mainloop()
+def FizzBuzz(lst):
+    a=[]
+    for i in lst:
+        if i % 3 == 0 and i % 5 == 0:
+            a.append("FizzBuzz")
+        elif i % 3 == 0:
+            a.append("Fizz")
+        elif i % 5 == 0:
+            a.append("Buzz")
+        else:    
+            a.append(str(i))
+    return a
+n = int(input())
+print(FizzBuzz(n))
