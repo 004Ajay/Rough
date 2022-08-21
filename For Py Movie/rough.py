@@ -41,7 +41,7 @@ def letter_guess(movie, mod_qn): # getting and checking user's guessed letter
             again()
         else:
             print(mod_qn)    
-        return mod_qn
+            return mod_qn
     else:
         print(f"No, {letter} not found")
 
