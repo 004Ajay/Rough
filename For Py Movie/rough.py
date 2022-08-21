@@ -1,7 +1,7 @@
 import random
 
 
-movies = ['def gh']#, 'kl mn']
+movies = ['def gh', 'kl mn']
 
 
 """
@@ -71,10 +71,10 @@ def again():
 
 def main():
     # inst() un-comment in final stage ------ //////// --------- /////// ----
+    picked_movie = random.choice(movies)
+    movies.remove(picked_movie) # removing currently selected movie to avoid repetition, works in multiple plays at one go
+    print(picked_movie) # remove at final change ------ //////// --------- /////// ----
     while True:
-        picked_movie = random.choice(movies)
-        movies.remove(picked_movie) # removing currently selected movie to avoid repetition, works in multiple plays at one go
-        print(picked_movie) # remove at final change ------ //////// --------- /////// ----
         qn = create_qn(picked_movie)
         print(qn)
         modified_qn = qn
