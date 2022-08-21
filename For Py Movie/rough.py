@@ -36,7 +36,11 @@ def letter_guess(movie, mod_qn):
             elif qn_list[i] in ['*', '_']:
                 temp.append('_')
         mod_qn = ''.join(str(x) for x in temp)
-        print(mod_qn)    
+        if mod_qn == movie: # user fills the question by gussing each letters
+            print("Correct...You guessed it...\n", mod_qn)
+            again()
+        else:
+            print(mod_qn)    
         return mod_qn
     else:
         print(f"No, {letter} not found")
@@ -53,7 +57,7 @@ def getNum():
 
 def movie_guess(movie, modi_qn):
     if input("Your answer: ").lower() == movie:
-        print("Correct...")
+        print("Correct...You guessed it...\n", movie)
         again()
     else:
         print("Wrong Answer, but go on...")
