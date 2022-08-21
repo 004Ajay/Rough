@@ -2,16 +2,16 @@
 
 [Python](https://github.com/004Ajay/Python)
 
-[OperatingSystem](https://github.com/004Ajay/OperatingSystem)
+[Operating Systems](https://github.com/004Ajay/OperatingSystem)
 
 [SQL](https://github.com/004Ajay/SQL)
 
 [C](https://github.com/004Ajay/C)
 
-[Data-Structures](https://github.com/004Ajay/Data-Structures)
+[Data Structures](https://github.com/004Ajay/Data-Structures)
 
 [Java](https://github.com/004Ajay/Java)
 
-[004Ajay](https://github.com/004Ajay/004Ajay)
+[004Ajay (GitHub profile page)](https://github.com/004Ajay/004Ajay)
 
-[004Ajay.github.io](https://github.com/004Ajay/004Ajay.github.io)
+[004Ajay (Website)](https://github.com/004Ajay/004Ajay.github.io)
