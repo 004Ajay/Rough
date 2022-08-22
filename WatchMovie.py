@@ -5,7 +5,6 @@ movies = [
 "Around the World in 80 Days",
 "Bro Daddy",
 "Dejavu",
-"Heaven",
 "Mike",
 "Nna Than Case Kodu",
 "Picket 43",
