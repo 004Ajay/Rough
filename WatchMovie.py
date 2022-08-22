@@ -15,9 +15,15 @@ movies = [
 "swapnakoodu",
 "Thallumala",
 "varayan",
-"virus"
+"virus",
+"Koodasha",
+"Naku penta naku taka",
+"Ee thanutha veluppan kalathu",
+"aadu",
+"Utharam"
 ]
 
+print(len(movies))
 while True:
     print("Watch: ", random.choice(movies))
     if input("close: ") == 'y':
