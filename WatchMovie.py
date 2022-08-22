@@ -13,7 +13,6 @@ movies = [
 "Sita Ramam",
 "Solomante Theneechakal",
 "Swapnakoodu",
-"Thallumala",
 "Varayan",
 "Virus",
 "Koodasha",
