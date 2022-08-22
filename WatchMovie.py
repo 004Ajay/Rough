@@ -4,26 +4,27 @@ movies = [
 "13 lives",
 "Around the World in 80 Days",
 "Bro Daddy",
-"dejavu",
+"Dejavu",
 "Heaven",
-"mike",
-"nna than case kodu",
+"Mike",
+"Nna Than Case Kodu",
 "Picket 43",
-"shamshera",
-"sita ramam",
+"Shamshera",
+"Sita Ramam",
 "Solomante Theneechakal",
-"swapnakoodu",
+"Swapnakoodu",
 "Thallumala",
-"varayan",
-"virus",
+"Varayan",
+"Virus",
 "Koodasha",
-"Naku penta naku taka",
-"Ee thanutha veluppan kalathu",
-"aadu",
+"Naku Penta Naku Taka",
+"Ee Thanutha Veluppan Kalathu",
+"Aadu",
 "Utharam"
 ]
 
-print(len(movies))
+print("Total number of movies: ", len(movies))
+
 while True:
     print("Watch: ", random.choice(movies))
     if input("close: ") == 'y':
