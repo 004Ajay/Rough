@@ -1,75 +1,35 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Aug  2 14:25:19 2019
-
-@author: GITAA
-"""
-
-# =============================================================================
 # PREDICTING PRICE OF PRE-OWNED CARS 
-# =============================================================================
 
 import pandas as pd
 import numpy as np
 import seaborn as sns
+ 
+sns.set(rc={'figure.figsize':(11.7,8.27)}) # Setting dimensions for plot
+ 
+cars_data=pd.read_csv('cars_sampled.csv' ) # Reading CSV file
 
-# =============================================================================
-# Setting dimensions for plot 
-# =============================================================================
+cars=cars_data.copy() # Creating copy
 
-sns.set(rc={'figure.figsize':(11.7,8.27)})
+cars.info() # Structure of the dataset
 
-
-# =============================================================================
-# Reading CSV file
-# =============================================================================
-cars_data=pd.read_csv('cars_sampled.csv' )
-
-# =============================================================================
-# Creating copy
-# =============================================================================
-cars=cars_data.copy()
-
-# =============================================================================
-# Structure of the dataset
-# =============================================================================
-cars.info()
-
-# =============================================================================
 # Summarizing data
-# =============================================================================
-
 cars.describe()
 pd.set_option('display.float_format', lambda x: '%.3f' % x)
 cars.describe()
-
 
 # To display maximum set of columns
 pd.set_option('display.max_columns', 500)
 cars.describe()
 
-
-# =============================================================================
 # Dropping unwanted columns
-# =============================================================================
-
 col=['name','dateCrawled','dateCreated','postalCode','lastSeen']
 cars=cars.drop(columns=col, axis=1)
 
-# =============================================================================
-# Removing duplicate records
-# =============================================================================
-
+# Removing duplicate records - 470 duplicate records
 cars.drop_duplicates(keep='first',inplace=True)
-#470 duplicate records
 
-# =============================================================================
-# Data cleaning
-# =============================================================================
-
-# No. of missing values in each column
+# Data cleaning - No. of missing values in each column
 cars.isnull().sum()
-
 
 # Variable yearOfRegistration
 yearwise_count=cars['yearOfRegistration'].value_counts().sort_index()
@@ -101,9 +61,9 @@ sum(cars['powerPS'] < 10)
 # Working range- 10 and 500
 
 
-# =============================================================================
+# 
 # Working range of data
-# =============================================================================
+# 
 
 # Working range of data
 
@@ -247,25 +207,25 @@ sns.boxplot(x= 'notRepairedDamage',y='price',data=cars)
 
 
 
-# =============================================================================
+# 
 # Removing insignificant variables
-# =============================================================================
+# 
 
 col=['seller','offerType','abtest']
 cars=cars.drop(columns=col, axis=1)
 cars_copy=cars.copy()
 
 
-# =============================================================================
+# 
 # Correlation
-# =============================================================================
+# 
 
 cars_select1=cars.select_dtypes(exclude=[object])
 correlation=cars_select1.corr()
 round(correlation,3)   
 cars_select1.corr().loc[:,'price'].abs().sort_values(ascending=False)[1:]                          
 
-# =============================================================================
+# 
 
 
 """
@@ -276,18 +236,18 @@ on two sets of data.
 """
 
 
-# =============================================================================
+# 
 # OMITTING MISSING VALUES
-# =============================================================================
+# 
 
 cars_omit=cars.dropna(axis=0)
 
 # Converting categorical variables to dummy variables
 cars_omit=pd.get_dummies(cars_omit,drop_first=True) 
 
-# =============================================================================
+# 
 # IMPORTING NECESSARY LIBRARIES
-# =============================================================================
+# 
 
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
@@ -296,9 +256,9 @@ from sklearn.metrics import mean_squared_error
 
 
 
-# =============================================================================
+# 
 # MODEL BUILDING WITH OMITTED DATA
-# =============================================================================
+# 
 
 # Separating input and output features
 x1 = cars_omit.drop(['price'], axis='columns', inplace=False)
@@ -316,9 +276,9 @@ X_train, X_test, y_train, y_test = train_test_split(x1, y1, test_size=0.3, rando
 print(X_train.shape, X_test.shape, y_train.shape, y_test.shape)
 
 
-# =============================================================================
+# 
 # BASELINE MODEL FOR OMITTED DATA
-# =============================================================================
+# 
 
 """
 We are making a base model by using test data mean value
@@ -337,9 +297,9 @@ base_root_mean_square_error = np.sqrt(mean_squared_error(y_test, base_pred))
                                
 print(base_root_mean_square_error)
 
-# =============================================================================
+# 
 # LINEAR REGRESSION WITH OMITTED DATA
-# =============================================================================
+# 
 
 # Setting intercept as true
 lgr=LinearRegression(fit_intercept=True)
@@ -366,9 +326,9 @@ sns.regplot(x=cars_predictions_lin1, y=residuals1, scatter=True,
             fit_reg=False)
 residuals1.describe()
 
-# =============================================================================
+# 
 # RANDOM FOREST WITH OMITTED DATA
-# =============================================================================
+# 
 
 # Model parameters
 rf = RandomForestRegressor(n_estimators = 100,max_features='auto',
@@ -392,9 +352,9 @@ r2_rf_train1=model_rf1.score(X_train,y_train)
 print(r2_rf_test1,r2_rf_train1)   
 
                      
-# =============================================================================
+# 
 # MODEL BUILDING WITH IMPUTED DATA
-# =============================================================================
+# 
 
 cars_imputed = cars.apply(lambda x:x.fillna(x.median()) \
                   if x.dtype=='float' else \
@@ -405,9 +365,9 @@ cars_imputed.isnull().sum()
 cars_imputed=pd.get_dummies(cars_imputed,drop_first=True) 
 
 
-# =============================================================================
+# 
 # MODEL BUILDING WITH IMPUTED DATA
-# =============================================================================
+# 
 
 # Separating input and output feature
 x2 = cars_imputed.drop(['price'], axis='columns', inplace=False)
@@ -426,9 +386,9 @@ X_train1, X_test1, y_train1, y_test1 = train_test_split(x2, y2, test_size=0.3, r
 print(X_train1.shape, X_test1.shape, y_train1.shape, y_test1.shape)
 
 
-# =============================================================================
+# 
 # BASELINE MODEL FOR IMPUTED DATA
-# =============================================================================
+# 
 
 """
 We are making a base model by using test data mean value
@@ -447,9 +407,9 @@ base_root_mean_square_error_imputed = np.sqrt(mean_squared_error(y_test1, base_p
                                
 print(base_root_mean_square_error_imputed)
 
-# =============================================================================
+# 
 # LINEAR REGRESSION WITH IMPUTED DATA
-# =============================================================================
+# 
 
 # Setting intercept as true
 lgr2=LinearRegression(fit_intercept=True)
@@ -470,9 +430,9 @@ r2_lin_test2=model_lin2.score(X_test1,y_test1)
 r2_lin_train2=model_lin2.score(X_train1,y_train1)
 print(r2_lin_test2,r2_lin_train2)
 
-# =============================================================================
+# 
 # RANDOM FOREST WITH IMPUTED DATA
-# =============================================================================
+# 
 
 # Model parameters
 rf2 = RandomForestRegressor(n_estimators = 100,max_features='auto',
@@ -518,6 +478,6 @@ print("RMSE value for test from Linear Regression=  %s"% lin_rmse2)
 print("RMSE value for test from Random Forest=  %s"% rf_rmse2)
 
 
-# =============================================================================
+# 
 # END OF SCRIPT
-# =============================================================================
+# 
