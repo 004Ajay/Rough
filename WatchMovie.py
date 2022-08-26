@@ -12,7 +12,6 @@ movies = [
 "Swapnakoodu",
 "Virus",
 "Naku Penta Naku Taka",
-"Ee Thanutha Veluppan Kalathu",
 "Aadu",
 "Utharam"
 ]
