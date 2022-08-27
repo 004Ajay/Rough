@@ -5,8 +5,6 @@ movies = [
 "Around the World in 80 Days",
 "Bro Daddy",
 "Picket 43",
-"10th class diaries",
-"Odela Railway station",
 "Swapnakoodu",
 "Virus",
 "Aadu",
