@@ -6,7 +6,7 @@ movies = [
 "Bro Daddy",
 "Picket 43",
 "Swapnakoodu",
-"Virus",
+"Kuri",
 "Aadu",
 "Utharam",
 "Mike",
