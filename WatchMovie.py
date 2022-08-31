@@ -7,7 +7,6 @@ movies = [
 "Picket 43",
 "Swapnakoodu",
 "Kuri",
-"Aadu",
 "Utharam",
 "Mike",
 "Solomante Theneechakal",
