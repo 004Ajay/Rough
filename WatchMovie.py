@@ -6,7 +6,6 @@ movies = [
 "Bro Daddy",
 "Picket 43",
 "Swapnakoodu",
-"Kuri",
 "Utharam",
 "Mike",
 "Solomante Theneechakal",
