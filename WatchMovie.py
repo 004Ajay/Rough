@@ -6,7 +6,6 @@ movies = [
 "Bro Daddy",
 "Picket 43",
 "Swapnakoodu",
-"Utharam",
 "Cuttputlli",
 "Khuda Haafiz 2",
 "Vezham",
