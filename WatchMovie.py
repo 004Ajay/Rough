@@ -20,5 +20,5 @@ print("Total number of movies: ", len(movies))
 
 while True:
     print("Watch: ", random.choice(movies))
-    if input("close: ") == 'y':
+    if input("close? : ") == 'y':
         break
