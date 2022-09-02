@@ -7,6 +7,11 @@ movies = [
 "Picket 43",
 "Swapnakoodu",
 "Utharam",
+"Cuttputlli",
+"Khuda Haafiz 2",
+"Vezham",
+"Vikrant Rona",
+"Yenni Thuniga",
 "Mike",
 "Solomante Theneechakal",
 "Sita Ramam"
