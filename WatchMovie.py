@@ -7,9 +7,7 @@ movies = [
 "Picket 43",
 "Swapnakoodu",
 "Cuttputlli",
-"Khuda Haafiz 2",
 "Vezham",
-"Vikrant Rona",
 "Mike",
 "Solomante Theneechakal",
 "Sita Ramam"
