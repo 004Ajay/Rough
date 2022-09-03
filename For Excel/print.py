@@ -1,6 +1,5 @@
-from multiprocessing.spawn import old_main_modules
+import pandas as pd
 
+df = pd.read_excel('name.xlsx')
 
-s = "old"
-s2 = "new"
-print('"{}" and "{}"'.format(s, s2))
+print(df)
