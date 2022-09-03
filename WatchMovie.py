@@ -10,7 +10,6 @@ movies = [
 "Khuda Haafiz 2",
 "Vezham",
 "Vikrant Rona",
-"Yenni Thuniga",
 "Mike",
 "Solomante Theneechakal",
 "Sita Ramam"
