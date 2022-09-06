@@ -7,6 +7,7 @@ movies = [
 "Picket 43",
 "Swapnakoodu",
 "Mike",
+"thiru",
 "Solomante Theneechakal",
 "Sita Ramam"
 ]
