@@ -1,11 +1,17 @@
 import webbrowser as wb
 
-chrome_browser = wb.get("C:\Program Files\Google\Chrome\Application\chrome.exe %s")
-chrome_browser.open_new_tab('hello')
+#chrome_browser = wb.get("C:\Program Files\Google\Chrome\Application\chrome.exe" --profile-directory="Default" %s")
+wb.get(using='chrome')
+wb.open_new_tab('hello')
 
 
 
 """
+C:\Program Files\Google\Chrome\Application\chrome.exe
+
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --profile-directory="Default"
+
+
 sites = [
 "Drawkit",
 "Ouch",
