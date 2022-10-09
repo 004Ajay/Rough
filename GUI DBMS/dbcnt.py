@@ -10,7 +10,9 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-mycursor.execute("SELECT * FROM test3")
+exe = "SELECT * FROM test3"
+
+mycursor.execute(exe)
 
 res = mycursor.fetchall()
 
