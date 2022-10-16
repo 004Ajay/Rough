@@ -1,36 +1,43 @@
+"""
+neural network in python
+"""
+
 import numpy as np
-import random
-import os
+import matplotlib.pyplot as plt
 
-lr = 1 # learning rate
-bias = 1 # value of bias
-weights = [random.random(),random.random(),random.random()] # weights generated in a list (3 weights in total for 2 neurons and the bias)
+def sigmoid(x):
+    return 1/(1+np.exp(-x))
 
-def Perceptron(input1, input2, output) :
-   outputP = input1*weights[0]+input2*weights[1]+bias*weights[2]
-   if outputP > 0 : #activation function (here Heaviside)
-      outputP = 1
-   else :
-      outputP = 0
-   error = output - outputP
-   weights[0] += error * input1 * lr
-   weights[1] += error * input2 * lr
-   weights[2] += error * bias * lr
+def sigmoid_derivative(x):
+    return x*(1-x)
 
-for i in range(50) :
-   Perceptron(1,1,1) #True or true
-   Perceptron(1,0,1) #True or false
-   Perceptron(0,1,1) #False or true
-   Perceptron(0,0,0) #False or false
+training_inputs = np.array([[0,0,1],
+                            [1,1,1],
+                            [1,0,1],
+                            [0,1,1]])
 
-x = int(input())
-y = int(input())
-outputP = x*weights[0] + y*weights[1] + bias*weights[2]
-if outputP > 0 : #activation function
-   outputP = 1
-else :
-   outputP = 0
-print(x, "or", y, "is : ", outputP)
+training_outputs = np.array([[0,1,1,0]]).T
 
-outputP = 1/(1+np.exp(-outputP)) #sigmoid function
+np.random.seed(1)
 
+synaptic_weights = 2*np.random.random((3,1)) - 1
+
+print("Random starting synaptic weights: ")
+print(synaptic_weights)
+
+for iteration in range(10000):
+    input_layer = training_inputs
+    outputs = sigmoid(np.dot(input_layer, synaptic_weights))
+
+    error = training_outputs - outputs
+    adjustments = error * sigmoid_derivative(outputs)
+    synaptic_weights += np.dot(input_layer.T, adjustments)
+
+print("Synaptic weights after training: ")
+print(synaptic_weights)
+
+print("Outputs after training: ")
+print(outputs)
+
+plt.plot(outputs)
+plt.show()
