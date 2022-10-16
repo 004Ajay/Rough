@@ -70,8 +70,7 @@ class CountdownTimer(tk.Tk):
         self.after(1000, self.perform_countdown)
 
     def on_closing(self):
-        if tk.messagebox.askokcancel("Quit", "Do you want to quit?"):
-            self.destroy()
+        self.destroy()
 
 if __name__ == "__main__":
     app = CountdownTimer()
