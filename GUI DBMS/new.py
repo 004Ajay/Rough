@@ -2,19 +2,20 @@ from tkinter import *
 from tkinter import messagebox
 import mysql.connector
 
-mydb = mysql.connector.connect(
+mydb = mysql.connector.connect( # connecting to database
     host="localhost",
     user="root",
     passwd="1234",
-    database="data",
+    database="project",
     auth_plugin='mysql_native_password'
 )
 
 mycursor = mydb.cursor()
 
 root = Tk()
-root.title("My Application")
+root.title("Project")
 root.geometry("500x500")
+# root.geometry("1920x1080")
 
 def insert():
     name = entry_name.get()
@@ -58,9 +59,9 @@ entry_address = Entry(root)
 entry_address.grid(row=3, column=1, padx=10, pady=10)
 
 button_insert = Button(root, text="Insert", command=insert)
-button_insert.grid(row=4, column=0, padx=10, pady=10)
+button_insert.grid(row=4, column=0, padx=5, pady=5)
 
 button_show = Button(root, text="Show", command=show)
-button_show.grid(row=4, column=1, padx=10, pady=10)
+button_show.grid(row=4, column=1, padx=5, pady=5)
 
 root.mainloop()
