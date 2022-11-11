@@ -14,7 +14,6 @@ sites1 = [
 'Simple Icons',
 'Dryicons',
 'Mr.lcons',
-'Pixeden',
 'Iconfinder',
 'Caption Icon',
 ]
