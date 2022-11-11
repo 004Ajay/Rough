@@ -1,8 +1,8 @@
 import webbrowser
 
 sites = [
-'microsoft.com']
-# 'google.com']
+'http://microsoft.com',
+'http://google.com']
 
 for url in sites:
     # Open URL in a new tab, if a browser window is already open.

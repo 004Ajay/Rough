@@ -8,5 +8,4 @@ url2 = 'google'
 
 # Open URL in new window, raising the window if possible.
 path = '"C:\Program Files\Google\Chrome\Application\chrome.exe"'
-chrome = webbrowser.get(path)
-chrome.open_new('chrome://newtab')
+chrome = webbrowser.get(path).open('google')
