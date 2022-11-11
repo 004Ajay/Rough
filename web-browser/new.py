@@ -1,11 +1,8 @@
 import webbrowser
+search_terms = ['golang', 'python']
 
-url = 'https://docs.python.org/'
-url2 = 'google'
+# ... construct your list of search terms ...
 
-# Open URL in a new tab, if a browser window is already open.
-#webbrowser.open_new_tab(url)
-
-# Open URL in new window, raising the window if possible.
-path = '"C:\Program Files\Google\Chrome\Application\chrome.exe"'
-chrome = webbrowser.get(path).open('google')
+for term in search_terms:
+    url = "https://www.google.com/search?q={}".format(term)
+    webbrowser.open_new_tab(url)

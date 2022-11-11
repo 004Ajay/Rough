@@ -1,16 +1,9 @@
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
+import webbrowser
 
-browser = webdriver.Chrome()
+sites = [
+'Drawkit',
+'Ouch']
 
-browser.get('chrome://newtab')
-
-print("Enter a keyword to search on wikipedia: ", end='')
-keyword = input()
-
-elem = browser.find_element_by_id('realbox')  # Find the search box
-elem.send_keys(keyword + Keys.RETURN)
-
-# do something with the opened page
-
-browser.quit()
+for term in sites:
+    url = f'https://www.google.com/search?q={term}'
+    webbrowser.open_new_tab(url)
