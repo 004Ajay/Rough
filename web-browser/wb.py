@@ -1,16 +1,13 @@
-import webbrowser as wb
-
-#chrome_browser = wb.get("C:\Program Files\Google\Chrome\Application\chrome.exe" --profile-directory="Default" %s")
-wb.get(using='chrome')
-wb.open_new_tab('hello')
+import webbrowser
 
 
+url = 'https://docs.python.org/'
 
-"""
-C:\Program Files\Google\Chrome\Application\chrome.exe
+# Open URL in a new tab, if a browser window is already open.
+#webbrowser.open_new_tab(url)
 
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --profile-directory="Default"
-
+# Open URL in new window, raising the window if possible.
+#webbrowser.open_new(url)
 
 sites = [
 "Drawkit",
