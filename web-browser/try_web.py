@@ -8,6 +8,11 @@ for i in sites:
     # Open URL in a new tab, if a browser window is already open.
     webbrowser.open_new_tab(i)
 
+window = webbrowser.get('google-chrome')
+window.open('http://www.python.org')
+window.open_new_tab('http://docs.python.org')
+
+
 # Open URL in new window, raising the window if possible.
 #webbrowser.open_new(url)
 
