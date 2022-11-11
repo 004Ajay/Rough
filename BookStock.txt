@@ -1,3 +1,0 @@
-Brain:30
-Quiet:50
-Hook:34       

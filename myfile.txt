@@ -1,3 +1,0 @@
-The Brain:30
-Hooked:150
-Quiet:70
