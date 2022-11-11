@@ -4,13 +4,11 @@ sites = [
 'microsoft.com']
 # 'google.com']
 
-for i in sites:
+for url in sites:
     # Open URL in a new tab, if a browser window is already open.
-    webbrowser.open_new_tab(i)
+    webbrowser.open_new_tab(url)
 
-window = webbrowser.get('google-chrome')
-window.open('http://www.python.org')
-window.open_new_tab('http://docs.python.org')
+
 
 
 # Open URL in new window, raising the window if possible.
