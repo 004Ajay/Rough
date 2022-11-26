@@ -71,9 +71,9 @@ def game1(point):
 
 def main(point):
     name = input("Enter your name: ")
-    psw  = int(input("Enter password (1234): "))
+    psw  = int(input("Enter password (12): "))
 
-    if psw == 1234:
+    if psw == 12:
         game1(point)
     else:
         print("Wrong password.\n")    
