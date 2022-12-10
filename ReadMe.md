@@ -2,6 +2,8 @@
 
 [Python](https://github.com/004Ajay/Python)
 
+[AI & DS](https://github.com/004Ajay/AI-DS)
+
 [Operating Systems](https://github.com/004Ajay/OperatingSystem)
 
 [SQL](https://github.com/004Ajay/SQL)
