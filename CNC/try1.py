@@ -1,2 +1,1 @@
-# program to generate CNC codes using python
-
+# program to generate CNC codes(G-Codes) using python
