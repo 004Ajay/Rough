@@ -1,5 +1,0 @@
--- BANKCODE BANKNAME                       HEADOFFICE                       BRANCHES
--- -------- ------------------------------ ------------------------------ ----------
--- FB       FEDERAL BANK                   Eranakulam                             40
--- AX       AXIS BANK                      Eranakulam                             25
--- SIB      SOUTH INDIAN BANK              Eranakulam                             38
