@@ -1,0 +1,89 @@
+
+The softmax layer converts the values for each output class into normalized scores using a normalized exponential function. You can interpret each value as the probability that the input image belongs to each class.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The learning rate controls how aggressively the algorithm changes the network weights. The goal of transfer learning is to fine-tune an existing network, so you typically want to change the weights less aggressively than when training from scratch.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- To get good results with deep networks, you generally need a lot of training data. Calculating the loss and the gradient by running all the training examples through the network would be expensive.
+
+- For this reason, the training set is split up into mini-batches.
+
+- Each iteration of the training is performed with a different mini-batch.
+
+- Each iteration of the training is performed with a different mini-batch.The loss and gradient calculated for each mini-batch is an approximation to the loss and gradient for the full training set.
+
+- The loss and gradient calculated for each mini-batch is an approximation to the loss and gradient for the full training set.
+
+- This is known as stochastic gradient descent.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Gradient descent takes a step in the direction of the gradient, the size of that step is known as the learning rate.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The RMSProp algorithm keeps a history of the size of the gradient, and uses this to scale the learning rate for each parameter.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The adaptive moment estimation, or “Adam”, algorithm scales the learning rate for each parameter, like RMSProp, but also uses momentum to smooth out the updates.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Accuracy is the percentage of training images that the network classified correctly during an iteration.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Accuracy does not measure how confident the network is about each prediction. It is better if the network predicts the correct class with 90% confidence than 52% confidence.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Loss is a measure of how far from a perfect prediction the network was, totalled over the set of training images.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Training data: used during training to update weights.
+Validation data: used during training to evaluate performance.
+Testing data: used after training to evaluate performance.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Validation data is useful to detect if your network is overfitting. Even if the training loss is decreasing, if the validation loss is increasing, you should stop training because the network is learning details about the training data that aren't relevant to new images.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+If the validation accuracy is less than the training accuracy, your network may be overfitting
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Convolutional neural networks are often used for image classification.
+
+More generally, classification refers to the task of using data and known responses to build a predictive model that predicts a discrete response for new data. For image classification, the input data is the image and the known response is the label of the image subject.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Regression is another task that can be accomplished with deep learning. Regression refers to assigning continuous response values to data, instead of discrete classes.
+
+One example of image regression is correcting rotated images. The input data is a rotated image, and the known response is the angle of rotation
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Semantic segmentation labels individual pixels.
+"These pixels contain a cat, a ball, and a plant."
+
+- Object detection can find multiple objects in one image. Each object has a bounding box and its own label.
+"This image contains a cat, a ball, and a plant."
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
