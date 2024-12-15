@@ -1,0 +1,2658 @@
+{
+    "auricularic acid": {
+        "IUPAC": [
+            "8-ethenyl-1,4a-dimethyl-7-methylidene-3,4,4b,5,6,8,8a,9,10,10a-decahydro-2H-phenanthrene-1-carboxylic acid"
+        ],
+        "Canonical Smiles": [
+            "CC12CCCC(C1CCC3C2CCC(=C)C3C=C)(C)C(=O)O"
+        ],
+        "Inchi": [
+            "XFHAKDIYTJGGSQ-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "365764"
+        ],
+        "Smiles": [
+            "C=CC1C(=C)CCC2C1CCC1C(C)(C(=O)O)CCCC21C"
+        ]
+    },
+    "d-glucose": {
+        "IUPAC": [
+            "(3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol"
+        ],
+        "Canonical Smiles": [
+            "C(C1C(C(C(C(O1)O)O)O)O)O"
+        ],
+        "Inchi": [
+            "WQZGKKKJIJFFOK-GASJEMHNSA-N"
+        ],
+        "PubChem ID": [
+            "5793"
+        ],
+        "Smiles": [
+            "OCC1OC(O)C(O)C(O)C1O"
+        ]
+    },
+    "EUDESMANE": {
+        "IUPAC": [
+            "(3R,4aS,5R,8aR)-5,8a-dimethyl-3-propan-2-yl-2,3,4,4a,5,6,7,8-octahydro-1H-naphthalene"
+        ],
+        "Canonical Smiles": [
+            "CC1CCCC2(C1CC(CC2)C(C)C)C"
+        ],
+        "Inchi": [
+            "DYEQPYSFRWUNNV-APIJFGDWSA-N"
+        ],
+        "PubChem ID": [
+            "193299"
+        ],
+        "Smiles": [
+            "CC(C)C1CCC2(C)CCCC(C)C2C1"
+        ]
+    },
+    "orientin": {
+        "IUPAC": [
+            "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-8-[(2S,3R,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]chromen-4-one"
+        ],
+        "Canonical Smiles": [
+            "C1=CC(=C(C=C1C2=CC(=O)C3=C(O2)C(=C(C=C3O)O)C4C(C(C(C(O4)CO)O)O)O)O)O"
+        ],
+        "Inchi": [
+            "PLAPMLGJVGLZOV-VPRICQMDSA-N"
+        ],
+        "PubChem ID": [
+            "5281675"
+        ],
+        "Smiles": [
+            "O=c1cc(-c2ccc(O)c(O)c2)oc2c(C3OC(CO)C(O)C(O)C3O)c(O)cc(O)c12"
+        ]
+    },
+    "oxalic acid": {
+        "IUPAC": [
+            "oxalic acid"
+        ],
+        "Canonical Smiles": [
+            "C(=O)(C(=O)O)O"
+        ],
+        "Inchi": [
+            "MUBZPKHOEPUJKR-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "971"
+        ],
+        "Smiles": [
+            "O=C(O)C(=O)O"
+        ]
+    },
+    "vitexin": {
+        "IUPAC": [
+            "5,7-dihydroxy-2-(4-hydroxyphenyl)-8-[(2S,3R,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]chromen-4-one"
+        ],
+        "Canonical Smiles": [
+            "C1=CC(=CC=C1C2=CC(=O)C3=C(O2)C(=C(C=C3O)O)C4C(C(C(C(O4)CO)O)O)O)O"
+        ],
+        "Inchi": [
+            "SGEWCQFRYRRZDC-VPRICQMDSA-N"
+        ],
+        "PubChem ID": [
+            "5280441"
+        ],
+        "Smiles": [
+            "O=c1cc(-c2ccc(O)cc2)oc2c(C3OC(CO)C(O)C(O)C3O)c(O)cc(O)c12"
+        ]
+    },
+    "15-O-acetylbruceolide": {
+        "IUPAC": [
+            "methyl (1R,2S,3R,6R,8R,13S,14R,15R,16S,17R)-3-acetyloxy-10,15,16-trihydroxy-9,13-dimethyl-4,11-dioxo-5,18-dioxapentacyclo[12.5.0.01,6.02,17.08,13]nonadec-9-ene-17-carboxylate"
+        ],
+        "Canonical Smiles": [
+            "CC1=C(C(=O)CC2(C1CC3C45C2C(C(C(C4C(C(=O)O3)OC(=O)C)(OC5)C(=O)OC)O)O)C)O"
+        ],
+        "Inchi": [
+            "YDWODLQEUPYKGJ-MUVFDYEFSA-N"
+        ],
+        "PubChem ID": [
+            "5315508"
+        ],
+        "Smiles": [
+            "COC(=O)C12OCC34C(CC5C(C)C(=O)C(=O)CC5(C)C3C(O)C1O)OC(=O)C(OC(C)=O)C24"
+        ]
+    },
+    "amataine": {
+        "IUPAC": [
+            "methyl (1R,2R,6R,17R,21R,23R,31R,37S,41R,43S,46S,47R)-26-methoxy-3,22,38-trioxa-10,20,24,34-tetrazatetradecacyclo[22.20.1.16,17.131,34.01,21.02,6.09,17.011,16.023,31.023,43.025,30.037,41.020,47.041,46]heptatetraconta-8,11,13,15,25(30),26,28-heptaene-8-carboxylate"
+        ],
+        "Canonical Smiles": [
+            "COC1=CC=CC2=C1N3CC45CC6C3(C27CCN8C7C9(C6)CCOC9CC8)OC4N1CCC23C1C1(C5OCC1)CC(=C2NC1=CC=CC=C31)C(=O)OC"
+        ],
+        "Inchi": [
+            "RZBFPDQKWUWUCK-SFUBKHQQSA-N"
+        ],
+        "PubChem ID": [
+            "441539"
+        ],
+        "Smiles": [
+            "COC(=O)C1CC23CCOC2C24CC5CC67CCOC6CCN6CCC8(c9cccc(OC)c9N(C2)C58OC4N2CCC4(C1=Nc1ccccc14)C23)C67"
+        ]
+    },
+    "Clauraila B": {
+        "IUPAC": [
+            "3,3,5-trimethyl-11H-pyrano[3,2-a]carbazol-10-ol"
+        ],
+        "Canonical Smiles": [
+            "CC1=CC2=C(C3=C1OC(C=C3)(C)C)NC4=C2C=CC=C4O"
+        ],
+        "Inchi": [
+            "DOPPWRJNMKMWAZ-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "51039826"
+        ],
+        "Smiles": [
+            "Cc1cc2c([nH]c3c(O)cccc32)c2c1OC(C)(C)C=C2"
+        ]
+    },
+    "cleistanthin A": {
+        "IUPAC": [
+            "9-(1,3-benzodioxol-5-yl)-4-[(3R,4R,5R)-3-hydroxy-4,5-dimethoxyoxan-2-yl]oxy-6,7-dimethoxy-3H-benzo[f][2]benzofuran-1-one"
+        ],
+        "Canonical Smiles": [
+            "COC1COC(C(C1OC)O)OC2=C3COC(=O)C3=C(C4=CC(=C(C=C42)OC)OC)C5=CC6=C(C=C5)OCO6"
+        ],
+        "Inchi": [
+            "FCOQWUOWHWHTJP-URRSQCJUSA-N"
+        ],
+        "PubChem ID": [
+            "442833"
+        ],
+        "Smiles": [
+            "COc1cc2c(OC3OCC(OC)C(OC)C3O)c3c(c(-c4ccc5c(c4)OCO5)c2cc1OC)C(=O)OC3"
+        ]
+    },
+    "delavirdine": {
+        "IUPAC": [
+            "N-[2-[4-[3-(propan-2-ylamino)pyridin-2-yl]piperazine-1-carbonyl]-1H-indol-5-yl]methanesulfonamide"
+        ],
+        "Canonical Smiles": [
+            "CC(C)NC1=C(N=CC=C1)N2CCN(CC2)C(=O)C3=CC4=C(N3)C=CC(=C4)NS(=O)(=O)C"
+        ],
+        "Inchi": [
+            "WHBIGIKBNXZKFE-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "5625"
+        ],
+        "Smiles": [
+            "CC(C)Nc1cccnc1N1CCN(C(=O)c2cc3cc(NS(C)(=O)=O)ccc3[nH]2)CC1"
+        ]
+    },
+    "dicerandrol C": {
+        "IUPAC": [
+            "[(3R,4R,4aR)-7-[(5R,6R,10aR)-5-acetyloxy-10a-(acetyloxymethyl)-1,9-dihydroxy-6-methyl-8-oxo-6,7-dihydro-5H-xanthen-2-yl]-4-acetyloxy-8,9-dihydroxy-3-methyl-1-oxo-3,4-dihydro-2H-xanthen-4a-yl]methyl acetate"
+        ],
+        "Canonical Smiles": [
+            "CC1CC(=O)C2=C(C3=C(C=CC(=C3O)C4=C(C5=C(C=C4)OC6(C(C(CC(=O)C6=C5O)C)OC(=O)C)COC(=O)C)O)OC2(C1OC(=O)C)COC(=O)C)O"
+        ],
+        "Inchi": [
+            "KYQPTDIMYDSMHS-ACMZUNAXSA-N"
+        ],
+        "PubChem ID": [
+            "11093875"
+        ],
+        "Smiles": [
+            "CC(=O)OCC12Oc3ccc(-c4ccc5c(c4O)C(=O)C4C(=O)CC(C)C(OC(C)=O)C4(COC(C)=O)O5)c(O)c3C(=O)C1C(=O)CC(C)C2OC(C)=O"
+        ]
+    },
+    "gaboroquinone A": {
+        "IUPAC": [
+            "1-(3-acetyl-4,6-dihydroxy-2-methoxyphenyl)-4,5-dihydroxy-2-(hydroxymethyl)anthracene-9,10-dione"
+        ],
+        "Canonical Smiles": [
+            "CC(=O)C1=C(C=C(C(=C1OC)C2=C3C(=C(C=C2CO)O)C(=O)C4=C(C3=O)C=CC=C4O)O)O"
+        ],
+        "Inchi": [
+            "KUDYATBIEOTCGT-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "10072444"
+        ],
+        "Smiles": [
+            "COc1c(C(C)=O)c(O)cc(O)c1-c1c(C=O)cc(O)c2c(O)c3c(O)cccc3c(O)c12"
+        ]
+    },
+    "gigantetronenin": {
+        "IUPAC": [
+            "4-[2-hydroxy-7-[5-[(E)-1,4,5-trihydroxyhenicos-8-enyl]oxolan-2-yl]heptyl]-2-methyl-2H-furan-5-one"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCCCCCCCC=CCCC(C(CCC(C1CCC(O1)CCCCCC(CC2=CC(OC2=O)C)O)O)O)O"
+        ],
+        "Inchi": [
+            "LFIZQGRMDGWRQH-CCEZHUSRSA-N"
+        ],
+        "PubChem ID": [
+            "6439484"
+        ],
+        "Smiles": [
+            "CCCCCCCCCCCCC=CCCC(O)C(O)CCC(O)C1CCC(CCCCCC(O)Cc2cc(C)oc2O)O1"
+        ]
+    },
+    "Girinimbine": {
+        "IUPAC": [
+            "3,3,5-trimethyl-11H-pyrano[3,2-a]carbazole"
+        ],
+        "Canonical Smiles": [
+            "CC1=CC2=C(C3=C1OC(C=C3)(C)C)NC4=CC=CC=C42"
+        ],
+        "Inchi": [
+            "GAEQWKVGMHUUKO-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "96943"
+        ],
+        "Smiles": [
+            "Cc1cc2c([nH]c3ccccc32)c2c1OC(C)(C)C=C2"
+        ]
+    },
+    "isoderrone": {
+        "IUPAC": [
+            "3-(2,2-dimethylchromen-6-yl)-5,7-dihydroxychromen-4-one"
+        ],
+        "Canonical Smiles": [
+            "CC1(C=CC2=C(O1)C=CC(=C2)C3=COC4=CC(=CC(=C4C3=O)O)O)C"
+        ],
+        "Inchi": [
+            "WTNXJYOYGPGIJK-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "14237660"
+        ],
+        "Smiles": [
+            "CC1(C)C=Cc2cc(-c3coc4cc(O)cc(O)c4c3=O)ccc2O1"
+        ]
+    },
+    "isowighteone": {
+        "IUPAC": [
+            "5,7-dihydroxy-3-[4-hydroxy-3-(3-methylbut-2-enyl)phenyl]chromen-4-one"
+        ],
+        "Canonical Smiles": [
+            "CC(=CCC1=C(C=CC(=C1)C2=COC3=CC(=CC(=C3C2=O)O)O)O)C"
+        ],
+        "Inchi": [
+            "SWDSVBNAMCDHTF-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "5494866"
+        ],
+        "Smiles": [
+            "CC(C)=CCc1cc(-c2coc3cc(O)cc(O)c3c2=O)ccc1O"
+        ]
+    },
+    "isowighteone hydrate": {
+        "IUPAC": [
+            "5,7-dihydroxy-3-[4-hydroxy-3-(3-methylbut-2-enyl)phenyl]chromen-4-one;hydrate"
+        ],
+        "Canonical Smiles": [
+            "CC(=CCC1=C(C=CC(=C1)C2=COC3=CC(=CC(=C3C2=O)O)O)O)C.O"
+        ],
+        "Inchi": [
+            "WFALQMZTKNBBMO-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "56676507"
+        ],
+        "Smiles": [
+            "CC(C)=CCc1cc(-c2coc3cc(O)cc(O)c3c2=O)ccc1O"
+        ]
+    },
+    "L-arabinitol": {
+        "IUPAC": [
+            "(2S,4S)-pentane-1,2,3,4,5-pentol"
+        ],
+        "Canonical Smiles": [
+            "C(C(C(C(CO)O)O)O)O"
+        ],
+        "Inchi": [
+            "HEBKCHPVOIAQTA-IMJSIDKUSA-N"
+        ],
+        "PubChem ID": [
+            "439255"
+        ],
+        "Smiles": [
+            "OCC(O)C(O)C(O)CO"
+        ]
+    },
+    "L-cysteic acid": {
+        "IUPAC": [
+            "(2R)-2-amino-3-sulfopropanoic acid"
+        ],
+        "Canonical Smiles": [
+            "C(C(C(=O)O)N)S(=O)(=O)O"
+        ],
+        "Inchi": [
+            "XVOYSCVBGLVSOL-REOHCLBHSA-N"
+        ],
+        "PubChem ID": [
+            "72886"
+        ],
+        "Smiles": [
+            "NC(CS(=O)(=O)O)C(=O)O"
+        ]
+    },
+    "L-homocysteinate": {
+        "IUPAC": [
+            "(2S)-2-amino-4-sulfanylbutanoate"
+        ],
+        "Canonical Smiles": [
+            "C(CS)C(C(=O)[O-])N"
+        ],
+        "Inchi": [
+            "FFFHZYDWPBMWHY-VKHMYHEASA-M"
+        ],
+        "PubChem ID": [
+            "53477631"
+        ],
+        "Smiles": [
+            "NC(CCS)C(=O)O"
+        ]
+    },
+    "Leubethanol": {
+        "IUPAC": [
+            "(5S,8R)-3,8-dimethyl-5-[(2S)-6-methylhept-5-en-2-yl]-5,6,7,8-tetrahydronaphthalen-1-ol"
+        ],
+        "Canonical Smiles": [
+            "CC1CCC(C2=C1C(=CC(=C2)C)O)C(C)CCC=C(C)C"
+        ],
+        "Inchi": [
+            "WQVJUBFKFCDYDQ-BBWFWOEESA-N"
+        ],
+        "PubChem ID": [
+            "54669845"
+        ],
+        "Smiles": [
+            "CC(C)=CCCC(C)C1CCC(C)c2c(O)cc(C)cc21"
+        ]
+    },
+    "lippiolic acid": {
+        "IUPAC": [
+            "3-[(3S,4S,5R,8R,9R,10R,13S,14S,15R,16S)-16-hydroxy-4,9,10,13-tetramethyl-3,15-bis(prop-1-en-2-yl)-2,3,5,6,7,8,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-4-yl]propanoic acid"
+        ],
+        "Canonical Smiles": [
+            "CC(=C)C1CCC2(C(C1(C)CCC(=O)O)CCC3C2(CCC4(C3C(C(C4)O)C(=C)C)C)C)C"
+        ],
+        "Inchi": [
+            "CMBZCUVUDFRKAG-HIHFUEEJSA-N"
+        ],
+        "PubChem ID": [
+            "50900055"
+        ],
+        "Smiles": [
+            "C=C(C)C1C(O)CC2(C)CCC3(C)C(CCC4C(C)(CCC(=O)O)C(C(=C)C)CCC43C)C12"
+        ]
+    },
+    "Lonijaposide E": {
+        "IUPAC": [
+            "5-[(E)-2-[(2S,3R,4S)-3-ethenyl-5-methoxycarbonyl-2-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,4-dihydro-2H-pyran-4-yl]ethenyl]-1-ethylpyridin-1-ium-3-carboxylate"
+        ],
+        "Canonical Smiles": [
+            "CC[N+]1=CC(=CC(=C1)C(=O)[O-])C=CC2C(C(OC=C2C(=O)OC)OC3C(C(C(C(O3)CO)O)O)O)C=C"
+        ],
+        "Inchi": [
+            "QGCICTMJHHIGBT-LSWTWQANSA-N"
+        ],
+        "PubChem ID": [
+            "56599666"
+        ],
+        "Smiles": [
+            "C=CC1C(OC2OC(CO)C(O)C(O)C2O)OC=C(C(=O)OC)C1C=Cc1cc(C(=O)[O-])c[n+](CC)c1"
+        ]
+    },
+    "Madecassoside": {
+        "IUPAC": [
+            "[(2S,3R,4S,5S,6R)-6-[[(2R,3R,4R,5S,6R)-3,4-dihydroxy-6-(hydroxymethyl)-5-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyoxan-2-yl]oxymethyl]-3,4,5-trihydroxyoxan-2-yl] (1S,2R,4aS,6aR,6aR,6bR,8R,8aR,9R,10R,11R,12aR,14bS)-8,10,11-trihydroxy-9-(hydroxymethyl)-1,2,6a,6b,9,12a-hexamethyl-2,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydro-1H-picene-4a-carboxylate"
+        ],
+        "Canonical Smiles": [
+            "CC1CCC2(CCC3(C(=CCC4C3(CC(C5C4(CC(C(C5(C)CO)O)O)C)O)C)C2C1C)C)C(=O)OC6C(C(C(C(O6)COC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)C)O)O)O)O)O)O)O)O"
+        ],
+        "Inchi": [
+            "BNMGUJRJUUDLHW-CIZDPPTDSA-N"
+        ],
+        "PubChem ID": [
+            "45356919"
+        ],
+        "Smiles": [
+            "CC1CCC2(C(=O)OC3OC(COC4OC(CO)C(OC5OC(C)C(O)C(O)C5O)C(O)C4O)C(O)C(O)C3O)CCC3(C)C(=CCC4C5(C)CC(O)C(O)C(C)(CO)C5C(O)CC43C)C2C1C"
+        ]
+    },
+    "Officinoic acid B": {
+        "IUPAC": [
+            "(Z)-3-methyl-9-[(Z)-3-methyldec-2-enoyl]oxydec-3-enoic acid"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCCC(=CC(=O)OC(C)CCCCC=C(C)CC(=O)O)C"
+        ],
+        "Inchi": [
+            "GUGWWNGSTOHWGD-MAFYCXDASA-N"
+        ],
+        "PubChem ID": [
+            "53355805"
+        ],
+        "Smiles": [
+            "CCCCCCC=C(C)CC(=O)OC(C)CCCCC=C(C)CC(=O)O"
+        ]
+    },
+    "p-mentha-1,3,8-triene": {
+        "IUPAC": [
+            "1-methyl-4-prop-1-en-2-ylcyclohexa-1,3-diene"
+        ],
+        "Canonical Smiles": [
+            "CC1=CC=C(CC1)C(=C)C"
+        ],
+        "Inchi": [
+            "XNMPFDIYAMOYRM-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "176983"
+        ],
+        "Smiles": [
+            "C=C(C)C1=CC=C(C)CC1"
+        ]
+    },
+    "sesquicannabigerol": {
+        "IUPAC": [
+            "5-pentyl-2-[(2E,6E)-3,7,11-trimethyldodeca-2,6,10-trienyl]benzene-1,3-diol"
+        ],
+        "Canonical Smiles": [
+            "CCCCCC1=CC(=C(C(=C1)O)CC=C(C)CCC=C(C)CCC=C(C)C)O"
+        ],
+        "Inchi": [
+            "WYEFRBILENQYOH-CZHHEZJISA-N"
+        ],
+        "PubChem ID": [
+            "54669855"
+        ],
+        "Smiles": [
+            "CCCCCc1cc(O)c(CC=C(C)CCC=C(C)CCC=C(C)C)c(O)c1"
+        ]
+    },
+    "stemofoline": {
+        "IUPAC": [
+            "(5E)-5-(9-butyl-4-methyl-2,14-dioxa-10-azapentacyclo[6.5.1.01,5.06,10.09,13]tetradecan-3-ylidene)-4-methoxy-3-methylfuran-2-one"
+        ],
+        "Canonical Smiles": [
+            "CCCCC12C3CCN1C4CC2OC35C4C(C(=C6C(=C(C(=O)O6)C)OC)O5)C"
+        ],
+        "Inchi": [
+            "DTVYAHOULQCSMS-VHEBQXMUSA-N"
+        ],
+        "PubChem ID": [
+            "3005205"
+        ],
+        "Smiles": [
+            "CCCCC12C3CC4C5C(C)=C(c6oc(O)c(C)c6OC)OC5(O3)C1CCN42"
+        ]
+    },
+    "tuberonic acid": {
+        "IUPAC": [
+            "2-[(1R,2S)-2-[(Z)-5-hydroxypent-2-enyl]-3-oxocyclopentyl]acetic acid"
+        ],
+        "Canonical Smiles": [
+            "C1CC(=O)C(C1CC(=O)O)CC=CCCO"
+        ],
+        "Inchi": [
+            "RZGFUGXQKMEMOO-SZXTZRQCSA-N"
+        ],
+        "PubChem ID": [
+            "6443968"
+        ],
+        "Smiles": [
+            "O=C(O)CC1CCC(=O)C1CC=CCCO"
+        ]
+    },
+    "Vitexin 2''-O-beta-L-rhamnoside": {
+        "IUPAC": [
+            ""
+        ],
+        "Canonical Smiles": [
+            ""
+        ],
+        "Inchi": [
+            ""
+        ],
+        "PubChem ID": [
+            ""
+        ],
+        "Smiles": [
+            ""
+        ]
+    },
+    "bruceolide": {
+        "IUPAC": [
+            "methyl (1R,2S,3R,6R,8R,13S,14R,15R,16S,17S)-3,10,15,16-tetrahydroxy-9,13-dimethyl-4,11-dioxo-5,18-dioxapentacyclo[12.5.0.01,6.02,17.08,13]nonadec-9-ene-17-carboxylate"
+        ],
+        "Canonical Smiles": [
+            "CC1=C(C(=O)CC2(C1CC3C45C2C(C(C(C4C(C(=O)O3)O)(OC5)C(=O)OC)O)O)C)O"
+        ],
+        "Inchi": [
+            "YLWQKYSDNGHLAO-PWRINDRCSA-N"
+        ],
+        "PubChem ID": [
+            "99531"
+        ],
+        "Smiles": [
+            "COC(=O)C12OCC34C(CC5C(C)C(=O)C(=O)CC5(C)C3C(O)C1O)OC(=O)C(O)C24"
+        ]
+    },
+    "cannabigerol": {
+        "IUPAC": [
+            "2-[(2E)-3,7-dimethylocta-2,6-dienyl]-5-pentylbenzene-1,3-diol"
+        ],
+        "Canonical Smiles": [
+            "CCCCCC1=CC(=C(C(=C1)O)CC=C(C)CCC=C(C)C)O"
+        ],
+        "Inchi": [
+            "QXACEHWTBCFNSA-SFQUDFHCSA-N"
+        ],
+        "PubChem ID": [
+            "5315659"
+        ],
+        "Smiles": [
+            "CCCCCc1cc(O)c(CC=C(C)CCC=C(C)C)c(O)c1"
+        ]
+    },
+    "combretol": {
+        "IUPAC": [
+            "5-hydroxy-3,7-dimethoxy-2-(3,4,5-trimethoxyphenyl)chromen-4-one"
+        ],
+        "Canonical Smiles": [
+            "COC1=CC(=C2C(=C1)OC(=C(C2=O)OC)C3=CC(=C(C(=C3)OC)OC)OC)O"
+        ],
+        "Inchi": [
+            "SUNUQCQIFHHEOW-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "12303802"
+        ],
+        "Smiles": [
+            "COc1cc(O)c2c(=O)c(OC)c(-c3cc(OC)c(OC)c(OC)c3)oc2c1"
+        ]
+    },
+    "kaempferol": {
+        "IUPAC": [
+            "3,5,7-trihydroxy-2-(4-hydroxyphenyl)chromen-4-one"
+        ],
+        "Canonical Smiles": [
+            "C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+        ],
+        "Inchi": [
+            "IYRMWMYZSQPJKC-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "5280863"
+        ],
+        "Smiles": [
+            "O=c1c(O)c(-c2ccc(O)cc2)oc2cc(O)cc(O)c12"
+        ]
+    },
+    "rubiarbonol K": {
+        "IUPAC": [
+            "(1R,3S,3aS,5aS,5bS,7aR,9S,11aS,13aR,13bS)-3a,5a,8,8,11a,13a-hexamethyl-3-propan-2-yl-1,2,3,4,5,5b,6,7,7a,9,10,11,13,13b-tetradecahydrocyclopenta[a]chrysene-1,9-diol"
+        ],
+        "Canonical Smiles": [
+            "CC(C)C1CC(C2C1(CCC3(C2(CC=C4C3CCC5C4(CCC(C5(C)C)O)C)C)C)C)O"
+        ],
+        "Inchi": [
+            "SEUSNJUQUVUXAA-ZRBXTNFGSA-N"
+        ],
+        "PubChem ID": [
+            "70698148"
+        ],
+        "Smiles": [
+            "CC(C)C1CC(O)C2C1(C)CCC1(C)C3CCC4C(C)(CCC(O)C4(C)C)C3=CCC21C"
+        ]
+    },
+    "wrightiamine A": {
+        "IUPAC": [
+            "(1R,2S,5S,6S,9R,12S,13S,16S,18S)-6,13-dimethyl-7-azapentacyclo[10.8.0.02,9.05,9.013,18]icos-7-en-16-amine"
+        ],
+        "Canonical Smiles": [
+            "CC1C2CCC3C2(CCC4C3CCC5C4(CCC(C5)N)C)C=N1"
+        ],
+        "Inchi": [
+            "OWJXANQNZAVDIW-XLVUHOLYSA-N"
+        ],
+        "PubChem ID": [
+            "11109831"
+        ],
+        "Smiles": [
+            "CC1N=CC23CCC4C(CCC5CC(N)CCC54C)C2CCC13"
+        ]
+    },
+    "(+)-7-ISOJASMONIC-ACID": {
+        "IUPAC": [
+            "S-[2-[3-[[4-[[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-4-hydroxy-3-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl]oxy-hydroxyphosphoryl]oxy-2-hydroxy-3,3-dimethylbutanoyl]amino]propanoylamino]ethyl] 2-[(1R,2S)-3-oxo-2-[(Z)-pent-2-enyl]cyclopentyl]ethanethioate"
+        ],
+        "Canonical Smiles": [
+            "CCC=CCC1C(CCC1=O)CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=NC4=C(N=CN=C43)N)O)OP(=O)(O)O)O"
+        ],
+        "Inchi": [
+            "WQKKCPPNDKSAIU-GEMOIUKOSA-N"
+        ],
+        "PubChem ID": [
+            "23724726"
+        ],
+        "Smiles": [
+            "CCC=CCC1C(=O)CCC1CC(=O)SCCNC(=O)CCNC(=O)C(O)C(C)(C)CO[PH](=O)(=O)O[PH](=O)(=O)OCC1OC(n2cnc3c(=N)[nH]cnc32)C(O)C1O[PH](=O)(=O)O"
+        ]
+    },
+    "(+)-CALAMUSENONE": {
+        "IUPAC": [
+            "1,4-dimethyl-7-propan-2-ylidene-1,2,3,4,5,8-hexahydroazulen-6-one"
+        ],
+        "Canonical Smiles": [
+            "CC1CCC2=C1CC(=C(C)C)C(=O)CC2C"
+        ],
+        "Inchi": [
+            "WJQUHMZHLUTNPJ-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "91748856"
+        ],
+        "Smiles": [
+            "CC(C)=C1CC2=C(CCC2C)C(C)CC1=O"
+        ]
+    },
+    "(+)-LIMONENE": {
+        "IUPAC": [
+            "(4R)-1-methyl-4-prop-1-en-2-ylcyclohexene"
+        ],
+        "Canonical Smiles": [
+            "CC1=CCC(CC1)C(=C)C"
+        ],
+        "Inchi": [
+            "XMGQYMWWDOXHJM-JTQLQIEISA-N"
+        ],
+        "PubChem ID": [
+            "440917"
+        ],
+        "Smiles": [
+            "C=C(C)C1CC=C(C)CC1"
+        ]
+    },
+    "(+)-PIPERITENONE-OXIDE": {
+        "IUPAC": [
+            "(1S,6S)-6-methyl-3-propan-2-ylidene-7-oxabicyclo[4.1.0]heptan-2-one"
+        ],
+        "Canonical Smiles": [
+            "CC(=C1CCC2(C(C1=O)O2)C)C"
+        ],
+        "Inchi": [
+            "AKASWINDKIEEBO-ZJUUUORDSA-N"
+        ],
+        "PubChem ID": [
+            "442497"
+        ],
+        "Smiles": [
+            "CC(C)=C1CCC2(C)OC2C1=O"
+        ]
+    },
+    "(+)-PSEUDOCOCAINE": {
+        "IUPAC": [
+            "methyl (1R,2S,3S,5S)-3-benzoyloxy-8-methyl-8-azabicyclo[3.2.1]octane-2-carboxylate"
+        ],
+        "Canonical Smiles": [
+            "CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC"
+        ],
+        "Inchi": [
+            "ZPUCINDJVBIVPJ-XGUBFFRZSA-N"
+        ],
+        "PubChem ID": [
+            "644005"
+        ],
+        "Smiles": [
+            "COC(=O)C1C(OC(=O)c2ccccc2)CC2CCC1N2C"
+        ]
+    },
+    "(-)-ALPHA-HYDROXYCITRIC-ACID": {
+        "IUPAC": [
+            "2-hydroperoxypropane-1,2,3-tricarboxylic acid"
+        ],
+        "Canonical Smiles": [
+            "C(C(=O)O)C(CC(=O)O)(C(=O)O)OO"
+        ],
+        "Inchi": [
+            "OIPKKHARWZNZEQ-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "57473313"
+        ],
+        "Smiles": [
+            "O=C(O)CC(CC(=O)O)(OO)C(=O)O"
+        ]
+    },
+    "(-)-BETA-CURCUMENE": {
+        "IUPAC": [
+            "1-methyl-4-[(2R)-6-methylhept-5-en-2-yl]cyclohexa-1,4-diene"
+        ],
+        "Canonical Smiles": [
+            "CC1=CCC(=CC1)C(C)CCC=C(C)C"
+        ],
+        "Inchi": [
+            "JXZQZARENYGJMK-CQSZACIVSA-N"
+        ],
+        "PubChem ID": [
+            "14014430"
+        ],
+        "Smiles": [
+            "CC(C)=CCCC(C)C1=CCC(C)=CC1"
+        ]
+    },
+    "(1R,2R,3S,6S,10S,11S,13S,14S)-11-(1-Hydroxypropan-2-yl)-3,7,10-trimethyl-15-oxapentacyclo[7.5.1.02,6.07,13.010,14]pentadecane-3,9,14-triol": {
+        "IUPAC": [
+            "(1R,2R,3S,6S,10S,11S,13S,14S)-11-(1-hydroxypropan-2-yl)-3,7,10-trimethyl-15-oxapentacyclo[7.5.1.02,6.07,13.010,14]pentadecane-3,9,14-triol"
+        ],
+        "Canonical Smiles": [
+            "CC(CO)C1CC2C3(CC4(C1(C2(C(O4)C5C3CCC5(C)O)O)C)O)C"
+        ],
+        "Inchi": [
+            "RZCWUZMNOGOMNA-BLACLICWSA-N"
+        ],
+        "PubChem ID": [
+            "46173968"
+        ],
+        "Smiles": [
+            "CCCCC(=O)OCCC(C)CCC=C(C)C"
+        ]
+    },
+    "(1R,4R,4aR,6S,8aR)-1,6-dimethyl-4-propan-2-yl-3,4,4a,5,6,7,8,8a-octahydro-2H-naphthalen-1-ol": {
+        "IUPAC": [
+            "(1R,4R,4aR,6S,8aR)-1,6-dimethyl-4-propan-2-yl-3,4,4a,5,6,7,8,8a-octahydro-2H-naphthalen-1-ol"
+        ],
+        "Canonical Smiles": [
+            "CC1CCC2C(C1)C(CCC2(C)O)C(C)C"
+        ],
+        "Inchi": [
+            "RYSZDRWMTKGBFI-NJVJYBDUSA-N"
+        ],
+        "PubChem ID": [
+            "100949538"
+        ],
+        "Smiles": [
+            "CC1CCC2C(C1)C(C(C)C)CCC2(C)O"
+        ]
+    },
+    "(1S,4As,10aR)-1,4a-dimethyl-7-propan-2-yl-2,3,4,9,10,10a-hexahydrophenanthrene-1-carboxylic acid": {
+        "IUPAC": [
+            "(1S,4aS,10aR)-1,4a-dimethyl-7-propan-2-yl-2,3,4,9,10,10a-hexahydrophenanthrene-1-carboxylic acid"
+        ],
+        "Canonical Smiles": [
+            "CC(C)C1=CC2=C(C=C1)C3(CCCC(C3CC2)(C)C(=O)O)C"
+        ],
+        "Inchi": [
+            "NFWKVWVWBFBAOV-RLLQIKCJSA-N"
+        ],
+        "PubChem ID": [
+            "1201531"
+        ],
+        "Smiles": [
+            "CCCCCCCCCCCCCCCCCCCCCCCC(=O)OC"
+        ]
+    },
+    "(1S,4S,9R,10S,12S,13R)-13-hydroxy-5,5,9-trimethyl-16-methylidenetetracyclo[10.2.2.01,10.04,9]hexadecane-6,14-dione": {
+        "IUPAC": [
+            "(1S,4S,9R,10S,12S,13R)-13-hydroxy-5,5,9-trimethyl-16-methylidenetetracyclo[10.2.2.01,10.04,9]hexadecane-6,14-dione"
+        ],
+        "Canonical Smiles": [
+            "CC1(C2CCC34CC(=C)C(CC3C2(CCC1=O)C)C(C4=O)O)C"
+        ],
+        "Inchi": [
+            "UQKJSKXVMBIKGF-IAPRJYDESA-N"
+        ],
+        "PubChem ID": [
+            "14262777"
+        ],
+        "Smiles": [
+            "CCCCCCOC(=O)CCC1CCCC1"
+        ]
+    },
+    "(1S,8'R)-6-methoxy-2-methylspiro[3,4-dihydroisoquinoline-1,7'-6,8-dihydrocyclopenta[g][1,3]benzodioxole]-7,8'-diol": null,
+    "(2R,3R)-2-(4-hydroxy-3-methoxyphenyl)-3-(hydroxymethyl)-5-methoxy-2,3-dihydropyrano[3,2-h][1,4]benzodioxin-9-one": {
+        "IUPAC": [
+            "(2R,3R)-2-(4-hydroxy-3-methoxyphenyl)-3-(hydroxymethyl)-5-methoxy-2,3-dihydropyrano[3,2-h][1,4]benzodioxin-9-one"
+        ],
+        "Canonical Smiles": [
+            "COC1=C(C=CC(=C1)C2C(OC3=C(C=C4C=CC(=O)OC4=C3O2)OC)CO)O"
+        ],
+        "Inchi": [
+            "XGADTAYOFHOFIW-NVXWUHKLSA-N"
+        ],
+        "PubChem ID": [
+            "156875"
+        ],
+        "Smiles": [
+            "COc1cc(C2Oc3c(c(OC)cc4ccc(=O)oc34)OC2CO)ccc1O"
+        ]
+    },
+    "(2S)-2-amino-3-[4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]propanoic acid": {
+        "IUPAC": [
+            "(2S)-2-amino-3-[4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]propanoic acid"
+        ],
+        "Canonical Smiles": [
+            "C1=CC(=CC=C1CC(C(=O)O)N)OC2C(C(C(C(O2)CO)O)O)O"
+        ],
+        "Inchi": [
+            "JZAFZYMRELRTKL-MYMCGMNMSA-N"
+        ],
+        "PubChem ID": [
+            "193760"
+        ],
+        "Smiles": [
+            "C=C1CCC2(C)C(O)CC3(C)C(CCC4C5(C)CCC(O)C(C)(C)C5CCC43C)C2C1C"
+        ]
+    },
+    "(2S,3R,4R)-2,3,4,5-tetrahydroxypentanal": {
+        "IUPAC": [
+            "(2S,3R,4R)-2,3,4,5-tetrahydroxypentanal"
+        ],
+        "Canonical Smiles": [
+            "C(C(C(C(C=O)O)O)O)O"
+        ],
+        "Inchi": [
+            "PYMYPHUHKUWMLA-WDCZJNDASA-N"
+        ],
+        "PubChem ID": [
+            "66308"
+        ],
+        "Smiles": [
+            "CCOC(=O)C=Cc1ccccc1"
+        ]
+    },
+    "(2S,3R,4R,5R,6S)-2-[[3,5-dihydroxy-2-(4-hydroxyphenyl)-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-2,4-dihydrochromen-7-yl]oxy]-6-methyloxane-3,4,5-triol": {
+        "IUPAC": [
+            "(2S,3R,4R,5R,6S)-2-[[3,5-dihydroxy-2-(4-hydroxyphenyl)-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-2,4-dihydrochromen-7-yl]oxy]-6-methyloxane-3,4,5-triol"
+        ],
+        "Canonical Smiles": [
+            "CC1C(C(C(C(O1)OC2=CC(=C3CC(C(OC3=C2)C4=CC=C(C=C4)O)(O)OC5C(C(C(C(O5)CO)O)O)O)O)O)O)O"
+        ],
+        "Inchi": [
+            "JZMDHNZJOZUDLG-QVBRAHCHSA-N"
+        ],
+        "PubChem ID": [
+            "6451393"
+        ],
+        "Smiles": [
+            "CC1OC(Oc2cc(O)c3c(c2)OC(c2ccc(O)cc2)C(O)(OC2OC(CO)C(O)C(O)C2O)C3)C(O)C(O)C1O"
+        ]
+    },
+    "(2S,3R,4S,5S,6R)-2-[4-[(3R,3aR,6S,6aR)-3-(3,4-dimethoxyphenyl)-1,3,3a,4,6,6a-hexahydrofuro[3,4-c]furan-6-yl]-2-methoxyphenoxy]-6-(hydroxymethyl)oxane-3,4,5-triol": {
+        "IUPAC": [
+            "(2S,3R,4S,5S,6R)-2-[4-[(3R,3aR,6S,6aR)-3-(3,4-dimethoxyphenyl)-1,3,3a,4,6,6a-hexahydrofuro[3,4-c]furan-6-yl]-2-methoxyphenoxy]-6-(hydroxymethyl)oxane-3,4,5-triol"
+        ],
+        "Canonical Smiles": [
+            "COC1=C(C=C(C=C1)C2C3COC(C3CO2)C4=CC(=C(C=C4)OC5C(C(C(C(O5)CO)O)O)O)OC)OC"
+        ],
+        "Inchi": [
+            "KFFCKOBAHMGTMW-LGQRSHAYSA-N"
+        ],
+        "PubChem ID": [
+            "101712"
+        ],
+        "Smiles": [
+            "COc1ccc(C2OCC3C(c4ccc(OC5OC(CO)C(O)C(O)C5O)c(OC)c4)OCC23)cc1OC"
+        ]
+    },
+    "(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid": {
+        "IUPAC": [
+            "(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid"
+        ],
+        "Canonical Smiles": [
+            "CC1=CC(=O)CC(C1(C=CC(=CC(=O)O)C)O)(C)C"
+        ],
+        "Inchi": [
+            "JLIDBLDQVAYHNE-YKALOCIXSA-N"
+        ],
+        "PubChem ID": [
+            "5280896"
+        ],
+        "Smiles": [
+            "COc1cc(O)c2c(c1CC=C(C)C)OC(c1ccccc1)CC2=O"
+        ]
+    },
+    "(3E)-2-methyl-6-methylideneocta-3,7-dien-2-ol": {
+        "IUPAC": [
+            "(3E)-2-methyl-6-methylideneocta-3,7-dien-2-ol"
+        ],
+        "Canonical Smiles": [
+            "CC(C)(C=CCC(=C)C=C)O"
+        ],
+        "Inchi": [
+            "NOEQSPUVXRMJBW-SOFGYWHQSA-N"
+        ],
+        "PubChem ID": [
+            "5363351"
+        ],
+        "Smiles": [
+            "COc1c(O)cc(-c2coc3cc(O)cc(O)c3c2=O)cc1O"
+        ]
+    },
+    "(3E)-3-[2-[(1S,4aS,8aS)-5,5,8a-trimethyl-2-methylidene-3,4,4a,6,7,8-hexahydro-1H-naphthalen-1-yl]ethylidene]-4-hydroxyoxolan-2-one": {
+        "IUPAC": [
+            "(3E)-3-[2-[(1S,4aS,8aS)-5,5,8a-trimethyl-2-methylidene-3,4,4a,6,7,8-hexahydro-1H-naphthalen-1-yl]ethylidene]-4-hydroxyoxolan-2-one"
+        ],
+        "Canonical Smiles": [
+            "CC1(CCCC2(C1CCC(=C)C2CC=C3C(COC3=O)O)C)C"
+        ],
+        "Inchi": [
+            "WCYYIFXENZTEHA-AIWPHDBSSA-N"
+        ],
+        "PubChem ID": [
+            "71550939"
+        ],
+        "Smiles": [
+            "C=CCCCCCCC=CCCCCCCCC=O"
+        ]
+    },
+    "(3E,5Z)-octa-3,5-dien-2-one": {
+        "IUPAC": [
+            "(3E,5Z)-octa-3,5-dien-2-one"
+        ],
+        "Canonical Smiles": [
+            "CCC=CC=CC(=O)C"
+        ],
+        "Inchi": [
+            "LWRKMRFJEUFXIB-SCFJQAPRSA-N"
+        ],
+        "PubChem ID": [
+            "6427789"
+        ],
+        "Smiles": [
+            "CCCCCCCCCCCCC=O"
+        ]
+    },
+    "(3E,6Z)-3,7,11-trimethyldodeca-1,3,6,10-tetraene": {
+        "IUPAC": [
+            "(3E,6Z)-3,7,11-trimethyldodeca-1,3,6,10-tetraene"
+        ],
+        "Canonical Smiles": [
+            "CC(=CCCC(=CCC=C(C)C=C)C)C"
+        ],
+        "Inchi": [
+            "CXENHBSYCFFKJS-DZKMRSEMSA-N"
+        ],
+        "PubChem ID": [
+            "5353086"
+        ],
+        "Smiles": [
+            "C=Cc1c(O)oc(O)c1C"
+        ]
+    },
+    "(3E,7E,10E)-10-(1-hydroxypropan-2-ylidene)-3,7-dimethylcyclodeca-3,7-dien-1-one": {
+        "IUPAC": [
+            "(3E,7E,10E)-10-(1-hydroxypropan-2-ylidene)-3,7-dimethylcyclodeca-3,7-dien-1-one"
+        ],
+        "Canonical Smiles": [
+            "CC1=CCC(=C(C)CO)C(=O)CC(=CCC1)C"
+        ],
+        "Inchi": [
+            "OYONKNQJEXRUQZ-UPXYLJBOSA-N"
+        ],
+        "PubChem ID": [
+            "10399140"
+        ],
+        "Smiles": [
+            "CC1=CCC(=C(C)C=O)C(=O)CC(C)CCC1"
+        ]
+    },
+    "(3R,5R,8Z)-5,9,14-trimethyl-4,12-dioxatricyclo[9.3.0.03,5]tetradeca-1(11),8,13-trien-2-one": {
+        "IUPAC": [
+            "(3R,5R,8Z)-5,9,14-trimethyl-4,12-dioxatricyclo[9.3.0.03,5]tetradeca-1(11),8,13-trien-2-one"
+        ],
+        "Canonical Smiles": [
+            "CC1=CCCC2(C(O2)C(=O)C3=C(C1)OC=C3C)C"
+        ],
+        "Inchi": [
+            "CVIVANCKIBYAOP-HBXAWUERSA-N"
+        ],
+        "PubChem ID": [
+            "101286196"
+        ],
+        "Smiles": [
+            "CC1=CCCC2(C)OC2C(=O)c2c(C)coc2C1"
+        ]
+    },
+    "(3S,10S,13R,14R,15S,17R)-4,4,10,13,14-pentamethyl-17-[(2R)-6-methyl-5-methylideneheptan-2-yl]-2,3,5,6,12,15,16,17-octahydro-1H-cyclopenta[a]phenanthrene-3,15-diol": {
+        "IUPAC": [
+            "(3S,10S,13R,14R,15S,17R)-4,4,10,13,14-pentamethyl-17-[(2R)-6-methyl-5-methylideneheptan-2-yl]-2,3,5,6,12,15,16,17-octahydro-1H-cyclopenta[a]phenanthrene-3,15-diol"
+        ],
+        "Canonical Smiles": [
+            "CC(C)C(=C)CCC(C)C1CC(C2(C1(CC=C3C2=CCC4C3(CCC(C4(C)C)O)C)C)C)O"
+        ],
+        "Inchi": [
+            "MJRURUDEESYVHI-UKQIABKDSA-N"
+        ],
+        "PubChem ID": [
+            "153967"
+        ],
+        "Smiles": [
+            "CCN(CC)c1ccc2c(-c3ccccc3C(=O)O)c3ccc(=[N+](CC)CC)cc-3oc2c1"
+        ]
+    },
+    "(3S,9R,10R)-heptadeca-4,6-diyne-3,9,10-triol": {
+        "IUPAC": [
+            "(3S,9R,10R)-heptadeca-4,6-diyne-3,9,10-triol"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCCC(C(CC#CC#CC(CC)O)O)O"
+        ],
+        "Inchi": [
+            "ZEWGSHDZCDJZJF-GVDBMIGSSA-N"
+        ],
+        "PubChem ID": [
+            "130309"
+        ],
+        "Smiles": [
+            "CC1CCCC23CC4C(CC12C)C4(C)C3"
+        ]
+    },
+    "(4-Propan-2-ylcyclohexa-1,3-dien-1-yl)methanol": {
+        "IUPAC": [
+            "(4-propan-2-ylcyclohexa-1,3-dien-1-yl)methanol"
+        ],
+        "Canonical Smiles": [
+            "CC(C)C1=CC=C(CC1)CO"
+        ],
+        "Inchi": [
+            "HBKLKBUNCSHWKO-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "556567"
+        ],
+        "Smiles": [
+            "O=C1CC(c2ccc(OC3OC(CO)C(O)C(O)C3O)cc2)Oc2cc(O)ccc21"
+        ]
+    },
+    "(4aR,5R,6R,8aR)-5-[2-(furan-3-yl)ethyl]-5,6,8a-trimethyl-3,4,4a,6,7,8-hexahydronaphthalene-1-carboxylic acid": {
+        "IUPAC": [
+            "(4aR,5R,6R,8aR)-5-[2-(furan-3-yl)ethyl]-5,6,8a-trimethyl-3,4,4a,6,7,8-hexahydronaphthalene-1-carboxylic acid"
+        ],
+        "Canonical Smiles": [
+            "CC1CCC2(C(C1(C)CCC3=COC=C3)CCC=C2C(=O)O)C"
+        ],
+        "Inchi": [
+            "HHWOKJDCJVESIF-JRJVTICQSA-N"
+        ],
+        "PubChem ID": [
+            "6451316"
+        ],
+        "Smiles": [
+            "CC1CCC2(C)C(C(=O)O)=CCCC2C1(C)CCc1ccoc1"
+        ]
+    },
+    "(4E,7E)-1,5,9,9-Tetramethyl-12-oxabicyclo[9.1.0]dodeca-4,7-diene": {
+        "IUPAC": [
+            "(4E,7E)-1,5,9,9-tetramethyl-12-oxabicyclo[9.1.0]dodeca-4,7-diene"
+        ],
+        "Canonical Smiles": [
+            "CC1=CCCC2(C(O2)CC(C=CC1)(C)C)C"
+        ],
+        "Inchi": [
+            "RKQDKXOBRXTSFS-PIHCAMFYSA-N"
+        ],
+        "PubChem ID": [
+            "5352470"
+        ],
+        "Smiles": [
+            "CC1=CCCC2(C)OC2CC(C)(C)C=CC1"
+        ]
+    },
+    "(4S,5R,6R)-6-hydroxy-4,5-dimethyl-2-oxo-1,4,5,6-tetrahydropyrrolo[1,2-d][1,4]oxazocine-9-carbaldehyde": {
+        "IUPAC": [
+            "(4S,5R,6R)-6-hydroxy-4,5-dimethyl-2-oxo-1,4,5,6-tetrahydropyrrolo[1,2-d][1,4]oxazocine-9-carbaldehyde"
+        ],
+        "Canonical Smiles": [
+            "CC1C(OC(=O)CN2C(=CC=C2C1O)C=O)C"
+        ],
+        "Inchi": [
+            "BJGONNCLQGPBIC-YVZVNANGSA-N"
+        ],
+        "PubChem ID": [
+            "192463"
+        ],
+        "Smiles": [
+            "CC1OC(=O)Cn2c(C=O)ccc2C(O)C1C"
+        ]
+    },
+    "(8S,9S,10R,13R,14S,17R)-17-[(2R,5R)-5-ethyl-6-methylheptan-2-yl]-10,13-dimethyl-2,7,8,9,11,12,14,15,16,17-decahydro-1H-cyclopenta[a]phenanthrene-3,6-dione": {
+        "IUPAC": [
+            "(8S,9S,10R,13R,14S,17R)-17-[(2R,5R)-5-ethyl-6-methylheptan-2-yl]-10,13-dimethyl-2,7,8,9,11,12,14,15,16,17-decahydro-1H-cyclopenta[a]phenanthrene-3,6-dione"
+        ],
+        "Canonical Smiles": [
+            "CCC(CCC(C)C1CCC2C1(CCC3C2CC(=O)C4=CC(=O)CCC34C)C)C(C)C"
+        ],
+        "Inchi": [
+            "UVFOCYGYACXLAY-ZDQUCUCBSA-N"
+        ],
+        "PubChem ID": [
+            "5490007"
+        ],
+        "Smiles": [
+            "CCCCCCCCCCCCC(=O)O"
+        ]
+    },
+    "(9S,10E,12Z,15Z)-9-HYDROXY-10,12,15-OCTADECATRIENOIC-ACID": {
+        "IUPAC": [
+            "(10E,12E,15E)-9-hydroxyoctadeca-10,12,15-trienoic acid"
+        ],
+        "Canonical Smiles": [
+            "CCC=CCC=CC=CC(CCCCCCCC(=O)O)O"
+        ],
+        "Inchi": [
+            "RIGGEAZDTKMXSI-JPAZTHTMSA-N"
+        ],
+        "PubChem ID": [
+            "13917187"
+        ],
+        "Smiles": [
+            "CCC=CCC=CC=CC(O)CCCCCCCC(=O)O"
+        ]
+    },
+    "(E)-beta-Damascone": {
+        "IUPAC": [
+            "(E)-1-(2,6,6-trimethylcyclohexen-1-yl)but-2-en-1-one"
+        ],
+        "Canonical Smiles": [
+            "CC=CC(=O)C1=C(CCCC1(C)C)C"
+        ],
+        "Inchi": [
+            "BGTBFNDXYDYBEY-FNORWQNLSA-N"
+        ],
+        "PubChem ID": [
+            "5374527"
+        ],
+        "Smiles": [
+            "COc1cc(O)cc(C=Cc2ccccc2)c1"
+        ]
+    },
+    "(E)-oct-2-enoic acid": {
+        "IUPAC": [
+            "(E)-oct-2-enoic acid"
+        ],
+        "Canonical Smiles": [
+            "CCCCCC=CC(=O)O"
+        ],
+        "Inchi": [
+            "CWMPPVPFLSZGCY-VOTSOKGWSA-N"
+        ],
+        "PubChem ID": [
+            "5282714"
+        ],
+        "Smiles": [
+            "CCOC(CO)OCC"
+        ]
+    },
+    "(S)-2-(2-Propenyl)-piperidine": {
+        "IUPAC": [
+            "6-propan-2-yl-1,2,3,4-tetrahydropyridine"
+        ],
+        "Canonical Smiles": [
+            "CC(C)C1=CCCCN1"
+        ],
+        "Inchi": [
+            "XELGMJTZHBFDAL-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "45092786"
+        ],
+        "Smiles": [
+            "CC(C)C1=NCCCC1"
+        ]
+    },
+    "(Z)-14-Methylhexadec-8-enal": {
+        "IUPAC": [
+            "(Z)-14-methylhexadec-8-enal"
+        ],
+        "Canonical Smiles": [
+            "CCC(C)CCCCC=CCCCCCCC=O"
+        ],
+        "Inchi": [
+            "HSGUJTMCFWXGAP-ALCCZGGFSA-N"
+        ],
+        "PubChem ID": [
+            "5364688"
+        ],
+        "Smiles": [
+            "CCCCCCCCCCC=CCO"
+        ]
+    },
+    "1,1-Diethoxy-2-methylpropane": {
+        "IUPAC": [
+            "1,1-diethoxy-2-methylpropane"
+        ],
+        "Canonical Smiles": [
+            "CCOC(C(C)C)OCC"
+        ],
+        "Inchi": [
+            "KZDFOVZPOBSHDH-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "519415"
+        ],
+        "Smiles": [
+            "CCCCCC(CCC)CCCC"
+        ]
+    },
+    "1,2,3,4-Tetramethylcyclohexane": {
+        "IUPAC": [
+            "1,2,3,4-tetramethylcyclohexane"
+        ],
+        "Canonical Smiles": [
+            "CC1CCC(C(C1C)C)C"
+        ],
+        "Inchi": [
+            "OOQVBBNTNKHXSN-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "94277"
+        ],
+        "Smiles": [
+            "CC1CCC(C)C(C)C1C"
+        ]
+    },
+    "1,2,3-TRI-O-GALLOYL-BETA-D-GLUCOSE": {
+        "IUPAC": [
+            "[(2R,3R,4S,5R,6S)-3-hydroxy-2-(hydroxymethyl)-5,6-bis[(3,4,5-trihydroxybenzoyl)oxy]oxan-4-yl] 3,4,5-trihydroxybenzoate"
+        ],
+        "Canonical Smiles": [
+            "C1=C(C=C(C(=C1O)O)O)C(=O)OC2C(C(OC(C2OC(=O)C3=CC(=C(C(=C3)O)O)O)OC(=O)C4=CC(=C(C(=C4)O)O)O)CO)O"
+        ],
+        "Inchi": [
+            "MACFXELYCBWKGT-VFTFQOQOSA-N"
+        ],
+        "PubChem ID": [
+            "5322038"
+        ],
+        "Smiles": [
+            "O=C(OC1OC(CO)C(O)C(OC(=O)c2cc(O)c(O)c(O)c2)C1OC(=O)c1cc(O)c(O)c(O)c1)c1cc(O)c(O)c(O)c1"
+        ]
+    },
+    "1,2-ANHYDRIDO-4,5-DIHYDO-NIVEUSIN-A": {
+        "IUPAC": [
+            "[(3aS,4R,6R,7Z,10S,11aR)-6-hydroxy-10-(hydroxymethyl)-6-methyl-3-methylidene-2,9-dioxo-3a,4,5,10,11,11a-hexahydrocyclodeca[b]furan-4-yl] (Z)-2-methylbut-2-enoate"
+        ],
+        "Canonical Smiles": [
+            "CC=C(C)C(=O)OC1CC(C=CC(=O)C(CC2C1C(=C)C(=O)O2)CO)(C)O"
+        ],
+        "Inchi": [
+            "LGVAFWKRRSOOIS-UAPJGETFSA-N"
+        ],
+        "PubChem ID": [
+            "162948826"
+        ],
+        "Smiles": [
+            "C=C1C(=O)OC2CC(CO)C(=O)C=CC(C)(O)CC(OC(=O)C(C)=CC)C12"
+        ]
+    },
+    "1,3-Dihydroxypentane-1,3,5-tricarboxylic acid": {
+        "IUPAC": [
+            "1,3-dihydroxypentane-1,3,5-tricarboxylic acid"
+        ],
+        "Canonical Smiles": [
+            "C(CC(CC(C(=O)O)O)(C(=O)O)O)C(=O)O"
+        ],
+        "Inchi": [
+            "CQBQTNMBPLCAHQ-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "10059997"
+        ],
+        "Smiles": [
+            "CC1=CCC(C)(C)C=CCC2(C)OC2CC1"
+        ]
+    },
+    "1,5-Dimethyl-7-oxabicyclo[4.1.0]heptane": {
+        "IUPAC": [
+            "1,5-dimethyl-7-oxabicyclo[4.1.0]heptane"
+        ],
+        "Canonical Smiles": [
+            "CC1CCCC2(C1O2)C"
+        ],
+        "Inchi": [
+            "JECOGJBQQYXLLN-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "537752"
+        ],
+        "Smiles": [
+            "CCCCCCCC(=O)OCc1ccccc1"
+        ]
+    },
+    "1,54-Dibromotetrapentacontane": {
+        "IUPAC": [
+            "1,54-dibromotetrapentacontane"
+        ],
+        "Canonical Smiles": [
+            "C(CCCCCCCCCCCCCCCCCCCCCCCCCCCBr)CCCCCCCCCCCCCCCCCCCCCCCCCCBr"
+        ],
+        "Inchi": [
+            "MYKPFQFCUJYEOQ-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "545963"
+        ],
+        "Smiles": [
+            "O=C(O)C(=O)O"
+        ]
+    },
+    "1,7-Dihydroxy-3,5,6-trimethoxyxanthen-9-one": {
+        "IUPAC": [
+            "1,7-dihydroxy-3,5,6-trimethoxyxanthen-9-one"
+        ],
+        "Canonical Smiles": [
+            "COC1=CC(=C2C(=C1)OC3=C(C(=C(C=C3C2=O)O)OC)OC)O"
+        ],
+        "Inchi": [
+            "JACQDZKEJDMRDC-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "5491588"
+        ],
+        "Smiles": [
+            "COc1cc(O)c2c(=O)c3cc(O)c(OC)c(OC)c3oc2c1"
+        ]
+    },
+    "1,8-dihydroxy-10-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]-3-[(3,4,5-trihydroxy-6-methyloxan-2-yl)oxymethyl]-10H-anthracen-9-one": {
+        "IUPAC": [
+            "1,8-dihydroxy-10-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]-3-[(3,4,5-trihydroxy-6-methyloxan-2-yl)oxymethyl]-10H-anthracen-9-one"
+        ],
+        "Canonical Smiles": [
+            "CC1C(C(C(C(O1)OCC2=CC3=C(C(=C2)O)C(=O)C4=C(C3C5C(C(C(C(O5)CO)O)O)O)C=CC=C4O)O)O)O"
+        ],
+        "Inchi": [
+            "BUPDVJFRVYWYEV-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "313324"
+        ],
+        "Smiles": [
+            "CC1OC(OCc2cc(O)c3c(O)c4c(O)cccc4c(C4OC(CO)C(O)C(O)C4O)c3c2)C(O)C(O)C1O"
+        ]
+    },
+    "1-(9H-pyrido[3,4-b]indol-1-yl)ethanone": {
+        "IUPAC": [
+            "1-(9H-pyrido[3,4-b]indol-1-yl)ethanone"
+        ],
+        "Canonical Smiles": [
+            "CC(=O)C1=NC=CC2=C1NC3=CC=CC=C23"
+        ],
+        "Inchi": [
+            "NXZSUJKPVSDFNF-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "638667"
+        ],
+        "Smiles": [
+            "O=C(O)c1cccc(O)c1"
+        ]
+    },
+    "1-CAFFEYLGALACTOSE-6-SULFATE": {
+        "IUPAC": [
+            "[(2R,3S,4S,5R)-2,3,4,5-tetrahydroxy-6-oxohexyl] hydrogen sulfate"
+        ],
+        "Canonical Smiles": [
+            "C(C(C(C(C(C=O)O)O)O)O)OS(=O)(=O)O"
+        ],
+        "Inchi": [
+            "BCUVLMCXSDWQQC-KCDKBNATSA-N"
+        ],
+        "PubChem ID": [
+            "151407"
+        ],
+        "Smiles": [
+            "O=C(C(O)CO)C(O)C(O)COS(=O)(=O)O"
+        ]
+    },
+    "1-Chlorooctadecane": {
+        "IUPAC": [
+            "1-chlorooctadecane"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCCCCCCCCCCCCCCl"
+        ],
+        "Inchi": [
+            "VUQPJRPDRDVQMN-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "18815"
+        ],
+        "Smiles": [
+            "CCCC(=O)c1c(O)c(C)c(O)c(CC2C(=O)C(C(=O)CCC)C(=O)C(C)(C)C2=O)c1O"
+        ]
+    },
+    "1-Ethyl-4-methoxy-9H-pyrido[3,4-b]indole": {
+        "IUPAC": [
+            "1-ethyl-4-methoxy-9H-pyrido[3,4-b]indole"
+        ],
+        "Canonical Smiles": [
+            "CCC1=NC=C(C2=C1NC3=CC=CC=C32)OC"
+        ],
+        "Inchi": [
+            "LWWRUTVIAQDHRE-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "5317256"
+        ],
+        "Smiles": [
+            "CCCCCCCCCCCCCCCCCCC(C)=O"
+        ]
+    },
+    "1-Fluorododecane": {
+        "IUPAC": [
+            "1-fluorododecane"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCCCCCCCF"
+        ],
+        "Inchi": [
+            "YHYBNVZCQIDLSQ-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "9548"
+        ],
+        "Smiles": [
+            "CCCC(O)C=CC=CC=CC#CC#CCCCO"
+        ]
+    },
+    "1-Hexacosene": {
+        "IUPAC": [
+            "hexacos-1-ene"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCCCCCCCCCCCCCCCCCCCC=C"
+        ],
+        "Inchi": [
+            "OMXANELYEWRDAW-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "29303"
+        ],
+        "Smiles": [
+            "CCC12CCCN3CCC4(C(=Nc5ccccc54)C(C(=O)OC)C1)C32"
+        ]
+    },
+    "1-Hexanol": {
+        "IUPAC": [
+            "hexan-1-ol"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCO"
+        ],
+        "Inchi": [
+            "ZSIAUFGUXNUGDI-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "8103"
+        ],
+        "Smiles": [
+            "CCCC1CCCC1"
+        ]
+    },
+    "1-Hydroxy-2,3,5-trimethoxyxanthen-9-one": {
+        "IUPAC": [
+            "1-hydroxy-2,3,5-trimethoxyxanthen-9-one"
+        ],
+        "Canonical Smiles": [
+            "COC1=CC=CC2=C1OC3=CC(=C(C(=C3C2=O)O)OC)OC"
+        ],
+        "Inchi": [
+            "FFVKXGZKJBHJMS-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "5318372"
+        ],
+        "Smiles": [
+            "COc1cc2oc3c(OC)cccc3c(=O)c2c(O)c1OC"
+        ]
+    },
+    "1-Hydroxy-3,5,6,7-tetramethoxyxanthen-9-one": {
+        "IUPAC": [
+            "1-hydroxy-3,5,6,7-tetramethoxyxanthen-9-one"
+        ],
+        "Canonical Smiles": [
+            "COC1=CC(=C2C(=C1)OC3=C(C(=C(C=C3C2=O)OC)OC)OC)O"
+        ],
+        "Inchi": [
+            "MOWPWSJKLYDJIR-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "15910545"
+        ],
+        "Smiles": [
+            "COc1cc(O)c2c(=O)c3cc(OC)c(OC)c(OC)c3oc2c1"
+        ]
+    },
+    "1-Isothiocyanato-4-methylpentane": {
+        "IUPAC": [
+            "1-isothiocyanato-4-methylpentane"
+        ],
+        "Canonical Smiles": [
+            "CC(C)CCCN=C=S"
+        ],
+        "Inchi": [
+            "CZWUENKYXFGDIG-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "519452"
+        ],
+        "Smiles": [
+            "CCCCC(CCCCCCCCCCC(=O)O)OC1OC(CO)C(O)C(O)C1OC1OC(C)C(OC2OC(C)C(OC3OC(C)C(O)C(O)C3O)C(OC3OC(CO)C(O)C(O)C3O)C2O)C(O)C1O"
+        ]
+    },
+    "1-Methoxy-2-methylanthracene-9,10-dione": {
+        "IUPAC": [
+            "1-methoxy-2-methylanthracene-9,10-dione"
+        ],
+        "Canonical Smiles": [
+            "CC1=C(C2=C(C=C1)C(=O)C3=CC=CC=C3C2=O)OC"
+        ],
+        "Inchi": [
+            "MZFYROVNJMBHPG-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "3534338"
+        ],
+        "Smiles": [
+            "CCC(=O)OC1C2C(=O)C(C)(C(C(OC(C)=O)C(=O)OC)C1(C)C)C1CCC3(C)C(c4ccoc4)OC(=O)CC3C13OC23"
+        ]
+    },
+    "1-Methylpyrrole": {
+        "IUPAC": [
+            "1-methylpyrrole"
+        ],
+        "Canonical Smiles": [
+            "CN1C=CC=C1"
+        ],
+        "Inchi": [
+            "OXHNLMTVIGZXSG-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "7304"
+        ],
+        "Smiles": [
+            "CCCCCc1ccc(O)o1"
+        ]
+    },
+    "1-Octanol": {
+        "IUPAC": [
+            "octan-1-ol"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCCCO"
+        ],
+        "Inchi": [
+            "KBPLFHHGFOOTCA-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "957"
+        ],
+        "Smiles": [
+            "CCC=CCC(=O)OC"
+        ]
+    },
+    "1-[2,4-dihydroxy-3-[(2S,3R,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]phenyl]-3-hydroxy-3-(4-hydroxyphenyl)propan-1-one": {
+        "IUPAC": [
+            "1-[2,4-dihydroxy-3-[(2S,3R,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]phenyl]-3-hydroxy-3-(4-hydroxyphenyl)propan-1-one"
+        ],
+        "Canonical Smiles": [
+            "C1=CC(=CC=C1C(CC(=O)C2=C(C(=C(C=C2)O)C3C(C(C(C(O3)CO)O)O)O)O)O)O"
+        ],
+        "Inchi": [
+            "PXLWOFBAEVGBOA-VSTWLLMASA-N"
+        ],
+        "PubChem ID": [
+            "133775"
+        ],
+        "Smiles": [
+            "C=C(C)C(CO)CC=C(C)C"
+        ]
+    },
+    "10,16-Dihydroxyhexadecanoic acid": {
+        "IUPAC": [
+            "10,16-dihydroxyhexadecanoic acid"
+        ],
+        "Canonical Smiles": [
+            "C(CCCCC(=O)O)CCCC(CCCCCCO)O"
+        ],
+        "Inchi": [
+            "VJZBXAQGWLMYMS-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "441449"
+        ],
+        "Smiles": [
+            "CCCCCCOC(=O)CCCCC"
+        ]
+    },
+    "10-Methylnonadecane": {
+        "IUPAC": [
+            "10-methylnonadecane"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCCCCC(C)CCCCCCCCC"
+        ],
+        "Inchi": [
+            "MIKKTERVKUURCM-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "530070"
+        ],
+        "Smiles": [
+            "CCC(C)C(=O)OC1CC2CCC1(C)C2(C)C"
+        ]
+    },
+    "14-Methylpentadecanoic acid": {
+        "IUPAC": [
+            "14-methylpentadecanoic acid"
+        ],
+        "Canonical Smiles": [
+            "CC(C)CCCCCCCCCCCCC(=O)O"
+        ],
+        "Inchi": [
+            "ZONJATNKKGGVSU-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "36247"
+        ],
+        "Smiles": [
+            "CC(=O)OC1(C(O)CC=C(C)C)CC(=O)c2c(O)ccc(O)c2C1=O"
+        ]
+    },
+    "14-Oxoheptacosanoic acid": {
+        "IUPAC": [
+            "14-oxoheptacosanoic acid"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCCCCCCCCC(=O)CCCCCCCCCCCCC(=O)O"
+        ],
+        "Inchi": [
+            "OWCQOYUMRDGWNL-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "123768270"
+        ],
+        "Smiles": [
+            "CCC=CCC=CCC=CCC=CCCCCC(=O)O"
+        ]
+    },
+    "14-Oxotricosanoic acid": {
+        "IUPAC": [
+            "14-oxotricosanoic acid"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCCCCC(=O)CCCCCCCCCCCCC(=O)O"
+        ],
+        "Inchi": [
+            "FCYRBBZYDFMKSQ-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "101972181"
+        ],
+        "Smiles": [
+            "CCC(C)C(=O)OC"
+        ]
+    },
+    "2,3,3-Trimethyloctane": {
+        "IUPAC": [
+            "2,3,3-trimethyloctane"
+        ],
+        "Canonical Smiles": [
+            "CCCCCC(C)(C)C(C)C"
+        ],
+        "Inchi": [
+            "KFYWDCDWVPXXCA-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "537321"
+        ],
+        "Smiles": [
+            "CCOC(=O)c1ccccc1O"
+        ]
+    },
+    "2,3,4-Trihydroxybenzoic acid": {
+        "IUPAC": [
+            "2,3,4-trihydroxybenzoic acid"
+        ],
+        "Canonical Smiles": [
+            "C1=CC(=C(C(=C1C(=O)O)O)O)O"
+        ],
+        "Inchi": [
+            "BRRSNXCXLSVPFC-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "11874"
+        ],
+        "Smiles": [
+            "COc1c(C=CC(C)C)cc(=CCC(=O)c2c(O)cc(O)cc2O)c(=CC=C(C)C)c1O"
+        ]
+    },
+    "2,3,4-Trimethylhexane": {
+        "IUPAC": [
+            "2,3,4-trimethylhexane"
+        ],
+        "Canonical Smiles": [
+            "CCC(C)C(C)C(C)C"
+        ],
+        "Inchi": [
+            "RUTNOQHQISEBGT-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "13533"
+        ],
+        "Smiles": [
+            "CCCCCCCCCCC"
+        ]
+    },
+    "2,3,4-Trimethylpentanoic acid": {
+        "IUPAC": [
+            "2,3,4-trimethylpentanoic acid"
+        ],
+        "Canonical Smiles": [
+            "CC(C)C(C)C(C)C(=O)O"
+        ],
+        "Inchi": [
+            "RWJKYJZSUKHVAN-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "176505"
+        ],
+        "Smiles": [
+            "CC1CCC2C(C)(C)CC3(C)CCC1C23O"
+        ]
+    },
+    "2,3,5-Trimethyldecane": {
+        "IUPAC": [
+            "2,3,5-trimethyldecane"
+        ],
+        "Canonical Smiles": [
+            "CCCCCC(C)CC(C)C(C)C"
+        ],
+        "Inchi": [
+            "AQDNBRMRIRTYIA-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "522039"
+        ],
+        "Smiles": [
+            "CCOC(=O)c1cccnc1"
+        ]
+    },
+    "2,3,5-Trimethylfuran": {
+        "IUPAC": [
+            "2,3,5-trimethylfuran"
+        ],
+        "Canonical Smiles": [
+            "CC1=CC(=C(O1)C)C"
+        ],
+        "Inchi": [
+            "NJXZFRUNHWKHEC-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "517859"
+        ],
+        "Smiles": [
+            "CC=CCC1=C(C)C(OC(=O)C2C(C=C(C)C)C2(C)C)CC1=O"
+        ]
+    },
+    "2,4,6-Trimethylbenzaldehyde": {
+        "IUPAC": [
+            "2,4,6-trimethylbenzaldehyde"
+        ],
+        "Canonical Smiles": [
+            "CC1=CC(=C(C(=C1)C)C=O)C"
+        ],
+        "Inchi": [
+            "HIKRJHFHGKZKRI-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "10254"
+        ],
+        "Smiles": [
+            "CC=CCCC=CC=O"
+        ]
+    },
+    "2,4,6-Trimethyldecane": {
+        "IUPAC": [
+            "2,4,6-trimethyldecane"
+        ],
+        "Canonical Smiles": [
+            "CCCCC(C)CC(C)CC(C)C"
+        ],
+        "Inchi": [
+            "NPHSALVLRUCAFH-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "537327"
+        ],
+        "Smiles": [
+            "CCCCCOC(=O)CCCC"
+        ]
+    },
+    "2,4,6-Trimethyloctane": {
+        "IUPAC": [
+            "2,4,6-trimethyloctane"
+        ],
+        "Canonical Smiles": [
+            "CCC(C)CC(C)CC(C)C"
+        ],
+        "Inchi": [
+            "XHNIFDXYGLPJLP-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "545612"
+        ],
+        "Smiles": [
+            "C=C(C)C(=O)OCC(O)CCCCCCCCCC"
+        ]
+    },
+    "2,4-dihydroxybenzoic acid": {
+        "IUPAC": [
+            "2,4-dihydroxybenzoic acid"
+        ],
+        "Canonical Smiles": [
+            "OC1=C(C(=O)O)C=CC(=C1)O"
+        ],
+        "Inchi": [
+            "UIAFKZKHHVMJGS-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "1491"
+        ],
+        "Smiles": [
+            "O=C(O)c1ccc(O)cc1O"
+        ]
+    },
+    "2,4-Dimethylbenzaldehyde": {
+        "IUPAC": [
+            "2,4-dimethylbenzaldehyde"
+        ],
+        "Canonical Smiles": [
+            "CC1=CC(=C(C=C1)C=O)C"
+        ],
+        "Inchi": [
+            "GISVICWQYMUPJF-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "61814"
+        ],
+        "Smiles": [
+            "CC(C)=C1C2CCCCC12"
+        ]
+    },
+    "2,4-Dimethylheptane": {
+        "IUPAC": [
+            "2,4-dimethylheptane"
+        ],
+        "Canonical Smiles": [
+            "CCCC(C)CC(C)C"
+        ],
+        "Inchi": [
+            "AUKVIBNBLXQNIZ-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "16656"
+        ],
+        "Smiles": [
+            "CCCCCCCCCCCCCOC(=O)C(Cl)Cl"
+        ]
+    },
+    "2,4-Dimethylphenol": {
+        "IUPAC": [
+            "2,4-dimethylphenol"
+        ],
+        "Canonical Smiles": [
+            "CC1=CC(=C(C=C1)O)C"
+        ],
+        "Inchi": [
+            "KUFFULVDNCHOFZ-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "7771"
+        ],
+        "Smiles": [
+            "CCC#CCCC(C)C"
+        ]
+    },
+    "2,5-Dimethylheptane": {
+        "IUPAC": [
+            "2,5-dimethylheptane"
+        ],
+        "Canonical Smiles": [
+            "CCC(C)CCC(C)C"
+        ],
+        "Inchi": [
+            "HQZHQNKZOYIKQC-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "16662"
+        ],
+        "Smiles": [
+            "CCCCCCCCCCC=CC=O"
+        ]
+    },
+    "2,6,10-Trimethyldodecane": {
+        "IUPAC": [
+            "2,6,10-trimethyldodecane"
+        ],
+        "Canonical Smiles": [
+            "CCC(C)CCCC(C)CCCC(C)C"
+        ],
+        "Inchi": [
+            "YFHFHLSMISYUAQ-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "19773"
+        ],
+        "Smiles": [
+            "CCCCCCCCCCC=CCCCCCCCC(=O)O"
+        ]
+    },
+    "2,6,10-Trimethylpentadecane": {
+        "IUPAC": [
+            "2,6,10-trimethylpentadecane"
+        ],
+        "Canonical Smiles": [
+            "CCCCCC(C)CCCC(C)CCCC(C)C"
+        ],
+        "Inchi": [
+            "LBWPYRZGHYVSEL-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "19775"
+        ],
+        "Smiles": [
+            "CCOC(=O)CC(C)O"
+        ]
+    },
+    "2,6,6-Trimethylbicyclo[3.1.1]heptan-3-ol": {
+        "IUPAC": [
+            "2,6,6-trimethylbicyclo[3.1.1]heptan-3-ol"
+        ],
+        "Canonical Smiles": [
+            "CC1C2CC(C2(C)C)CC1O"
+        ],
+        "Inchi": [
+            "REPVLJRCJUVQFA-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "99038"
+        ],
+        "Smiles": [
+            "CC1C(O)CC2CC1C2(C)C"
+        ]
+    },
+    "2,6,8-Trimethyldecane": {
+        "IUPAC": [
+            "2,6,8-trimethyldecane"
+        ],
+        "Canonical Smiles": [
+            "CCC(C)CC(C)CCCC(C)C"
+        ],
+        "Inchi": [
+            "SWDJLVOSNCGQGB-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "545608"
+        ],
+        "Smiles": [
+            "CCCCCCCCCC=CC=CCC=O"
+        ]
+    },
+    "2,6-Dimethoxy-3-methyl-9H-carbazole": {
+        "IUPAC": [
+            "2,6-dimethoxy-3-methyl-9H-carbazole"
+        ],
+        "Canonical Smiles": [
+            "CC1=CC2=C(C=C1OC)NC3=C2C=C(C=C3)OC"
+        ],
+        "Inchi": [
+            "MKQKWPIESXSKSS-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "147297"
+        ],
+        "Smiles": [
+            "CCCCCCC(=O)CCCC(O)C1CCC(C2CCC(CCCCCCCCCCCCCc3cc(C)oc3O)O2)O1"
+        ]
+    },
+    "2,6-dimethoxy-9H-carbazole-3-carbaldehyde": {
+        "IUPAC": [
+            "2,6-dimethoxy-9H-carbazole-3-carbaldehyde"
+        ],
+        "Canonical Smiles": [
+            "COC1=CC2=C(C=C1)NC3=C2C=C(C(=C3)OC)C=O"
+        ],
+        "Inchi": [
+            "WCKFRKXQABCDRE-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "182690"
+        ],
+        "Smiles": [
+            "COc1ccc2[nH]c3cc(OC)c(C=O)cc3c2c1"
+        ]
+    },
+    "2,6-Dimethyloct-7-en-4-one": {
+        "IUPAC": [
+            "2,6-dimethyloct-7-en-4-one"
+        ],
+        "Canonical Smiles": [
+            "CC(C)CC(=O)CC(C)C=C"
+        ],
+        "Inchi": [
+            "VUSBHGLIAQXBSW-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "102706"
+        ],
+        "Smiles": [
+            "CNC(=O)C(C)(O)C(C)(C)C"
+        ]
+    },
+    "2-(3-Methylphenyl)propan-2-ol": {
+        "IUPAC": [
+            "2-(3-methylphenyl)propan-2-ol"
+        ],
+        "Canonical Smiles": [
+            "CC1=CC(=CC=C1)C(C)(C)O"
+        ],
+        "Inchi": [
+            "NARIBLVZTLPQJB-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "255195"
+        ],
+        "Smiles": [
+            "CC(C)C1CCC2(C)CCCC(C)C2C1"
+        ]
+    },
+    "2-(4-Methylphenyl)propan-1-ol": {
+        "IUPAC": [
+            "2-(4-methylphenyl)propan-1-ol"
+        ],
+        "Canonical Smiles": [
+            "CC1=CC=C(C=C1)C(C)CO"
+        ],
+        "Inchi": [
+            "CLFDIFDNDWRHJF-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "95376"
+        ],
+        "Smiles": [
+            "CC(C1CCC(C)(C)O1)C1C(O)CC2(C)C3CCC4C(C)(CO)C(O)CCC45CC35CCC12C"
+        ]
+    },
+    "2-(4-Methylphenyl)propan-2-ol": {
+        "IUPAC": [
+            "2-(4-methylphenyl)propan-2-ol"
+        ],
+        "Canonical Smiles": [
+            "CC1=CC=C(C=C1)C(C)(C)O"
+        ],
+        "Inchi": [
+            "XLPDVYGDNRIQFV-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "14529"
+        ],
+        "Smiles": [
+            "COc1cc2c(cc1OC)C(Cc1ccc(Oc3cc(CC4c5cc(OC)c(OC)cc5CCN4C)ccc3OC)cc1)N(C)CC2"
+        ]
+    },
+    "2-(6-Methyl-7-oxabicyclo[4.1.0]heptan-3-yl)propan-2-yl acetate": {
+        "IUPAC": [
+            "2-(6-methyl-7-oxabicyclo[4.1.0]heptan-3-yl)propan-2-yl acetate"
+        ],
+        "Canonical Smiles": [
+            "CC(=O)OC(C)(C)C1CCC2(C(C1)O2)C"
+        ],
+        "Inchi": [
+            "ZQUBQCGVEVKYNE-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "538935"
+        ],
+        "Smiles": [
+            "C=C1CC23CCC4C(C)(C)CCCC4(C)C2CCC1C3"
+        ]
+    },
+    "2-aminoethyl Acetate": {
+        "IUPAC": [
+            "2-aminoethyl acetate"
+        ],
+        "Canonical Smiles": [
+            "CC(=O)OCCN"
+        ],
+        "Inchi": [
+            "HBVZRPAKZOLBPL-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "112720"
+        ],
+        "Smiles": [
+            "CCCCCCCCCCCCC(=O)O"
+        ]
+    },
+    "2-BETA-HYDROXYOLEANOLIC-ACID": {
+        "IUPAC": [
+            "(1S,2R,4aS,6aR,6aS,6bR,8aR,10R,11S,12aR,14bS)-10,11-dihydroxy-1,2,6a,6b,9,9,12a-heptamethyl-2,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydro-1H-picene-4a-carboxylic acid"
+        ],
+        "Canonical Smiles": [
+            "CC1CCC2(CCC3(C(=CCC4C3(CCC5C4(CC(C(C5(C)C)O)O)C)C)C2C1C)C)C(=O)O"
+        ],
+        "Inchi": [
+            "HFGSQOYIOKBQOW-XOYVNYDSSA-N"
+        ],
+        "PubChem ID": [
+            "24721200"
+        ],
+        "Smiles": [
+            "CC1CCC2(C(=O)O)CCC3(C)C(=CCC4C5(C)CC(O)C(O)C(C)(C)C5CCC43C)C2C1C"
+        ]
+    },
+    "2-Decen-1-ol": {
+        "IUPAC": [
+            "(E)-dec-2-en-1-ol"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCCC=CCO"
+        ],
+        "Inchi": [
+            "QOPYYRPCXHTOQZ-CMDGGOBGSA-N"
+        ],
+        "PubChem ID": [
+            "5364942"
+        ],
+        "Smiles": [
+            "CCC(=CCC(C)C1CCC2C3CC=C4CC(O)CCC4(C)C3CCC12C)C(C)C"
+        ]
+    },
+    "2-Decenal": {
+        "IUPAC": [
+            "(E)-dec-2-enal"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCCC=CC=O"
+        ],
+        "Inchi": [
+            "MMFCJPPRCYDLLZ-CMDGGOBGSA-N"
+        ],
+        "PubChem ID": [
+            "5283345"
+        ],
+        "Smiles": [
+            "COC1=C2C(=O)CNCc3c(ccc4c3OC(C)O4)C=CC2CC(=O)C1"
+        ]
+    },
+    "2-DECENOIC-ACID": {
+        "IUPAC": [
+            "(E)-dec-2-enoic acid"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCCC=CC(=O)O"
+        ],
+        "Inchi": [
+            "WXBXVVIUZANZAU-CMDGGOBGSA-N"
+        ],
+        "PubChem ID": [
+            "5282724"
+        ],
+        "Smiles": [
+            "CCCCCCC=CCC(=O)O"
+        ]
+    },
+    "2-Eicosanone": {
+        "IUPAC": [
+            "icosan-2-one"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCCCCCCCCCCCCCC(=O)C"
+        ],
+        "Inchi": [
+            "GARHHHWGJIXLDK-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "13592265"
+        ],
+        "Smiles": [
+            "CCc1ncc(OC)c2c1[nH]c1ccccc12"
+        ]
+    },
+    "2-Ethyl-4-methylphenol": {
+        "IUPAC": [
+            "2-ethyl-4-methylphenol"
+        ],
+        "Canonical Smiles": [
+            "CCC1=C(C=CC(=C1)C)O"
+        ],
+        "Inchi": [
+            "AVVVXUXMKWPKAJ-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "77462"
+        ],
+        "Smiles": [
+            "CCCCCCCCCCCCCCCC=O"
+        ]
+    },
+    "2-Ethylphenol": {
+        "IUPAC": [
+            "2-ethylphenol"
+        ],
+        "Canonical Smiles": [
+            "CCC1=CC=CC=C1O"
+        ],
+        "Inchi": [
+            "IXQGCWUGDFDQMF-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "6997"
+        ],
+        "Smiles": [
+            "CCCCCCCCCCCCCCCCCC(=O)OC(CC=C(C)C)C(C)=CCOc1ccc(CCNC(=O)c2ccccc2)cc1"
+        ]
+    },
+    "2-Hexenal": {
+        "IUPAC": [
+            "(E)-hex-2-enal"
+        ],
+        "Canonical Smiles": [
+            "CCCC=CC=O"
+        ],
+        "Inchi": [
+            "MBDOYVRWFFCFHM-SNAWJCMRSA-N"
+        ],
+        "PubChem ID": [
+            "5281168"
+        ],
+        "Smiles": [
+            "C=CCOC(=O)C(=O)OCCCCCCCC"
+        ]
+    },
+    "2-Hydroxy-3-phenylprop-2-enal": {
+        "IUPAC": [
+            "2-hydroxy-3-phenylprop-2-enal"
+        ],
+        "Canonical Smiles": [
+            "C1=CC=C(C=C1)C=C(C=O)O"
+        ],
+        "Inchi": [
+            "QSZQTGNYQLNKAQ-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "71407359"
+        ],
+        "Smiles": [
+            "Cc1cc(-c2cc(=O)c3ccc(O)cc3o2)ccc1O"
+        ]
+    },
+    "2-Methylbutyl benzoate": {
+        "IUPAC": [
+            "2-methylbutyl benzoate"
+        ],
+        "Canonical Smiles": [
+            "CCC(C)COC(=O)C1=CC=CC=C1"
+        ],
+        "Inchi": [
+            "PYZHESNNAPENLQ-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "103653"
+        ],
+        "Smiles": [
+            "C=COC(=O)CCCCCCCCCCC"
+        ]
+    },
+    "2-Methylheptane": {
+        "IUPAC": [
+            "2-methylheptane"
+        ],
+        "Canonical Smiles": [
+            "CCCCCC(C)C"
+        ],
+        "Inchi": [
+            "JVSWJIKNEAIKJW-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "11594"
+        ],
+        "Smiles": [
+            "CCOC(=O)c1ccco1"
+        ]
+    },
+    "2-Methylnonane": {
+        "IUPAC": [
+            "2-methylnonane"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCCC(C)C"
+        ],
+        "Inchi": [
+            "SGVYKUFIHHTIFL-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "13379"
+        ],
+        "Smiles": [
+            "CC1CCCCC1"
+        ]
+    },
+    "2-Nonenal": {
+        "IUPAC": [
+            "(E)-non-2-enal"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCC=CC=O"
+        ],
+        "Inchi": [
+            "BSAIUMLZVGUGKX-BQYQJAHWSA-N"
+        ],
+        "PubChem ID": [
+            "5283335"
+        ],
+        "Smiles": [
+            "COc1cc(C=O)c(Oc2cc3c(cc2OC)-c2c(OC)c(OC)c(OC)c4c2C(C3)N(C)CC4)cc1OC"
+        ]
+    },
+    "2-O-BETA-L-ARABINOPYRANOSIDE-MYOINOSITOL": {
+        "IUPAC": [
+            "(1S,2R,4S,5R)-6-[(2R,3R,4S,5S)-3,4,5-trihydroxyoxan-2-yl]oxycyclohexane-1,2,3,4,5-pentol"
+        ],
+        "Canonical Smiles": [
+            "C1C(C(C(C(O1)OC2C(C(C(C(C2O)O)O)O)O)O)O)O"
+        ],
+        "Inchi": [
+            "ZTUXXEBTGKCWOB-MKZOOWDRSA-N"
+        ],
+        "PubChem ID": [
+            "11370367"
+        ],
+        "Smiles": [
+            "OC1COC(OC2C(O)C(O)C(O)C(O)C2O)C(O)C1O"
+        ]
+    },
+    "2-O-CAFFEOYLHYDROXY-CITRIC-ACID": {
+        "IUPAC": [
+            "1-[(E)-3-(3,4-dihydroxyphenyl)prop-2-enoyl]oxy-2-hydroxypropane-1,2,3-tricarboxylic acid"
+        ],
+        "Canonical Smiles": [
+            "C1=CC(=C(C=C1C=CC(=O)OC(C(=O)O)C(CC(=O)O)(C(=O)O)O)O)O"
+        ],
+        "Inchi": [
+            "OUWOVSUGDPWIBY-DUXPYHPUSA-N"
+        ],
+        "PubChem ID": [
+            "24797519"
+        ],
+        "Smiles": [
+            "O=C(O)CC(O)(C(=O)O)C(OC(=O)C=Cc1ccc(O)c(O)c1)C(=O)O"
+        ]
+    },
+    "2-Pentylthiophene": {
+        "IUPAC": [
+            "2-pentylthiophene"
+        ],
+        "Canonical Smiles": [
+            "CCCCCC1=CC=CS1"
+        ],
+        "Inchi": [
+            "NOYVOSGVFSEKPR-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "20995"
+        ],
+        "Smiles": [
+            "Cn1ccc(=O)[nH]c1=O"
+        ]
+    },
+    "2-Phenylfuro[2,3-h]chromen-4-one": {
+        "IUPAC": [
+            "2-phenylfuro[2,3-h]chromen-4-one"
+        ],
+        "Canonical Smiles": [
+            "C1=CC=C(C=C1)C2=CC(=O)C3=C(O2)C4=C(C=C3)OC=C4"
+        ],
+        "Inchi": [
+            "NQNOTBRHBRJKKH-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "10978265"
+        ],
+        "Smiles": [
+            "COc1cc(O)c2c(c1)OC(c1ccccc1)CC2=O"
+        ]
+    },
+    "2-[3-(4-Hydroxyphenyl)propyl]-5-methoxyphenol": {
+        "IUPAC": [
+            "2-[3-(4-hydroxyphenyl)propyl]-5-methoxyphenol"
+        ],
+        "Canonical Smiles": [
+            "COC1=CC(=C(C=C1)CCCC2=CC=C(C=C2)O)O"
+        ],
+        "Inchi": [
+            "MSNVBURPCQDLEP-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "5315502"
+        ],
+        "Smiles": [
+            "COc1ccc(CCCc2ccc(O)cc2)c(O)c1"
+        ]
+    },
+    "22-Oxononacosanoic acid": {
+        "IUPAC": [
+            "22-oxononacosanoic acid"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCCC(=O)CCCCCCCCCCCCCCCCCCCCC(=O)O"
+        ],
+        "Inchi": [
+            "MWZLKRIGGKHYEA-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "71330298"
+        ],
+        "Smiles": [
+            "COc1cc2c(cc1OC1OC(CO)C(O)C(O)C1O)C1(Cc3ccc4c(c3C1=O)OCO4)N(C)CC2"
+        ]
+    },
+    "26-Methylheptacosanoic acid": {
+        "IUPAC": [
+            "26-methylheptacosanoic acid"
+        ],
+        "Canonical Smiles": [
+            "CC(C)CCCCCCCCCCCCCCCCCCCCCCCCC(=O)O"
+        ],
+        "Inchi": [
+            "GCUBDUZUXAQLEY-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "5282610"
+        ],
+        "Smiles": [
+            "CCCCCC(O)CCCCCCCCCC(=O)O"
+        ]
+    },
+    "3,3'-DI-O-METHYL-ELLAGIC-ACID-4'-BETA-D-XYLOSIDE": null,
+    "3,3,6-Trimethylhepta-1,5-dien-4-one": {
+        "IUPAC": [
+            "3,3,6-trimethylhepta-1,5-dien-4-one"
+        ],
+        "Canonical Smiles": [
+            "CC(=CC(=O)C(C)(C)C=C)C"
+        ],
+        "Inchi": [
+            "OTYVBQZXUNBRTK-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "68346"
+        ],
+        "Smiles": [
+            "CCc1ccc(O)cc1"
+        ]
+    },
+    "3,4',5-TRIHYDROXY-3',7-DIMETHOXY-FLAVANONE": null,
+    "3,4,4-Trimethylheptadec-2-EN-2-OL": {
+        "IUPAC": [
+            "ethyl 14-oxotetracosanoate"
+        ],
+        "Canonical Smiles": [
+            "CCCCCCCCCCC(=O)CCCCCCCCCCCCC(=O)OCC"
+        ],
+        "Inchi": [
+            "DWUVHECBKJLRHK-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "71319470"
+        ],
+        "Smiles": [
+            "CCC(C)c1nccnc1OC"
+        ]
+    },
+    "3,4-dihydrocoumarin": {
+        "IUPAC": [
+            "3,4-dihydrochromen-2-one"
+        ],
+        "Canonical Smiles": [
+            "O1C(=O)CCC2=CC=CC=C12"
+        ],
+        "Inchi": [
+            "VMUXSMXIQBNMGZ-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "660"
+        ],
+        "Smiles": [
+            "O=C1CCc2ccccc2O1"
+        ]
+    },
+    "3,4-Dihydroxybenzoic acid": {
+        "IUPAC": [
+            "3,4-dihydroxybenzoic acid"
+        ],
+        "Canonical Smiles": [
+            "C1=CC(=C(C=C1C(=O)O)O)O"
+        ],
+        "Inchi": [
+            "YQUVCSBJEUQKSH-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "72"
+        ],
+        "Smiles": [
+            "COc1ccc(C2CC(=O)c3c(O)cc(O)cc3O2)c(CC=C(C)C)c1OC"
+        ]
+    },
+    "3,4-Dimethoxybenzoic acid": {
+        "IUPAC": [
+            "3,4-dimethoxybenzoic acid"
+        ],
+        "Canonical Smiles": [
+            "COC1=C(C=C(C=C1)C(=O)O)OC"
+        ],
+        "Inchi": [
+            "DAUAQNGYDSHRET-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "7121"
+        ],
+        "Smiles": [
+            "COc1ccc(C(=O)O)cc1OC"
+        ]
+    },
+    "3,6-Epoxy-5,5',6,6'-tetrahydro-b,b-carotene-3',5,5',6'-tetrol": null,
+    "3,7-Dimethyloct-6-en-1-yn-3-ol": {
+        "IUPAC": [
+            "3,7-dimethyloct-6-en-1-yn-3-ol"
+        ],
+        "Canonical Smiles": [
+            "CC(=CCCC(C)(C#C)O)C"
+        ],
+        "Inchi": [
+            "YWTIDNZYLFTNQQ-UHFFFAOYSA-N"
+        ],
+        "PubChem ID": [
+            "62842"
+        ],
+        "Smiles": [
+            "CCCCCCCOC(=O)C(C)C"
+        ]
+    },
+    "3,8-dihydroxy-10-methoxy-9-[(E)-3-methylbut-1-enyl]-6-(2-methylprop-1-enyl)-6H-chromeno[4,3-b]chromen-7-one": {
+        "IUPAC": [
+            "3,8-dihydroxy-10-methoxy-9-[(E)-3-methylbut-1-enyl]-6-(2-methylprop-1-enyl)-6H-chromeno[4,3-b]chromen-7-one"
+        ],
+        "Canonical Smiles": [
+            "CC(C)C=CC1=C(C=C2C(=C1O)C(=O)C3=C(O2)C4=C(C=C(C=C4)O)OC3C=C(C)C)OC"
+        ],
+        "Inchi": [
+            "FWIXOUMETCCFPO-SOFGYWHQSA-N"
+        ],
+        "PubChem ID": [
+            "5458462"
+        ],
+        "Smiles": [
+            "C=CCc1cc(OC)ccc1OC"
+        ]
+    },
+    "3-ACETYLALEURITOLIC-ACID": {
+        "IUPAC": [
+            "(4aS,6aR,6bR,8aR,10S,12aR,14aS,14bS)-10-acetyloxy-2,2,6b,9,9,12a,14a-heptamethyl-1,3,4,5,6a,7,8,8a,10,11,12,13,14,14b-tetradecahydropicene-4a-carboxylic acid"
+        ],
+        "Canonical Smiles": [
+            "CC(=O)OC1CCC2(C(C1(C)C)CCC3(C2CCC4(C3=CCC5(C4CC(CC5)(C)C)C(=O)O)C)C)C"
+        ],
+        "Inchi": [
+            "UROPGAQBZGIPQC-VUHMTIHWSA-N"
+        ],
+        "PubChem ID": [
+            "161616"
+        ],
+        "Smiles": [
+            "CC(=O)OC1CCC2(C)C3CCC4(C)C(=CCC5(C(=O)O)CCC(C)(C)CC45)C3(C)CCC2C1(C)C"
+        ]
+    },
+    "3-BETA-TRANS-(3,4-DIHYDROXYCINNAMOYLOXY)-OLEAN-18-EN-28-OIC-ACID": {
+        "IUPAC": [
+            ""
+        ],
+        "Canonical Smiles": [
+            ""
+        ],
+        "Inchi": [
+            ""
+        ],
+        "PubChem ID": [
+            ""
+        ],
+        "Smiles": [
+            ""
+        ]
+    },
+    "3-HYDROXY-MUGENIC-ACID": {
+        "IUPAC": [
+            "(2S,3R)-1-[(2S,3S)-3-carboxy-3-[[(3S)-3-carboxy-3-hydroxypropyl]amino]-2-hydroxypropyl]-3-hydroxyazetidine-2-carboxylic acid"
+        ],
+        "Canonical Smiles": [
+            "C1C(C(N1CC(C(C(=O)O)NCCC(C(=O)O)O)O)C(=O)O)O"
+        ],
+        "Inchi": [
+            "QPIOQLJXMZWNFJ-PQFOHKHZSA-N"
+        ],
+        "PubChem ID": [
+            "194573"
+        ],
+        "Smiles": [
+            "O=C(CCNC(C(=O)CN1CC(O)C1C(=O)O)C(O)O)C(O)O"
+        ]
+    }
+}
