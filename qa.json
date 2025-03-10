@@ -1,0 +1,27 @@
+[
+    {
+        "question": "What is Artificial Intelligence?",
+        "real_answer": "Artificial Intelligence is a computing concept that helps a machine think and solve complex problems like humans do. It learns from mistakes and improves over time.",
+        "source": "Page 1, 'What is Artificial Intelligence?' section"
+    },
+    {
+        "question": "How does AI differ from traditional robotics?",
+        "real_answer": "Traditional robots follow fixed instructions, while AI can simulate human-like thinking and decision-making.",
+        "source": "Page 2, 'Artificial Intelligence vs Traditional Robotics' section"
+    },
+    {
+        "question": "Who founded OpenAI, and when?",
+        "real_answer": "OpenAI was founded by Elon Musk and others in 2015.",
+        "source": "Page 3, 'A Brief History of AI' section"
+    },
+    {
+        "question": "What is the difference between supervised and unsupervised learning?",
+        "real_answer": "Supervised learning uses labeled data for training, while unsupervised learning identifies patterns in unlabeled data.",
+        "source": "Page 4, 'Artificial Intelligence vs Machine Learning vs Deep Learning' section"
+    },
+    {
+        "question": "Why is AI considered a concern for jobs?",
+        "real_answer": "AI-driven automation is expected to replace 85 million jobs by 2025, raising concerns about unemployment.",
+        "source": "Page 6, 'Concerns about AI' section"
+    }
+]
