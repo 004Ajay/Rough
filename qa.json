@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What does the author mean by Workplace Interactions Index?",
+    "real_answer": "Workplace Interactions Index is an index of three variables from the opinions survey experiment. The first two come from questions asking respondents to assess on a 1-4 scale the extent to which women participating in the program would get along well with one another and the extent to which they would be respected by people who supervise them during work.",
+    "context": "How Does Women’s Employment Affect Their Time Use, pg 49, 1st para"
+  },
+  {
+    "question": "In which Indian State does the 'Women Employment Affect Their Time Use' study conducted, and why?",
+    "real_answer": "The Indian state in which the study conducted was Uttar Pradesh. Uttar Pradesh is the most populous state, least developed and had wider gender gaps with highest levels of gender inequality in India",
+    "context": "How Does Women’s Employment Affect Their Time Use, pg 5, last para"
+  },
+  {
+    "question": "Which are the transformer paradigms explained in the LLM Bioinformatics paper?",
+    "real_answer": "encoder-only, decoder-only and encoder-decoder models.",
+    "context": "Large Language Models in Bioinformatics, pg 1, last right para"
+  },
+  {
+    "question": "Why it is challenging to apply standard Transformer architectures to genome-scale data?",
+    "real_answer": "computational barrier limits accessibility,particularly for research groups with limited infrastructure. Furthermore, relatively longer biological sequences significantly increase memory and processing requirements makes the application of Transformer architectures challenging to genome-scale data",
+    "context": "Large Language Models in Bioinformatics, pg 8, left 7.1.2 para mid"
+  },
+  {
+    "question": "What are the essential characteristics of Cloud Computing? No need of explanation",
+    "real_answer": "On-demand self-service, Broad network access, Resource pooling, Rapid elasticity, Measured service",
+    "context": "Cloud Computing, pg 4, bottom left and right para main points"
+  },
+  {
+    "question": "Which layer comes in between cloud and edge devices?",
+    "real_answer": "The Fog Layer",
+    "context": "Cloud Computing, pg 9, Fog Layer para mid"
+  },
+  {
+    "question": "Why IUPAC Database mentioned in Natural Language Query-Biochemistry paper?",
+    "real_answer": "The IUPAC database was chosen because the ontology has been constructed carefully.",
+    "context": "Natural Language Query in the Biochemistry, pg 3, right para mid"
+  },
+  {
+    "question": "What is the total strength of individual terms in the MEDLINE database?",
+    "real_answer": "5000 individual terms.",
+    "context": "Natural Language Query in the Biochemistry, pg 5, right para"
+  },
+  {
+    "question": "Give a brief about the research procedure used in olfactory priming paper?",
+    "real_answer": "The experiment used a between-subjects design with participants randomly assigned to healthy or unhealthy odor exposure and no-odor conditions. Participants were restricted from eating, drinking, and wearing perfume before the experiment. They evaluated their general appetite and emotions using the I-PANAS-SF scale and completed a lexical decision task and practice phase in Room 1 for 7 minutes. Afterward, they completed the lexical decision task and food choice task in an odorless room (Room 2). An odor identification test was also administered to assess olfactory capabilities. ",
+    "context": "Foods, pg 3, right big para"
+  },
+  {
+    "question": "What was the result of study conducted in olfactory priming paper?",
+    "real_answer": "The sweet odors did not affect the selection of healthy-congruent foods or activate food-related concepts, which suggests a limitation in the potential for semantic priming by sweet odors",
+    "context": "Foods, pg 7, conclusion para; left first para mid"
+  }
+]

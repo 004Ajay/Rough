@@ -1,3 +1,0 @@
-model_name,bert_score,rouge1_fmeasure,rouge2_fmeasure,rougeL_fmeasure,cosine_similarity,latency_sec,gpu_usage_gb,cpu_usage_gb
-granite3-moe:3b,0.905,0.3378353744988375,0.2431559998607587,0.30749139813457266,0.771,8.224,-0.36,-0.356
-llama3.2:latest,0.931,0.582417603843371,0.46770277232882274,0.5302233928256306,0.838,5.349,0.65,0.22999999999999998
