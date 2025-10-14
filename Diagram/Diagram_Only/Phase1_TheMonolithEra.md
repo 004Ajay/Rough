@@ -3,7 +3,7 @@
 ```mermaid
 %%{init: {'flowchart': {'htmlLabels': false}}}%%
 graph LR
-  %% Nodes (Shapes/Conceptual Components)
+  %% Nodes
   A[User]
   B(Django Monolith App)
   C((PostgreSQL DB))
@@ -26,9 +26,9 @@ end
 %%{init: {'flowchart': {'htmlLabels': false}}}%%
 
 graph LR
-  %% Nodes (Shapes/Conceptual Components)
+  %% Nodes
   A[User]
-  B(Django App Server)
+  B(Django Monolith App)
   C((PostgreSQL DB))
 
 subgraph Outside World
@@ -43,7 +43,7 @@ end
 
 subgraph Database Server
 direction LR
-  B --Read/Write--> C
+  B --Read/Write<br>(http request)--> C
 end
 ```
 
