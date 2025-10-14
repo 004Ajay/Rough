@@ -3,8 +3,10 @@
 graph LR
   subgraph "App Infrastructure"
     A(["<img src='svg/Redis.svg' width='25'/> Docker"])
-    B(["<img src='svg/Python.svg' width='25'/> PostgreSQL"])
-    C(["<img src='../assets/icons/redis.svg' width='25'/> Redis"])
+    B(["<img src='svg/Python.svg' width='10'/> PostgreSQL"])
+    C(["<img src='svg/PostgresSQL.svg' width='15'/> Redis"])
+    D[Kafka]
+    E(RabbitMQ)
   end
   A --> B
   A --> C
