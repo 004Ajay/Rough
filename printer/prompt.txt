@@ -1,0 +1,56 @@
+def zpl_printer(z, asset, sub_asset, barcode, description, printer_name=None, print_count=1):
+    
+    zpl_cmd = (
+    "^XA\n"                                                              # XA = Start Format, means starting a new ZPL label format
+    f"^PW{label_width}\n"                                                # PW = Print Width, max width of the printable area (in dots) [827 dots = 7 cm at 300 DPI (7 / 2.54 * 300)]
+    f"^LL{label_height}\n"                                               # LL = Label Length in dots [354 dots = 3 cm at 300 DPI]
+    f"^LH{label_origin_x},{label_origin_y}\n"                            # LH = Label Home (origin point), (0,0) = (x=0, y=0) default top-left corner of the label
+    f"^FO0,0^FS\n"                                                       # FO0,0 = Field Origin at (x=0, y=0) ; FS = Field Separator (Ends the current field/command)
+    f"^FO{barcode_pos_x},{barcode_pos_y}\n"                              # FO = Field Origin [Position the next item at (x, y) (offset from the top-left corner)]
+    f"^BY{bc_narrow_bar_width},{bc_wide_bar_width},{bc_bar_height}\n"    # BY = Barcode Field Default settings ; 4 = Module width (narrow bar width in dots) ; 4 = Wide bar to narrow bar ratio (only used in some barcodes) ; 150 = Height of the barcode in dots
+    f"^BCN,{bc_bar_height},N,N,N\n"                                      # BC = Code128, N = Normal orientation, 150 = Barcode height, N = Do not print human-readable text, N = No interpretation line (used for security), N = No check digit (used in some symbologies)
+    f"^FD{barcode}^FS\n"                                                 # FD = Field Data, FS = End field
+    f"^FO{sap_subsap_pos_x},{sap_subsap_pos_y}\n"                        # FO = Field Origin, Position next field at (x, y) i.e, SAP/Sub SAP text position
+    f"^A0N,{sap_subsap_font_height},{sap_subsap_font_width}\n"           # A0 = Use Font 0 (default font, monospaced sans-serif) ; N = Normal orientation ; (Font height, Font width)
+    f"^FDSAP:{asset}{' ' * sap_subsap_spacing}Sub SAP:{sub_asset}^FS\n"  # FD = Field Data, FS = End field
+    f"^FO{desc_pos_x},{desc_pos_y}\n"                                    # FO = Field Origin, Start new field at (x, y) i.e, Description text position
+    f"^A0N,{desc_font_height},{desc_font_width}\n"                       # A0 = Use Font 0 (default font, monospaced sans-serif) ; N = Normal orientation ; (Font height, Font width)
+    f"^FD{description}^FS\n"                                             # FD = Field Data, FS = End field
+    f"^PQ{print_count}\n"                                                # PQ = Print Quantity
+    "^XZ"                                                                # XZ = End Format
+) 
+
+
+i dont want to pass 100 args in the func brackets 
+
+
+see i'm in an MxN problem, there are printers and labels - lets say 3 of both of them which means I have to write 9 fns, which will differ only for some values like position of barcode, sap & sub sap and description. 
+Currently I am doing like when the user selects the printer name and label size then on pressing the print button, it will call a fn which will check for which printer user selected by checking the presence of a string eg GT800 for Zebra GT800 EPL Printer, ZD421 for Zebra ZD421 ZPL Printer and the label size like "if "Medium" in label_size:" with this the program will call (eg)
+
+zd421_medium_zpl_printer( # see function docstring for arg explanation
+                    z,
+                    asset_val,
+                    sub_asset_val,
+                    barcode=full_code,
+                    description=description,
+                    printer_name=printer,
+                    print_count=print_count
+                    )
+
+this func call reaches the thing i given previosuly, for which i wrote boilerplate code like 
+                      gt800_epl_printer,  
+                      gt800_medium_epl_printer, 
+                      zd421_zpl_printer, 
+                      zd421_medium_zpl_printer, 
+                      zd230_zpl_big_label_printer, 
+                      zd230_zpl_small_label_printer
+which i know inefficent and not-scalable but to make the sys work i done this, but everyday 1 or 2 days people are coming up with newer printer models or label sizes, which makes my code more boilerplate, tangled and messy. I need a rescue. If you want any more details ask me.
+
+
+give me a high level overview on my explanation and your proposed solution.
+
+my code has a streamlit interface where the user selects a printer from a dropdown and then selects a label size which will be listed as radio buttons. this two determines which printer and label to choose so that my code selects the correct fn by that they will get the correctly aligned prints. 
+
+My goal is to make the interface so minimalist that anyone can directly and freely use it. If i can redesign it in any other way I am ready to change.
+
+
